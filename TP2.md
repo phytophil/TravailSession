@@ -1,22 +1,21 @@
-# Énoncé du travail pratique #1 pour le 26 octobre 2021 21h00 EST
+# Énoncé du travail pratique #2 pour le 16 novembre 2021 21h00 EST
 
-### Vous devez créer un nouveau site web responsive du type "***one pager***" avec un menu hamburger. Dans le menu vous devez ajouter "Accueil", "Portfolio" et un lien pour votre site en anglais "English".
+## Storybook de vos composantes React préférés
+- https://storybook.js.org/docs/react/get-started/examples
+
+
+## ou
+
+## Offre de service de création d'un site web promotionnel personnalisé avec hébergement
 
 ---
 
->   Pour réaliser votre travail vous devez créer une nouvelle branche de travail à partir de la branche features/tp1 .
+>   Pour réaliser votre travail vous devez créer une nouvelle branche de travail à partir de la branche features/tp2 .
 
->   Vous devez nommer cette nouvelle branche **stories/tp1_XX** où 
+>   Vous devez nommer cette nouvelle branche **stories/tp2_XX** où 
 (XX sera un chiffre entre 01 et 11) Ce chiffre vous a été attribué au début du cours) .
 
->   Votre page d'accueil devra être un site web qui parle de vous.
-1.  Votre parcour.
-2.  Votre expérience de travail.
-3.  Vos ambitions.
-4.  Vos passe-temps préférés.
-5.  Ce que vous aimez dans la vie.
-6.  Vos projets personnels.
-7.  Vos compétences.
+>   
 
 >   Vous devrez configurer votre site web pour qu'il soit optimisé pour la performance. (css minifié, javascript minifié, images optimisées)
 
@@ -37,3 +36,7 @@
 ---
 
 ## Ce travail compte pour 25% de votre note finale.
+-   Doit être disponible dans votre release branch de git prêt à être copié à la racine d'un site web.
+-   Votre livraison doit se faire via une pullrequest sur la release branch associé à votre numéro d'élève **releases/tp2_XX** où 
+(**XX** sera un chiffre entre 01 et 11).
+- Ce chiffre vous a été attribué au début du cours).
