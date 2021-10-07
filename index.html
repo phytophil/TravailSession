@@ -19,39 +19,53 @@
 
 <body>
     <header>
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark p-4">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Présentation</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Contact</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">EN</a>
-                      </li>
-                  </ul>
-            </div>
-        </div>
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark fixed-top">
             <div class="container-fluid">
-                <div class="logo-mt"><img src="images/icone_mt_seul_bold.svg" alt="Logo Maryse Thomassin"></div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="container d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand" href="#"> <img src="images/icone_mt_seul_bold.svg"
+                            alt="Logo Maryse Thomassin"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-evenly flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Présentation</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        FR/EN
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                        <li><a class="dropdown-item" href="#">FR</a></li>
+                                        <li><a class="dropdown-item" href="#">EN</a></li>
+                                        <li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
-    <div id='warped'>
+    <main>
+        <section>
+            <div class="phrase">Créative - organisée - Fiable - Patiente - Serviable - Honnête - adaptative</div>
+        </section>
+    </main>
+    <!-- <div id='warped'>
         <span class='w0'>C</span><span class='w1'>R</span><span class='w2'>É</span><span class='w3'>A</span><span
             class='w4'>T</span><span class='w5'>I</span><span class='w6'>V</span><span class='w7'>E</span><span
             class='w8'> </span><span class='w9'>-</span><span class='w10'> </span><span class='w11'> </span><span
@@ -71,7 +85,7 @@
             class='w64'>-</span><span class='w65'> </span><span class='w66'>A</span><span class='w67'>D</span><span
             class='w68'>A</span><span class='w69'>P</span><span class='w70'>T</span><span class='w71'>A</span><span
             class='w72'>T</span><span class='w73'>I</span><span class='w74'>V</span><span class='w75'>E</span>
-    </div>
+    </div> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
         crossorigin="anonymous"></script>

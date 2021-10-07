@@ -1,9 +1,65 @@
 /* 
 font-family: 'Birthstone Bounce', cursive;
 font-family: 'Montserrat', sans-serif;
+
+Couleurs:
+dark-pink   #f23d47
+light-pink  #f4898f
+black       #000000
+white       #ffffff
 */
 
-html{
-    font-family: 'Montserrat', sans-serif; 
+:root {
+    --dark-pink: #f23d47;
+    --light-pink: #f4898f;
+    --black: #000000;
+    --white: #ffffff;
+    --gradient: linear-gradient(80deg, #03A66A, #03318C);
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+main {
+    margin-top: 10vh;
+}
+
+/* Navigation */
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-dark .navbar-toggler{
+    border: none;
+    height: 5vh;
+}
+.offcanvas-body{
+    overflow-y: auto;
+}
+
+.offcanvas {
+    background-color: var(--light-pink);
+    flex-direction: row;
+}
+
+.offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 800px;
+    height: 70px;
+    border-radius: 0 0 0 50px;
+    border-left: none;
+    transform: translateX(100%);
+}
+
+.offcanvas-backdrop.fade {
+    display: none;
 }
