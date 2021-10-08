@@ -22,8 +22,8 @@
         <nav class="navbar navbar-dark fixed-top">
             <div class="container-fluid">
                 <div class="container d-flex justify-content-between align-items-center">
-                    <a class="navbar-brand" href="#"> <img src="images/icone_mt_seul_bold.svg"
-                            alt="Logo Maryse Thomassin"></a>
+                    <a class="navbar-brand" href="#"> <img class="img-fluid" src="images/icone_mt_seul_bold.svg"
+                            width="50" height"50" alt="Logo Maryse Thomassin"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
@@ -62,29 +62,29 @@
     </header>
     <main>
         <section class="section-hero container">
-            <div class="row">
-
-                <div class="col-7 d-flex align-items-center">
+            <div class="row flex-column flex-sm-row align-items-center">
+                <div class="col-md-8 col-sm-7  col-12 text-sm-start text-center">
                     <h2>Bonjour, je suis <br>
                         <span class="text-script">Maryse Thomassin</span>
                     </h2>
                 </div>
-                <div class="col-5 group-photomt">
+                <div class="col-md-4 col-sm-5 col-10 group-photomt d-flex align-self-center p-0">
                     <img class="photo-maryse img-fluid" src="images/photo_maryse_t.png" width="700" height="700"
                         alt="Photographie Maryse Thomassin">
                     <img class="forme-ondule img-fluid" src="images/forme_ondule_pleine.svg" width="700" height="700"
                         alt="Forme graphique rose ondulée">
                 </div>
             </div>
-            <div class="row d-flex justify-content-end align-items-center">
-                <div class="col-6">
-                    <h1> <span class="balise-graph">&lt;Graphiste &gt;</span><br>
-                        &nbsp; Designer Web</h1>
+            <div class="row d-flex justify-content-sm-end">
+                <div class="col-lg-7 col-sm-6 text-sm-start text-center">
+                    <h1> <span class="balise-graph ">&lt;Graphiste&gt;</span><br>
+                        <span class="d-sm-none">&nbsp;</span>Designer Web
+                    </h1>
                 </div>
-                <div class="col-1 big-accolade">
+                <div class="col-lg-1 col-sm-1 col-3 big-accolade d-flex justify-content-end">
                     &#123;
                 </div>
-                <div class="col-5">
+                <div class="col-lg-4 col-sm-5 col-8 flex-column align-self-center">
                     <h3>Design imprimé</h3>
                     <h3>Design Web</h3>
                     <h3>Multimédia</h3>
@@ -96,22 +96,40 @@
             </div>
         </section>
 
-        <section class="presentation container">
-            <div class="ensemble-qualites">
+        <section class="presentation-section container d-flex align-items-end justify-content-between ">
+            <div class="ensemble-qualites col-4">
                 <img class="logo-qualites" src="images/logo_mt_big.svg" width="750px" height="750px"
                     alt="Logo MT Maryse Thomassin">
                 <img id="anim-qualites" class="qualites" src="images/qualites.svg" width="750px" height="750px"
                     alt="Créative -  organisée - Fiable - Patiente - Serviable - Honnête - adaptative">
             </div>
-            <article class="col-6">
-                <h2>Qui suis-je</h2>
-                <p>Passionnée de design tant imprimé que Web, j’ai cumulé 13 ans d’expérience en tant que graphiste qui
-                    m’ont permis de développer de très bonnes connaissances et compétences en design imprimé.
-                </p>
-                <p>Le domaine du Web en constante évolution, sa présence croissante et mon intérêt grandissant envers
-                    celui-ci, m’ont poussé à diriger cette passion vers le design Web.</p>
-            </article>
+            <div class="row d-flex justify-content-center">
+
+                <article class="col-6">
+                    <h2>Qui suis-je</h2>
+                    <p>Passionnée de design tant imprimé que Web, j’ai cumulé 13 ans d’expérience en tant que graphiste
+                        qui
+                        m’ont permis de développer de très bonnes connaissances et compétences en design imprimé.
+                    </p>
+                    <p>Le domaine du Web en constante évolution, sa présence croissante et mon intérêt grandissant
+                        envers
+                        celui-ci, m’ont poussé à diriger cette passion vers le design Web.</p>
+                </article>
+            </div>
+            <aside class="col-2 justify-content-end">
+                <div class="big-accolade d-flex justify-content-end">
+                    &#123;
+                </div>
+                <div class="flex-column align-self-center">
+                    <h4>CAC - Design et intégration Web 
+                        Formation continue 
+                        Cégep Garneau</h4>
+                </div>
+    
+            </aside>
         </section>
+
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"

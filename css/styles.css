@@ -26,7 +26,7 @@ body {
 }
 
 main {
-    margin-top: 10vh;
+    margin-top: 12vh;
 }
 
 section{
@@ -42,22 +42,23 @@ border-radius: 2.5rem;
 /* Styles typographique */
 .text-script{
     font-family: 'Birthstone Bounce', cursive;
-    font-size: 6rem;
+    font-size: 3.2rem;
     font-weight: 400;
-    line-height: 10rem;
+    line-height: 5rem;
     color: var(--light-pink);
     text-transform:none;
+    text-align: center;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 5rem;
+    font-size: 2.3rem;
     font-weight: 400;
     color: var(--dark-pink);
 }
 
 h2{
-    font-size: 3rem;
-    line-height: 3.6rem;
+    font-size: 2rem;
+    line-height: 2.6rem;
     font-weight: 300;
     color: var(--dark-pink);
     text-transform: uppercase;
@@ -66,7 +67,7 @@ h2{
 h3{
     color: var(--light-pink);
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 article h2{
@@ -75,19 +76,19 @@ article h2{
 
 .section-hero h1{
     text-transform: uppercase;
-    font-size: 4.5rem;
+    font-size: 2.3rem;
 }
 
 .balise-graph{
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
 }
 
 .big-accolade{
-    font-size: 15rem;
-    line-height: 20rem;
+    font-size: 10rem;
+    line-height: 10rem;
     font-weight: 100;
-    padding-bottom: 6vh;
+    padding-bottom: 4vh;
     color: var(--dark-pink);
 }
 
@@ -134,7 +135,9 @@ article h2{
 
 .group-photomt{
     position: relative;
-    height:50vh;
+    height:38vh;
+
+    margin: 2vh 0 2vh 0;
 }
 .photo-maryse{
     position: absolute;
@@ -146,19 +149,24 @@ article h2{
     z-index: -1;
 }
 
+/* Section présentation */
+.presentation-section{
+    position: relative;
+
+}
+
 /* Ensemble logo et qualites */
 .ensemble-qualites{
-    position: relative;
-    width: 50vw;
-    height: 50vh;
+    position: absolute;
+    width: 80%;
+    height: 80%;
     z-index: -10;
-    overflow: hidden;
 }
 
 .logo-qualites, .qualites{
     position: absolute;
-    width: 50vw;
-    height: 50vh;
+    width: 50%;
+    height: 100%;
 }
 
 /* animation ensemble qualités */
@@ -177,3 +185,169 @@ article h2{
       transform: rotate(360deg);
     }
   }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* Styles typographique */
+.text-script{
+    font-size: 4rem;
+    line-height: 6rem;
+}
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 3.6rem;
+}
+
+.section-hero h1{
+    font-size: 2.5rem;
+}
+
+.balise-graph{
+    font-size: 2.5rem;
+}
+
+
+
+}
+
+  /* Media queries Large devices (desktops, 992px and up)*/
+
+  @media (min-width: 992px) {
+    .text-script{
+        font-size: 5.5rem;
+        line-height: 8.25rem;
+    }
+    h1{
+        font-size: 3.5rem;
+        font-weight: 400;
+    }
+    
+    h2{
+        font-size: 3rem;
+        line-height: 3.6rem;
+    }
+    
+    h3{
+        font-size: 1.7rem;
+    }
+    
+    article h2{
+        color: var(--black);
+    }
+    
+    .section-hero h1{
+        font-size: 3.5rem;
+    }
+    
+    .balise-graph{
+        font-size: 3.5rem;
+    }
+    
+    .big-accolade{
+        font-size: 12rem;
+        line-height: 20rem;
+        padding-bottom: 6vh;
+    }
+    .group-photomt{
+        height:38vh;
+    }
+    
+   }
+
+   /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .text-script{
+        font-size: 6rem;
+        line-height: 10rem;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    
+    h2{
+        font-size: 3rem;
+        line-height: 3.6rem;
+        }
+    
+    h3{
+        font-size: 2rem;
+    }
+    
+    article h2{
+        color: var(--black);
+    }
+    
+    .section-hero h1{
+        font-size: 4.5rem;
+    }
+    
+    .balise-graph{
+        font-size: 4rem;
+    }
+    
+    .big-accolade{
+        font-size: 15rem;
+        line-height: 20rem;
+        padding-bottom: 6vh;
+    }
+
+    .group-photomt{
+        height:45vh;
+    }
+    
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+    .text-script{
+        font-size: 8rem;
+        line-height: 12rem;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    
+    h2{
+        font-size: 3rem;
+        line-height: 3.6rem;
+        }
+    
+    h3{
+        font-size: 2rem;
+    }
+    
+    article h2{
+        color: var(--black);
+    }
+    
+    .section-hero h1{
+        font-size: 4.5rem;
+    }
+    
+    .balise-graph{
+        font-size: 4rem;
+    }
+    
+    .big-accolade{
+        font-size: 15rem;
+        line-height: 20rem;
+        padding-bottom: 6vh;
+    }
+
+    .group-photomt{
+        height:45vh;
+    }
+}
