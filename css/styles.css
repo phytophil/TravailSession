@@ -14,15 +14,13 @@ white       #ffffff
     --light-pink: #f4898f;
     --black: #000000;
     --white: #ffffff;
-    --gradient: linear-gradient(80deg, #03A66A, #03318C);
+    --gradient-black: linear-gradient(180deg, #000000,#000000de,#00000000);
 }
 
-html {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
 
 body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     background-color: var(--black);
     color: var(--white);
 }
@@ -31,7 +29,73 @@ main {
     margin-top: 10vh;
 }
 
+section{
+    height: 100vh;
+}
+
+article{
+    background-color: var(--dark-pink);
+    padding: 2rem;
+border-radius: 2.5rem;
+}
+
+/* Styles typographique */
+.text-script{
+    font-family: 'Birthstone Bounce', cursive;
+    font-size: 6rem;
+    font-weight: 400;
+    line-height: 10rem;
+    color: var(--light-pink);
+    text-transform:none;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    color: var(--dark-pink);
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 3.6rem;
+    font-weight: 300;
+    color: var(--dark-pink);
+    text-transform: uppercase;
+}
+
+h3{
+    color: var(--light-pink);
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+article h2{
+    color: var(--black);
+}
+
+.section-hero h1{
+    text-transform: uppercase;
+    font-size: 4.5rem;
+}
+
+.balise-graph{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.big-accolade{
+    font-size: 15rem;
+    line-height: 20rem;
+    font-weight: 100;
+    padding-bottom: 6vh;
+    color: var(--dark-pink);
+}
+
+
 /* Navigation */
+.navbar{
+    background: var(--gradient-black);
+}
 
 .navbar-nav {
     flex-direction: row;
@@ -63,3 +127,53 @@ main {
 .offcanvas-backdrop.fade {
     display: none;
 }
+
+
+
+/* Groupe photo Maryse Thomassin */
+
+.group-photomt{
+    position: relative;
+    height:50vh;
+}
+.photo-maryse{
+    position: absolute;
+    z-index: 0;
+}
+
+.forme-ondule{
+    position: absolute;
+    z-index: -1;
+}
+
+/* Ensemble logo et qualites */
+.ensemble-qualites{
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    z-index: -10;
+    overflow: hidden;
+}
+
+.logo-qualites, .qualites{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+}
+
+/* animation ensemble qualités */
+#anim-qualites {
+    -moz-animation: anim-qualites 50s linear infinite;
+    -webkit-animation: anim-qualites 50s linear infinite;
+    animation: anim-qualites 50s linear infinite;
+  }
+  
+  @keyframes anim-qualites {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
