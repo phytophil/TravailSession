@@ -1,8 +1,10 @@
 # Énoncé du travail pratique #2 pour le 16 novembre 2021 21h00 EST
 
-## Storybook de vos composantes React préférés
-- https://storybook.js.org/docs/react/get-started/examples
-
+## Un site web React avec des composantes web d'extension des frameworks suivants :
+- ant : https://ant.design/docs/react/introduce
+- material ui : https://mui.com/
+- semantic ui : https://semantic-ui.com/
+- blueprint ui : https://blueprintjs.com/docs/
 
 ## ou
 
