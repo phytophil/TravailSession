@@ -1,0 +1,64 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+/* font-family: 'Raleway', sans-serif; */
+
+:root {
+    --base-title-font: 'Raleway', sans-serif;
+    --base-body-font: 'Montserrat', sans-serif;
+    --dark: #0F044C;
+    --medium: #141E61;
+    --mediumLight: #787A91;
+    --light: #EEEEEE;
+}
+
+body {
+    font-family: var(--body-font, 'Montserrat', sans-serif);
+}
+
+header {
+    position: relative;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: var(--light, #EEEEEE);
+}
+
+section {
+    min-height: 100vh;
+    background-color: #0F044C;
+}
+
+.container-fluid {
+    padding: 0!important;
+}
+
+#apropos {
+    background-color: #0F044C;
+}
+
+#portfolio {
+    background-color: #141E61;
+}
+
+#contact {
+    background-color: #787A91;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--light, #EEEEEE);
+    margin: 2vh;
+    font-family: var(--title-font, 'Raleway', sans-serif);
+}
+
+.center {
+    text-align: center;
+}
+
+.texte {
+    color: var(--light, #EEEEEE);
+    margin-top: 80px;
+}
+
+.bg-body {
+    background-color: var(--dark, #0F044C)!important;
+}
