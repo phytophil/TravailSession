@@ -2,9 +2,12 @@
 
 /* font-family: 'Raleway', sans-serif; */
 
+/* font-family: 'Reenie Beanie', cursive; */
+
 :root {
     --base-title-font: 'Raleway', sans-serif;
     --base-body-font: 'Montserrat', sans-serif;
+    --title-font: 'Reenie Beanie', cursive;
     --dark: #0F044C;
     --medium: #141E61;
     --mediumLight: #787A91;
@@ -12,14 +15,14 @@
 }
 
 body {
-    font-family: var(--body-font, 'Montserrat', sans-serif);
+    font-family: var(--base-body-font, 'Montserrat', sans-serif);
 }
 
 header {
-    position: relative;
-    height: 100px;
+    flex-wrap: wrap;
+    /* height: 100px; */
     display: flex;
-    align-items: center;
+    align-items: right;
     background-color: var(--light, #EEEEEE);
 }
 
@@ -44,30 +47,26 @@ section {
     background-color: #787A91;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
     color: var(--light, #EEEEEE);
-    margin: 2vh;
-    font-family: var(--title-font, 'Raleway', sans-serif);
+    font-family: var(--base-title-font, 'Raleway', sans-serif);
+}
+
+h3{
+    color: var(--light, #EEEEEE);
+    font-family: var(--title-font, 'Reenie Beanie', cursive);
+    font-size: 5rem!important;
+    padding: 5vh;
 }
 
 .center {
     text-align: center;
 }
 
-.texte {
-    color: var(--light, #EEEEEE);
-    margin-top: 80px;
-}
-
-.bg-body {
-    background-color: var(--dark, #0F044C)!important;
-}
-
-/************************** Section 3 Parallax ****************************/
+/************************** Section Parallax ****************************/
 
 .parallax {
     background-image: url("/TP1_05/img/plume1500.jpg");
-  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,18 +74,37 @@ h1, h2, h3, h4, h5 {
     height: 100vh;
     width: 100%;
 }
-#section3 .party{
+/* #sectionParallax .party{
     width: 100%;
     top: 50vh;
     left: 5%;
-}
-/* #parallax-container{
-    height: 100vh;
-    overflow-y: auto;
-    perspective: 10px;
-    overflow-x: hidden;
-} */
+}*/
 
-#section3 .anim3{
+#sectionParallax .anim3{
     position: relative;
+}
+
+/**************************** Animations *************************************/
+
+.animT {
+    animation: translateT 15s linear 0.2s infinite;
+}
+.animR{
+    animation: translateR 15s linear 0.2s infinite;
+}
+@keyframes translateT {
+    0% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(1500px);
+    }
+}
+@keyframes translateR {
+    0% {
+        transform: translateX(1500px);
+    }
+    100% {
+        transform: translateX(-200px);
+    }
 }
