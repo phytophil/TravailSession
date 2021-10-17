@@ -63,6 +63,11 @@ h3{
     text-align: center;
 }
 
+.en{
+    text-decoration: none;
+    color: var(--light, #EEEEEE);
+}
+
 /************************** Section Parallax ****************************/
 
 .parallax {
@@ -106,5 +111,36 @@ h3{
     }
     100% {
         transform: translateX(-200px);
+    }
+}
+
+/*************************************** @media ************************************/
+
+@media screen and (max-width: 768px) {
+
+    .animT {
+        animation: translateT 10s linear 0.2s infinite;
+    }
+    
+    @keyframes translateT {
+        0% {
+            transform: translateX(-150px);
+        }
+        100% {
+            transform: translateX(250px);
+        }
+    }
+
+    .animR{
+        animation: translateR 10s linear 0.2s infinite;
+    }
+
+    @keyframes translateR {
+        0% {
+            transform: translateX(250px);
+        }
+        100% {
+            transform: translateX(-150px);
+        }
     }
 }
