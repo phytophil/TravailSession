@@ -1,0 +1,21 @@
+body{
+    background-color: #222831;
+}
+
+.facemarcus{
+    width: 70%;
+}
+
+#accueil{
+    min-height: 100vh;
+
+}
+.parcours{
+    margin-top: 150px;
+
+}
+
+h1, h2, h3 {
+    color: #FFD369;
+}
+
