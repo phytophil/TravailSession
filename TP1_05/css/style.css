@@ -20,7 +20,7 @@ body {
 
 header {
     flex-wrap: wrap;
-    /* height: 100px; */
+    height: 50px;
     display: flex;
     align-items: right;
     background-color: var(--light, #EEEEEE);
@@ -36,15 +36,15 @@ section {
 }
 
 #apropos {
-    background-color: #0F044C;
+    background-color: var(--dark, #0F044C);
 }
 
 #portfolio {
-    background-color: #141E61;
+    background-color: var(--medium, #141E61);
 }
 
 #contact {
-    background-color: #787A91;
+    background-color: var(--mediumLight, #787A91);
 }
 
 h1, h2, h4, h5 {
@@ -59,13 +59,32 @@ h3{
     padding: 5vh;
 }
 
-.center {
-    text-align: center;
+p{
+    color: var(--light, #EEEEEE);
+    width: 69%;
+    margin: 0 auto;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
-.en{
+a{
     text-decoration: none;
     color: var(--light, #EEEEEE);
+}
+
+.bg-custom{
+    background-color: #141E61;
+}
+
+.caract{
+    color: var(--light, #EEEEEE);
+    font-family: var(--base-title-font, 'Raleway', sans-serif);
+    font-size: 22px;
+    list-style-type: none;
+}
+
+.center {
+    text-align: center;
 }
 
 /************************** Section Parallax ****************************/
