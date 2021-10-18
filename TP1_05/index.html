@@ -59,16 +59,35 @@
         <section id="apropos">
             <div class="container-fluid">
                 <div class="row">
-                    <h1 class="center my-4">Sylvie Dube</h1>
-                    <div class="col-lg-6 my-5">
+                    <h1 class="center my-4 animName">Sylvie Dubé</h1>
+                    <h2 class="center my-4 animName">Développeur Backend\Frontend</h2>
+                    <!-- <div class="col-lg-6 my-5">
                         <p class="shadow p-4 bg-custom rounded">J'ai étudié en développement web et
                             maintenant en Design et Intégration Web afin de réunir plusieurs de mes passions.
                             En effet, pendant plus de 5 ans, j'ai aménagé des paysages et, maintenant j'aménage le web.
                         </p>
-                        <p class="shadow p-4 bg-custom rounded">J'ai découvert LARAVEL et depuis j'adore la PROGRAMATION ainsi que
+                        <p class="shadow p-4 bg-custom rounded">J'ai découvert LARAVEL et depuis j'adore la PROGRAMATION
+                            ainsi que
                             l'INTÉGRATION avec Bootstrap, REACT (que je découvre avec le CAC Design et Intégration Web).
-                            J'ai appris FIGMA et ADOBE XD, et AFTER EFFECTS (que je voulais apprendre depuis longtemps).
+                            J'ai appris FIGMA, ADOBE XD, et AFTER EFFECTS (que je voulais apprendre depuis longtemps).
+                            J'ai un besoin constant d'apprendre et j'aime aider les autres et partager mes
+                            connaissances.
                         </p>
+                    </div> -->
+                    <div class="col-lg-6 my-5">
+                        <ul class="caract">
+                            <li class="py-2"><i class="fas fa-laptop-code"></i> Coder</li>
+                            <li class="py-2"><i class="fas fa-laptop-code"></i> Coder</li>
+                            <li class="py-2"><i class="fas fa-laptop-code"></i> Coder</li>
+                            <li class="py-2"><i class="fas fa-camera"></i> Photographie (macrophotographie faune et
+                                flore)
+                            </li>
+                            <li class="py-2"><i class="fas fa-camera"></i> Caméra et montage vidéo</li>
+                            <li class="py-2"><i class="fab fa-envira"></i> Marche en forêt</li>
+                            <li class="py-2"><i class="fas fa-laptop-code"></i> Coder</li>
+                            <li class="py-2"><i class="fas fa-laptop-code"></i> Coder</li>
+                            <li class="py-2"><i class="fas fa-laptop-code"></i> Coder</li>
+                        </ul>
                     </div>
                     <div class="col-lg-6 my-5">
                         <ul class="caract">
@@ -80,42 +99,78 @@
                             </li>
                             <li class="py-2"><i class="fas fa-camera"></i> Caméra et montage vidéo</li>
                             <li class="py-2"><i class="fab fa-envira"></i> Marche en forêt</li>
+                            <li class="py-2"><i class="fas fa-laptop-code"></i> Coder</li>
+                            <li class="py-2"><i class="fas fa-laptop-code"></i> Coder</li>
+                            <li class="py-2"><i class="fas fa-laptop-code"></i> Coder</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-
         <section id="portfolio">
-            <div class="container-fluid">
+            <section id="slider">
                 <div class="row">
-                    <div class="col-lg-4 my-5">
-
+                    <div class="col">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/TP1_05/img/laravel1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/TP1_05/img/laravelBD.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/TP1_05/img/Integration1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/TP1_05/img/integraionCSS.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-        </section>
-        <section id="sectionParallax" class="container-fluid parallax">
-            <div class="anim3">
-                <h3 class="animT center">Passionnée</h3>
-                <h3 class="animT">Authentique</h3>
-                <h3 class="animR">Autodidacte</h3>
-                <h3 class="animR center">Curieuse</h3>
-                <div class=" container-fluid absolute"></div>
-            </div>
+            <section id="sectionParallax" class="container-fluid parallax">
+                <div class="anim3">
+                    <h3 class="animT center">Passionnée</h3>
+                    <h3 class="animT">Authentique</h3>
+                    <h3 class="animR">Autodidacte</h3>
+                    <h3 class="animR center">Curieuse</h3>
 
-        </section>
+                </div>
+                <!-- <div class=" container-fluid absolute"></div> -->
+            </section>
 
-        <section id="contact">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-">
-                        <img src="/TP1_05/img/flore.jpg" class="img-fluid" alt="">
+            <section id="contact">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-">
+                            <img src="/TP1_05/img/flore.jpg" class="img-fluid" alt="">
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
     </main>
     <footer>
 
