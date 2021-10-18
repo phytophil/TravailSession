@@ -23,13 +23,13 @@
             <div class="container-fluid">
                 <div class="container d-flex justify-content-between align-items-center">
                     <a class="navbar-brand" href="#"> <img class="img-fluid" src="images/icone_mt_seul_bold.svg"
-                            width="50" height"50" alt="Logo Maryse Thomassin"></a>
+                            width="50" height="50" alt="Logo Maryse Thomassin"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                        aria-labelledby="offcanvasNavbarLabel">
+                        aria-labelledby="offcanvasNavbar">
                         <div class="offcanvas-header">
                             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
@@ -61,7 +61,7 @@
         </nav>
     </header>
     <main>
-        <section class="section-hero container">
+        <section class="section-hero container p-0">
             <div class="row flex-column flex-sm-row align-items-center">
                 <div class="col-md-8 col-sm-7  col-12 text-sm-start text-center">
                     <h2>Bonjour, je suis <br>
@@ -91,22 +91,19 @@
                     <h3>Intégration Web</h3>
                 </div>
             </div>
-
-
-            </div>
         </section>
 
-        <section class="presentation-section container d-flex align-items-center justify-content-evenly">
+        <section class="presentation-section container d-flex align-items-center justify-content-evenly p-0">
             <div class="row d-flex align-items-end">
                 <div class="ensemble-qualites col-8">
-                    <img class="logo-qualites" src="images/logo_mt_big.svg" width="750px" height="750px"
+                    <img class="logo-qualites" src="images/logo_mt_big.svg" width="750" height="750"
                         alt="Logo MT Maryse Thomassin">
-                    <img id="anim-qualites" class="qualites" src="images/qualites.svg" width="750px" height="750px"
+                    <img id="anim-qualites" class="qualites" src="images/qualites.svg" width="750" height="750"
                         alt="Créative -  organisée - Fiable - Patiente - Serviable - Honnête - adaptative">
                 </div>
 
                 <div class="row d-flex align-items-center justify-content-end">
-                    <article class="col-8">
+                    <div class="col-8 qui-suis-je">
                         <h2>Qui suis-je</h2>
                         <p>Passionnée de design tant imprimé que Web, j’ai cumulé 13 ans d’expérience en tant que
                             graphiste
@@ -116,80 +113,101 @@
                         <p>Le domaine du Web en constante évolution, sa présence croissante et mon intérêt grandissant
                             envers
                             celui-ci, m’ont poussé à diriger cette passion vers le design Web.</p>
-                    </article>
+                    </div>
                 </div>
             </div>
-            <aside class="col-4 justify-content-end">
-                <div class="ligne-temps"></div>
-                <div class="row">
-                    <div class="col-8 flex-column align-self-center text-end">
-                        <h4>CAC - Design et intégration Web <br>
-                            Formation continue <br>
-                            Cégep Garneau</h4>
+
+            <aside class="col-4">
+                <div class="row container-timeline d-flex align-items-center">
+                    <div class="col-10">
+                        <div class="timeline-experience row d-flex align-items-center text-end">
+                            <div class="col-10 p-0"><img class="col-10 img-formation" width="70" height="70"
+                                    src="images/icone_formation.svg" alt="Illustration chapeau finissant">
+                                <h4>CAC - Design et intégration Web <br>
+                                    Formation continue <br>
+                                    Cégep Garneau</h4>
+                            </div>
+                            <p class="big-accolade-closed col-2">&#125;</p>
+                        </div>
+
+                        <div class="timeline-experience row d-flex align-items-center text-end">
+                            <div class="col-10 p-0"><img class="col-10 img-experiences" width="70" height="70"
+                                    src="images/icone_experience.svg" alt="Illustration valise de travail">
+                                <h4>Graphiste <br>
+                                    IMPRIMERIE BLOUIN</h4>
+                            </div>
+                            <p class="big-accolade-closed col-2">&#125;</p>
+                        </div>
+                        <div class="timeline-experience row d-flex align-items-center text-end">
+                            <div class="col-10 p-0"><img class="col-10 img-experiences" width="70" height="70"
+                                    src="images/icone_experience.svg" alt="Illustration valise de travail">
+                                <h4>Graphiste <br>
+                                    TC MÉDIA</h4>
+                            </div>
+                            <p class="big-accolade-closed col-2">&#125;</p>
+                        </div>
+                        <div class="timeline-experience row d-flex align-items-center text-end">
+                            <div class="col-10 p-0"><img class="col-10 img-experiences" width="70" height="70"
+                                    src="images/icone_experience.svg" alt="Illustration valise de travail">
+                                <h4>Graphiste <br>
+                                    JOURNAL L’AUTRE VOIX </h4>
+                            </div>
+                            <p class="big-accolade-closed col-2">&#125;</p>
+                        </div>
+                        <div class="timeline-experience row d-flex align-items-center text-end">
+                            <div class="col-10 p-0"><img class="col-10 img-formation" width="70" height="70"
+                                    src="images/icone_formation.svg" alt="Illustration chapeau finissant">
+                                <h4>Diplôme d’études collégial <br>
+                                    Graphisme <br>
+                                    Cégep Rivière-du-Loup</h4>
+                            </div>
+                            <p class="big-accolade-closed col-2">&#125;</p>
+                        </div>
                     </div>
-                    <div class="big-accolade-closed col-1 d-flex justify-content-end pe-2">
-                        &#125;
-                    </div>
-                    <div class="col-3 flex-column align-self-center text-start">
-                        <h4>2021</h4>
+                    <div class=" col-2 ligne-temps d-flex align-items-center">
+                        <div class="row">
+                            <h4
+                                class="timeline-annee col-12 d-flex align-items-center justify-content-center text-center">
+                                2021</h4>
+
+                            <h4
+                                class="timeline-annee col-12 d-flex align-items-center justify-content-center text-center">
+                                2015 <br> 2021</h4>
+
+                            <h4
+                                class="timeline-annee col-12 d-flex align-items-center justify-content-center text-center">
+                                2008
+                                <br>
+                                2015
+                            </h4>
+
+                            <h4
+                                class="timeline-annee col-12 d-flex align-items-center justify-content-center text-center">
+                                2007 <br>
+                                2008 </h4>
+                            <h4
+                                class="timeline-annee col-12 d-flex align-items-center justify-content-center text-center">
+                                2004 <br>
+                                2007 </h4>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-8 flex-column align-self-center text-end">
-                        <h4>Graphiste <br>
-                            IMPRIMERIE BLOUIN</h4>
-                    </div>
-                    <div class="big-accolade-closed col-1 d-flex justify-content-end pe-2">
-                        &#125;
-                    </div>
-                    <div class="col-3 flex-column align-self-center text-start">
-                        <h4>2015 <br> 2021</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-8 flex-column align-self-center text-end">
-                        <h4>Graphiste <br>
-                            TC MÉDIA</h4>
-                    </div>
-                    <div class="big-accolade-closed col-1 d-flex justify-content-end pe-2">
-                        &#125;
-                    </div>
-                    <div class="col-3 flex-column align-self-center text-start">
-                        <h4>2008 <br>
-                            2015 </h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-8 flex-column align-self-center text-end">
-                        <h4>Graphiste <br>
-                            JOURNAL L’AUTRE VOIX </h4>
-                    </div>
-                    <div class="big-accolade-closed col-1 d-flex justify-content-end pe-2">
-                        &#125;
-                    </div>
-                    <div class="col-3 flex-column align-self-center text-start">
-                        <h4>2007 <br>
-                            2008 </h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-8 flex-column align-self-center text-end">
-                        <h4>Diplôme d’études collégial <br>
-                            Graphisme <br>
-                            Cégep Rivière-du-Loup</h4>
-                    </div>
-                    <div class="big-accolade-closed col-1 d-flex justify-content-end pe-2">
-                        &#125;
-                    </div>
-                    <div class="col-3 flex-column align-self-center text-start">
-                        <h4>2004 <br>
-                            2007 </h4>
-                    </div>
-                </div>
-                
             </aside>
         </section>
-
+        <section class="section-connaissances">
+            <div class="container">
+                <h2>MES CONNAISSANCES</h2>
+                    <div class="big-accolade text-start">
+                        &#123;
+                    </div>
+            </div>
+            <div class="container-fluid liste-connaissances">
+                <h3>InDesign • Photoshop • Illustrator • Adobe Acrobat • Adobe XD • Figma • HTML 5 • CSS • Bootstrap
+                    •
+                    Wordpress • After Effects • Première
+                </h3>
+            </div>
+        </section>
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
