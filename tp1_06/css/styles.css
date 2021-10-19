@@ -44,36 +44,106 @@ div .qui-suis-je{
     width: 70px;
 }
 
+/* Section connaissances */
+
 .section-connaissances{
-    position: relative;
+background-image: url(/tp1_06/images/illustration-connaissances.svg);
+background-repeat: no-repeat;
+background-position:right;
+background-size: 80%;
+}
+
+.section-connaissances h3{
+    font-size: 3rem;
 }
 
 .liste-connaissances{
     position: absolute;
-    width: 3000px;
-    top: 20vh;
-    left: -90vw;
-    opacity: 0;
-    z-index: -1;
+    opacity: 0%;
+    padding:0;
+}
+
+.big-accolade-mask{
+    font-size: 10rem;
+    line-height: 10rem;
+    font-weight: 100;
+    color: var(--dark-pink);
+}
+
+.groupe-anim-connaissance{
+    position: relative;
 }
 
 /* animation connaissances */
-#liste-connaissances {
-    -moz-animation: liste-connaissances 30s linear infinite;
-    -webkit-animation: liste-connaissances 30s linear infinite;
-    animation: liste-connaissances 30s linear infinite;
+#anim-connaissances-01 {
+    -moz-animation: anim-connaissances-01 15s  linear infinite;
+    -webkit-animation: anim-connaissances-01 15s linear infinite;
+    animation: anim-connaissances-01 15s linear infinite;
   }
   
-  @keyframes liste-connaissances{
+  @keyframes anim-connaissances-01{
     0% {
-        left: -90vw;
+        opacity: 0%;
     }
-    10% {
+    5%, 20%{
         opacity: 100%;
     }
+    25% {
+        opacity: 0%;
+    }
+  }
+  #anim-connaissances-02 {
+    -moz-animation: anim-connaissances-02 15s  linear infinite;
+    -webkit-animation: anim-connaissances-02 15s linear infinite;
+    animation: anim-connaissances-02 15s linear infinite;
+  }
   
+  @keyframes anim-connaissances-02{
+    25% {
+        opacity: 0%;
+    }
+    30%, 45% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+  }
+  #anim-connaissances-03 {
+    -moz-animation: anim-connaissances-03 15s  linear infinite;
+    -webkit-animation: anim-connaissances-03 15s linear infinite;
+    animation: anim-connaissances-03 15s linear infinite;
+  }
+  
+  @keyframes anim-connaissances-03{
+    50% {
+        opacity: 0%;
+    }
+    55%, 70% {
+        opacity: 100%;
+    }
+
+    75% {
+        opacity: 0%;
+    }
+  }
+
+  #anim-connaissances-04 {
+    -moz-animation: anim-connaissances-04 15s  linear infinite;
+    -webkit-animation: anim-connaissances-04 15s linear infinite;
+    animation: anim-connaissances-04 15s linear infinite;
+  }
+  
+  @keyframes anim-connaissances-04{
+    75% {
+        opacity: 0%;
+    }
+    80%, 95% {
+        opacity: 100%;
+    }
     100% {
-        left: 100vw;
+        opacity: 0%;
     }
   }
 
