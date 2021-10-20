@@ -11,6 +11,7 @@ Introduction à l’environnement de production web
 - VSCode / Plugins
 - Nodejs, NPM, GIT, Yeoman
 - Présentation du travail pratique #1
+
 [Document](https://github.com/PLDubeFormation/TravailSession/blob/master/Pr%C3%A9paration%20de%20l%E2%80%99environnement%20de%20travail.pdf)
 
 ## Cours 2 ##
@@ -22,6 +23,7 @@ Débuter avec GIT
 - Travailler avec GIT en équipe dans une organisation
 - Gérer les conflits avec GIT
 - Débuter le travail session
+
 [Document](https://github.com/PLDubeFormation/TravailSession/blob/master/GIT.pdf)
 
 ## Cours 3 ##
@@ -37,6 +39,7 @@ La préparation de votre site pour la mise en production
 - PageSpeed Insights
 - Gtmetriix
 - Continuer le travail session
+
 [Document](https://github.com/PLDubeFormation/TravailSession/blob/master/Component%20Driven.pdf)
 
 ## Cours 4 ##
@@ -53,7 +56,9 @@ Le déploiement web
 - Webpack, Gulp
 - Vagrant, Scotch Box
 - Continuer le travail session
+
 [Document](https://github.com/PLDubeFormation/TravailSession/blob/master/DNS.pdf)
+
 [Travail formatif](https://github.com/PLDubeFormation/TravailSession/blob/master/GULP.pdf)
 
 
