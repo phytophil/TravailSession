@@ -35,9 +35,6 @@ La préparation de votre site pour la mise en production
 - Outils pour les packages ECMAScript
 - Code linting
 - Techniques de déploiement
-- Grille de tests
-- PageSpeed Insights
-- Gtmetriix
 - Continuer le travail session
 
 [Document](https://github.com/PLDubeFormation/TravailSession/blob/master/Component%20Driven.pdf)
