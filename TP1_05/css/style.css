@@ -16,13 +16,11 @@
 
 body {
     font-family: var(--base-body-font, 'Montserrat', sans-serif);
+    overflow-x: hidden;
 }
 
 header {
-    flex-wrap: wrap;
     height: 50px;
-    display: flex;
-    align-items: right;
     background-color: var(--light, #EEEEEE);
 }
 
@@ -30,6 +28,20 @@ section {
     min-height: 100vh;
     background-color: #0F044C;
 }
+
+/************************** Navigation ****************************/
+
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nav-item{
+    padding: 0 120px 0 120px;
+}
+
+/************************** Sections ****************************/
 
 .container-fluid {
     padding: 0!important;
@@ -87,6 +99,8 @@ a{
 .center {
     text-align: center;
 }
+
+/************************** Section Caroussel ****************************/
 
 .carousel .carousel-item img{
     height: 600px;
