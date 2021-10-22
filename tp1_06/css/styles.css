@@ -14,9 +14,8 @@ white       #ffffff
     --light-pink: #f4898f;
     --black: #000000;
     --white: #ffffff;
-    --gradient-black: linear-gradient(180deg, #000000,#000000de,#00000000);
+    --gradient-black: linear-gradient(180deg, #000000, #000000de, #00000000);
 }
-
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -28,144 +27,43 @@ body {
 
 main {
     margin-top: 12vh;
+    overflow-x: hidden;
 }
 
-section{
+section {
     height: 100vh;
 }
 
-div .qui-suis-je{
+div .qui-suis-je {
     background-color: var(--dark-pink);
     padding: 2rem;
     border-radius: 2.5rem;
 }
 
-.img-formation, .img-experiences{
+.img-formation, .img-experiences {
     width: 70px;
 }
 
-/* Section connaissances */
+/************************* Styles typographique *************************/
 
-.section-connaissances{
-background-image: url(/tp1_06/images/illustration-connaissances.svg);
-background-repeat: no-repeat;
-background-position:right;
-background-size: 80%;
-}
-
-.section-connaissances h3{
-    font-size: 3rem;
-}
-
-.liste-connaissances{
-    position: absolute;
-    opacity: 0%;
-    padding:0;
-}
-
-.big-accolade-mask{
-    font-size: 10rem;
-    line-height: 10rem;
-    font-weight: 100;
-    color: var(--dark-pink);
-}
-
-.groupe-anim-connaissance{
-    position: relative;
-}
-
-/* animation connaissances */
-#anim-connaissances-01 {
-    -moz-animation: anim-connaissances-01 15s  linear infinite;
-    -webkit-animation: anim-connaissances-01 15s linear infinite;
-    animation: anim-connaissances-01 15s linear infinite;
-  }
-  
-  @keyframes anim-connaissances-01{
-    0% {
-        opacity: 0%;
-    }
-    5%, 20%{
-        opacity: 100%;
-    }
-    25% {
-        opacity: 0%;
-    }
-  }
-  #anim-connaissances-02 {
-    -moz-animation: anim-connaissances-02 15s  linear infinite;
-    -webkit-animation: anim-connaissances-02 15s linear infinite;
-    animation: anim-connaissances-02 15s linear infinite;
-  }
-  
-  @keyframes anim-connaissances-02{
-    25% {
-        opacity: 0%;
-    }
-    30%, 45% {
-        opacity: 100%;
-    }
-
-    50% {
-        opacity: 0%;
-    }
-  }
-  #anim-connaissances-03 {
-    -moz-animation: anim-connaissances-03 15s  linear infinite;
-    -webkit-animation: anim-connaissances-03 15s linear infinite;
-    animation: anim-connaissances-03 15s linear infinite;
-  }
-  
-  @keyframes anim-connaissances-03{
-    50% {
-        opacity: 0%;
-    }
-    55%, 70% {
-        opacity: 100%;
-    }
-
-    75% {
-        opacity: 0%;
-    }
-  }
-
-  #anim-connaissances-04 {
-    -moz-animation: anim-connaissances-04 15s  linear infinite;
-    -webkit-animation: anim-connaissances-04 15s linear infinite;
-    animation: anim-connaissances-04 15s linear infinite;
-  }
-  
-  @keyframes anim-connaissances-04{
-    75% {
-        opacity: 0%;
-    }
-    80%, 95% {
-        opacity: 100%;
-    }
-    100% {
-        opacity: 0%;
-    }
-  }
-
-
-/* Styles typographique */
-.text-script{
+.text-script {
     font-family: 'Birthstone Bounce', cursive;
     font-size: 3.2rem;
     font-weight: 400;
     line-height: 5rem;
     color: var(--light-pink);
-    text-transform:none;
+    text-transform: none;
     text-align: center;
 }
-h1{
+
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.3rem;
     font-weight: 400;
     color: var(--dark-pink);
 }
 
-h2{
+h2 {
     font-size: 2rem;
     line-height: 2.6rem;
     font-weight: 300;
@@ -173,33 +71,47 @@ h2{
     text-transform: uppercase;
 }
 
-h3{
+.section-connaissances h2, .interets h2 {
+    color: var(--black);
+    font-family: 'Birthstone Bounce', cursive;
+    text-transform: none;
+    font-size: 6rem;
+    margin-bottom: 8rem;
+    z-index: 1;
+}
+
+.section-connaissances h2 {
+    color: var(--light-pink);
+    margin-bottom: 2rem;
+}
+
+h3 {
     color: var(--light-pink);
     font-weight: 200;
     font-size: 1.5rem;
 }
 
-h4{
+h4 {
     font-size: 1.25rem;
     font-weight: 200;
     color: var(--light-pink);
 }
 
-.qui-suis-je h2{
+.qui-suis-je h2 {
     color: var(--black);
 }
 
-.section-hero h1{
+.section-hero h1 {
     text-transform: uppercase;
     font-size: 2.3rem;
 }
 
-.balise-graph{
+.balise-graph {
     font-size: 2.5rem;
     text-transform: uppercase;
 }
 
-.big-accolade{
+.big-accolade {
     font-size: 10rem;
     line-height: 10rem;
     font-weight: 100;
@@ -207,9 +119,9 @@ h4{
     color: var(--dark-pink);
 }
 
-
 /* Navigation */
-.navbar{
+
+.navbar {
     background: var(--gradient-black);
 }
 
@@ -217,11 +129,12 @@ h4{
     flex-direction: row;
 }
 
-.navbar-dark .navbar-toggler{
+.navbar-dark .navbar-toggler {
     border: none;
     height: 5vh;
 }
-.offcanvas-body{
+
+.offcanvas-body {
     overflow-y: auto;
 }
 
@@ -244,263 +157,468 @@ h4{
     display: none;
 }
 
+.dropend .dropdown-menu[data-bs-popper] {
+    display: inline-flex;
+}
+
+.dropdown-menu {
+    min-width: 4rem;
+    background-color: #ffffff00;
+    border: none;
+}
+
+.dropdown-menu a, nav .btn:hover{
+    color: var(--black);
+}
+
+.split-btn{
+    padding: 0 1rem 0 1rem;
+}
+
+.dropdown-menu a:hover, nav .btn{
+    color: var(--white);
+}
+
+.btn-contact-fix{
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    background-color: var(--white);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    transition: width 0.5s, height 0.5s, box-shadow 0.5s;
+}
+
+.btn-contact-fix:hover{
+    position: fixed;
+    box-shadow: 0px 0px 6px 4px var(--black);
+    background-color: var(--light-pink);
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    z-index: 10;
+    transition: width 0.5s, height 0.5s, box-shadow 0.5s;
+}
+
+.btn-linkedin-fix{
+    position: fixed;
+    bottom: 15vh;
+    right: 5vw;
+    background-color: var(--white);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    transition: width 0.5s, height 0.5s, box-shadow 0.5s;
+}
+
+.btn-linkedin-fix:hover{
+    position: fixed;
+    box-shadow: 0px 0px 6px 4px var(--black);
+    background-color: var(--light-pink);
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    z-index: 10;
+    transition: width 0.5s, height 0.5s, box-shadow 0.5s;
+}
+
+.btn-linkedin-fix a{
+    color: var(--dark-pink);
+    width: 50px;
+}
 
 
 /* Groupe photo Maryse Thomassin */
 
-.group-photomt{
+.group-photomt {
     position: relative;
-    height:38vh;
-
+    height: 38vh;
     margin: 2vh 0 2vh 0;
 }
-.photo-maryse{
+
+.photo-maryse {
     position: absolute;
     z-index: 0;
 }
 
-.forme-ondule{
+.forme-ondule {
     position: absolute;
     z-index: -1;
 }
 
 /* Section présentation */
-.presentation-section{
-    position: relative;
 
+.presentation-section {
+    position: relative;
+}
+
+/******************************* Section connaissances ********************************/
+
+.separateur {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+
+.section-connaissances {
+    background-image: url(/tp1_06/images/illustration-connaissances.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70%;
+}
+
+.section-connaissances h3 {
+    font-size: 3rem;
+}
+
+.liste-connaissances {
+    position: absolute;
+    opacity: 0%;
+    padding: 0;
+}
+
+.big-accolade-mask {
+    font-size: 10rem;
+    line-height: 10rem;
+    font-weight: 100;
+    color: var(--dark-pink);
+}
+
+.groupe-anim-connaissance {
+    position: relative;
+}
+
+/************************* animation connaissances *************************/
+
+#anim-connaissances-01 {
+    -moz-animation: anim-connaissances-01 15s linear infinite;
+    -webkit-animation: anim-connaissances-01 15s linear infinite;
+    animation: anim-connaissances-01 15s linear infinite;
+}
+
+@keyframes anim-connaissances-01 {
+    0% {
+        opacity: 0%;
+    }
+    5%, 20% {
+        opacity: 100%;
+    }
+    25% {
+        opacity: 0%;
+    }
+}
+
+#anim-connaissances-02 {
+    -moz-animation: anim-connaissances-02 15s linear infinite;
+    -webkit-animation: anim-connaissances-02 15s linear infinite;
+    animation: anim-connaissances-02 15s linear infinite;
+}
+
+@keyframes anim-connaissances-02 {
+    25% {
+        opacity: 0%;
+    }
+    30%, 45% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+}
+
+#anim-connaissances-03 {
+    -moz-animation: anim-connaissances-03 15s linear infinite;
+    -webkit-animation: anim-connaissances-03 15s linear infinite;
+    animation: anim-connaissances-03 15s linear infinite;
+}
+
+@keyframes anim-connaissances-03 {
+    50% {
+        opacity: 0%;
+    }
+    55%, 70% {
+        opacity: 100%;
+    }
+    75% {
+        opacity: 0%;
+    }
+}
+
+#anim-connaissances-04 {
+    -moz-animation: anim-connaissances-04 15s linear infinite;
+    -webkit-animation: anim-connaissances-04 15s linear infinite;
+    animation: anim-connaissances-04 15s linear infinite;
+}
+
+@keyframes anim-connaissances-04 {
+    75% {
+        opacity: 0%;
+    }
+    80%, 95% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+/* ligne du temps */
+
+.ligne-temps {
+    border-left: 4px solid var(--dark-pink);
+    border-image: linear-gradient( to bottom, #f23d4600, #f23d47, #f23d47, #f23d4600) 1 100%;
+    height: 110vh;
+}
+
+.container-timeline {
+    height: 110vh;
+}
+
+.timeline-experience {
+    height: 20vh;
+}
+
+.timeline-annee {
+    height: 20vh;
+}
+
+.big-accolade-closed {
+    font-size: 10rem;
+    line-height: 10rem;
+    font-weight: 100;
+    color: var(--dark-pink);
+    text-align: center;
+    padding: 0 0 2vh 0;
+}
+
+aside h4, aside p {
+    margin: 0;
+    padding: 0 0 0 0;
 }
 
 /* Ensemble logo et qualites */
-.ensemble-qualites{
+
+.ensemble-qualites {
     position: absolute;
     height: 80%;
     left: -5vw;
     z-index: -10;
 }
 
-.logo-qualites, .qualites{
+.logo-qualites, .qualites {
     position: absolute;
 }
 
 /* animation ensemble qualités */
+
 #anim-qualites {
     -moz-animation: anim-qualites 50s linear infinite;
     -webkit-animation: anim-qualites 50s linear infinite;
     animation: anim-qualites 50s linear infinite;
-  }
-  
-  @keyframes anim-qualites {
+}
+
+@keyframes anim-qualites {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-  
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
-
-
-  /* ligne du temps */
-.ligne-temps{
-border-left: 4px solid var(--dark-pink);
-border-image: 
-    linear-gradient(
-      to bottom, 
-      #f23d4600, 
-      #f23d47, 
-      #f23d47, 
-      #f23d4600
-    ) 1 100%;
-height: 110vh;
 }
 
-.container-timeline{
-    height: 110vh;
+/* Section intérêts */
+
+.interets {
+    position: relative;
+    background-color: var(--dark-pink);
+    padding: 8vh 0 0 0;
 }
 
-.timeline-experience{
-    height:20vh;
+.interets p {
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    margin-bottom: 4rem;
 }
 
-.timeline-annee{
-    height: 20vh;
-}
-.big-accolade-closed{
-    font-size: 10rem;
-    line-height: 10rem;
-    font-weight: 100;
-    color: var(--dark-pink);
-    text-align: center;
-    padding:0 0 2vh 0;
+.courbe-titres {
+    position: absolute;
+    right: -2vw;
+    top: 12vh;
+    z-index: 0;
 }
 
-aside h4, aside p{
-    margin: 0;
-    padding:0 0 0 0;
+.section-interets-arts-1 h2, .section-interets-arts-2 h2 {
+    margin-right: 2rem;
+}
+
+.section-interets-arts-1 {
+    background-image: url(/tp1_06/images/toile-foret-enchantee-oeuvre-MaryseThomassin.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+.section-interets-arts-2 {
+    background-image: url(/tp1_06/images/toile_hibou_Maryse_thomassin.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+
+}
+
+.fond-degrade {
+    background: var(--gradient-black);
+    padding-top: 2rem;
+    height: 15vh;
+}
+
+.btn-contact {
+    background-color: var(--light-pink);
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+footer{
+    height: 10vh;padding: 2rem 0 2rem 0;
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
 
-
-
-}
+@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+
+@media (min-width: 768px) {
     /* Styles typographique */
-.text-script{
-    font-size: 4rem;
-    line-height: 6rem;
-}
-h1{
-    font-size: 3rem;
-}
-
-h2{
-    font-size: 2rem;
-    line-height: 3.6rem;
-}
-
-.section-hero h1{
-    font-size: 2.5rem;
-}
-
-.balise-graph{
-    font-size: 2.5rem;
+    .text-script {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+        line-height: 3.6rem;
+    }
+    .section-hero h1 {
+        font-size: 2.5rem;
+    }
+    .balise-graph {
+        font-size: 2.5rem;
+    }
 }
 
+/* Media queries Large devices (desktops, 992px and up)*/
 
-
-}
-
-  /* Media queries Large devices (desktops, 992px and up)*/
-
-  @media (min-width: 992px) {
-    .text-script{
+@media (min-width: 992px) {
+    .text-script {
         font-size: 5.5rem;
         line-height: 8.25rem;
     }
-    h1{
+    h1 {
         font-size: 3.5rem;
         font-weight: 400;
     }
-    
-    h2{
+    h2 {
         font-size: 3rem;
         line-height: 3.6rem;
     }
-    
-    h3{
+    h3 {
         font-size: 1.7rem;
     }
-    
-    .qui-suis-je h2{
+    .qui-suis-je h2 {
         color: var(--black);
     }
-    
-    .section-hero h1{
+    .section-hero h1 {
         font-size: 3.5rem;
     }
-    
-    .balise-graph{
+    .balise-graph {
         font-size: 3.5rem;
     }
-    
-    .big-accolade{
+    .big-accolade {
         font-size: 12rem;
         line-height: 20rem;
         padding-bottom: 6vh;
     }
-    .group-photomt{
-        height:38vh;
+    .group-photomt {
+        height: 38vh;
     }
-    
-   }
+}
 
-   /* X-Large devices (large desktops, 1200px and up) */
+/* X-Large devices (large desktops, 1200px and up) */
+
 @media (min-width: 1200px) {
-
-    .text-script{
+    .text-script {
         font-size: 6rem;
         line-height: 10rem;
     }
-    h1{
+    h1 {
         font-size: 5rem;
     }
-    
-    h2{
+    h2 {
         font-size: 3rem;
         line-height: 3.6rem;
-        }
-    
-    h3{
+    }
+    h3 {
         font-size: 2rem;
     }
-    
-    .qui-suis-je h2{
+    .qui-suis-je h2 {
         color: var(--black);
     }
-    
-    .section-hero h1{
+    .section-hero h1 {
         font-size: 4.5rem;
     }
-    
-    .balise-graph{
+    .balise-graph {
         font-size: 4rem;
     }
-    
-    .big-accolade{
+    .big-accolade {
         font-size: 15rem;
         line-height: 20rem;
         padding-bottom: 6vh;
     }
-
-    .group-photomt{
-        height:45vh;
+    .group-photomt {
+        height: 45vh;
     }
-    
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
 @media (min-width: 1400px) {
-    .text-script{
+    .text-script {
         font-size: 8rem;
         line-height: 12rem;
     }
-    h1{
+    h1 {
         font-size: 5rem;
     }
-    
-    h2{
+    h2 {
         font-size: 3rem;
         line-height: 3.6rem;
-        }
-    
-    h3{
+    }
+    h3 {
         font-size: 2rem;
     }
-    
-    .qui-suis-je h2{
+    .qui-suis-je h2 {
         color: var(--black);
     }
-    
-    .section-hero h1{
+    .section-hero h1 {
         font-size: 4.5rem;
     }
-    
-    .balise-graph{
+    .balise-graph {
         font-size: 4rem;
     }
-    
-    .big-accolade{
+    .big-accolade {
         font-size: 15rem;
         line-height: 20rem;
         padding-bottom: 6vh;
     }
-
-    .group-photomt{
-        height:45vh;
+    .group-photomt {
+        height: 45vh;
     }
 }
