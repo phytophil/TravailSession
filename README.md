@@ -54,7 +54,9 @@ Le déploiement web
 - Vagrant, Scotch Box
 - Continuer le travail session
 
-[Document](https://github.com/PLDubeFormation/TravailSession/blob/master/DNS.pdf)
+[Document DNS](https://github.com/PLDubeFormation/TravailSession/blob/master/DNS.pdf)
+
+[Document FTP](https://github.com/PLDubeFormation/TravailSession/blob/master/FTP.pdf)
 
 [Travail formatif](https://github.com/PLDubeFormation/TravailSession/blob/master/GULP.pdf)
 
