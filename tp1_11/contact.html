@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Matthew Kavanagh | Portfolio</title>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-4 my-4" href="/index.html">
+                <img src="/image/Logo_MK_167x156.png" alt="logo" width="87" height="81"
+                    class="d-inline-block align-text-middle">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mx-5">
+                    <li class="nav-item mx-lg-5 ms-md-0 ms-sm-0">
+                        <a class="nav-link" href="/realisation.html">Réalisation
+                        </a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="/apropos.html">À propos</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- titre section -->
+        <header>
+            <div class="container-fluid">
+                <div class="row mx-3">
+                    <div class="col-xl-12 col-sm-12 col-12">
+                        <h1 class="display-2">Besoin d'un designer ?</h1>
+                        <h2 class="display-6 mb-5">Écrivez-moi. Je suis bien blood. </h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- formulaire -->
+        <form method="GET" class="container-fluid px-5" action="/">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="prenom">Prénom</span>
+                                <input type="text" class="form-control" placeholder="Inscrire votre prénom"
+                                    aria-label="Prenom" aria-describedby="prenom">
+                            </div>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="nom">Nom</span>
+                                <input type="text" class="form-control" placeholder="Inscrire votre nom"
+                                    aria-label="Nom" aria-describedby="nom">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="adresse_courriel">Adresse courriel</span>
+                                <input type="email" class="form-control" placeholder="Inscrire votre adresse courriel"
+                                    aria-label="Courriel" aria-describedby="adresse_courriel">
+                            </div>
+                        </div>
+                        <div class="row"></div>
+                        <div class="col-xl-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="tel">Téléphone</span>
+                                <input type="tel" class="form-control" placeholder="Inscrire votre num. téléphone"
+                                    aria-label="Courriel" aria-describedby="tel">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" for="type_chambre">Sujet</label>
+                                <select class="form-select" id="type_chambre">
+                                    <option selected>Type de projet</option>
+                                    <option value="1">Branding</option>
+                                    <option value="2">Site web</option>
+                                    <option value="3">Imprimé</option>
+                                    <option value="4">Autres</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <h2>Votre message</h2>
+                    <div class="form-outline">
+                        <textarea class="form-control" id="form4Example3" rows="8"></textarea>
+                        <label class="form-label" for="form4Example3"></label>
+                      </div>
+                </div>
+            </div>
+            <input class="btn btn-primary btn-lg d-grid gap-2" type="submit" value="Envoyer">
+        </form>
+    </main>
+<!-- footer -->
+    <footer>
+        <h6 class="text-center py-3">Copyright2021 - Matthew Kavanagh</h6>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

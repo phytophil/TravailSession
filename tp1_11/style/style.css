@@ -1,0 +1,75 @@
+/* Couleur de fond */
+html, .bg-white, .navbar-light, .container-fluid, footer, form{
+    background-color: #FFFDF5;
+}
+/* typographie */
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.display-2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.display-5{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.display-6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+/* navigation */
+a li{
+    color: #231F20 !important;
+}
+a:hover{
+    text-decoration-line: line-through;
+    text-decoration-color: #231F20;
+    color: #231F20 !important;
+}
+/* c.v. */
+.border{
+    border-left: 1px solid #231F20 !important;
+    border-right: 1px solid #231F20 !important;
+}
+.ligne{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #231F20;
+}
+.lien-exp{
+    text-decoration: none;
+    color: #231F20;
+}
+/* formulaire */
+textarea{
+    resize: none;
+}
+.input-group-text{
+    border-radius: 0;
+    background-color: #FFFDF5;
+    border-color: #231F20;
+}
+.form-control, .form-select{
+    border-radius: 0;
+    background-color: #FFFDF5;
+    border-color: #231F20;
+}
+.btn {
+    border-radius: 0;
+    background-color: #FFFDF5;
+    border-color: #231F20;
+    color: #231F20;
+}
+.btn:hover {
+    border-radius: 0;
+    background-color: #231F20;
+    border-color: #231F20;
+    color: #FFFDF5;
+}
