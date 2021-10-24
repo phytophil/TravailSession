@@ -96,6 +96,12 @@ a{
     list-style-type: none;
 }
 
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover, .seven:hover, .eight:hover, .nine:hover,
+.un:hover, .deux:hover, .trois:hover, .quatre:hover, .cinq:hover, .sixx:hover, .sept:hover, .huit:hover, .neuf:hover  {
+    transform: translateX(45px);
+    transition: ease 0.3s all;
+ }
+
 .center {
     text-align: center;
 }
