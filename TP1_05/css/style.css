@@ -55,10 +55,6 @@ section {
     background-color: var(--dark, #0F044C); 
 }
 
-#contact {
-    background-color: var(--mediumLight, #787A91);
-}
-
 h1, h2, h4, h5 {
     color: var(--light, #EEEEEE);
     font-family: var(--base-title-font, 'Raleway', sans-serif);
@@ -89,6 +85,42 @@ a{
     /* background-color: #141E61; */
 }
 
+/********************************* Filtre pour image ***********************************/
+
+.filtre {
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    z-index: 10;
+    color: #fff;
+}
+
+h2{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    z-index: 10;
+    color: #fff;
+}
+
+
+.filtre::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+/********************************* Connaissances Passe-temps ***********************************/
+
+h4{
+    font-size: 32px;
+}
+
 .caract{
     color: var(--light, #EEEEEE);
     font-family: var(--base-title-font, 'Raleway', sans-serif);
@@ -109,7 +141,7 @@ a{
 /************************** Section Caroussel ****************************/
 
 .carousel .carousel-item img{
-    height: 600px;
+    height: 100vh;
     object-fit: cover;
 }
 
@@ -214,4 +246,21 @@ a{
             transform: translateX(-150px);
         }
     }
+
+    h3 {
+        font-size: 3rem!important;
+    }
+
+    h1, h2 {
+        font-size: 1rem!important;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    #contact, #apropos {
+        min-height: 25vh;
+    }
+
 }
