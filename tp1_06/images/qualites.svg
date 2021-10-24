@@ -3,7 +3,7 @@
 <svg version="1.1" id="qualites" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 750 750" style="enable-background:new 0 0 750 750;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#F23D47;}
+	.st0{fill:#F23D47;stroke:#F23D47;stroke-miterlimit:10;}
 </style>
 <g>
 	<g id="Groupe_13" transform="translate(92.913 593.215)">
@@ -174,9 +174,6 @@
 	<g id="Groupe_56" transform="translate(352.594)">
 		<path id="Tracé_63" class="st0" d="M11.7,13.2l10.1-0.3v0.7l-9.3,0.3l0.3,9.5l8.8-0.3v0.7l-8.8,0.3l0.3,9.8l9.3-0.3v0.7
 			l-10.1,0.3L11.7,13.2z"/>
-	</g>
-	<g id="Groupe_57" transform="translate(364.208 192.974)">
-		<path id="Tracé_64" class="st0" d="M11.7,12.9l2.9,0.1v0.3l-2.9-0.1C11.7,13.2,11.7,12.9,11.7,12.9z"/>
 	</g>
 	<g id="Groupe_58" transform="translate(399.944 1.29)">
 		<path id="Tracé_65" class="st0" d="M27,25.2l-13.5-1.5l-1.2,10.6l-0.7-0.1L14,12.9l0.8,0.1l-1.2,9.9l13.5,1.5l1.1-10l0.8,0.1
