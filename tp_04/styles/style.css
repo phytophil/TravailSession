@@ -1,5 +1,16 @@
+.librairie{
+    color: #222831;
+    color: #393E46;
+    color: #FFD369;
+    color: #EEEEEE;
+}
+
 body{
     background-color: #222831;
+    color: #EEEEEE;
+}
+.bg-light {
+    background-color: #FFD369 !important
 }
 
 .facemarcus{
@@ -10,12 +21,34 @@ body{
     min-height: 100vh;
 
 }
-.parcours{
+.intro{
     margin-top: 150px;
 
 }
+
+.btm{
+    border: 1px solid #FFD369;
+    border-radius: 25px;
+    color: #FFD369;
+    background-color: transparent;
+    font-weight: 100;
+}
+
 
 h1, h2, h3 {
     color: #FFD369;
 }
 
+.menu{
+    float: right;
+}
+
+.yellow-stripe{
+    transform: scaleX(-1) scaleY(-1);
+    /* position:absolute; */
+    top: 200px;
+    left: -40px;
+    z-index: -1;
+    opacity: 0.6;
+    position: fixed;
+}
