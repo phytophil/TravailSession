@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  header {
+    position: fixed;
+    padding: 4rem 2rem 0 2rem;
+    margin-left: 4rem;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 80px;
+    color: darkgray;
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color: hotpink;
+  }
+  .nav-link {
+    color: grey;
+  }
+
+.navbar-nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin:0 5px;
+    
+
+
+}
+
+.navbar-nav ul li a{
+    color:white;
+    font-size: 17px;
+    text-transform: uppercase;
+
+}
+
+
+  
+  
+  .container {
+    padding-left: 13%;
+    max-width: 85%;
+  }
+  
+  .container-hero {
+    width: 100%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./img/pexels-karolina-grabowska-4198713.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-image: ;
+    opacity: 0.4;
+  }
+  
+  .container-moi {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .container-moi img {
+    width: 500px;
+    height: 500px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-size: "Roboto Mono", monospace;
+    padding-top: 200px;
+    z-index: 1;
+  }
+  
+  h2 {
+    text-align: right;
+    color: dimgray;
+    font-size: 36px;
+    font-size: "Roboto Mono", monospace;
+  }
+  
+  p {
+    text-align: right;
+    color: honeydew;
+    padding-top: 40px;
+    padding-left: 100px;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  a {
+    color: darkgrey;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: grey;
+  }
+  
+  .grid-container {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  
+    padding-bottom: 30px;
+    height: 100vh;
+    display: grid;
+    grid-gap: 25px 10px;
+    grid-template-columns: repeat(4, calc(30% - 40px));
+    grid-template-rows: repeat(5, 30vh);
+    grid-auto-rows: 20vh;
+  }
+  
+  .grid-container img {
+    width: 100%;
+    height: 300px;
+  }
+  
+  #section3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /*****************************footer************************/
+footer {
+    width:100%;
+     height: 20vh;
+     display: flex;
+     align-items: flex-end;
+    background-color:darkslategray;
+   }
+   
+   footer p {
+     color: gray;
+     font-size: clamp(0.5rem, 1.5vh, 1rem);
+     margin-bottom: 0.5rem;
+   }
+   
+   .coordenes {
+     text-align: center;
+     border-left: 2px solid rgb(167, 168, 167);
+     border-right:2px solid  rgb(167, 168, 167);
+     padding-right: 20px;
+   }
+   
+   .infos-footer {
+    
+     display: flex;
+     align-items: center;
+     padding-bottom: 2rem;
+     color:grey;
+   }
+   
+   
+   
+   .bi-facebook, .bi-instagram, .bi-youtube{
+    color:gray;
+   }
+  .container-footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(48, 47, 47);
+    margin: auto;
+    color: #f8f8f8;
+    padding: 150px 0;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto;
+    margin-left: auto;
+    margin-left: auto;
+  }
+  
+  .ul li a {
+    list-style: none;
+  }
+  
+  .footer-col-4 {
+    width: 25%;
+    list-style: none;
+    align-content: center;
+    padding-left: 350px;
+  }
+  
+  div > h1 {
+    display: none;
+  }
+  
+  div:hover > h1 {
+    display: block;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      position: fixed;
+      border-radius: 0 0 100% 100%;
+      background-position: top;
+      margin-left: 0;
+      padding: 1rem;
+    }
+  
+    .col-4 {
+      width: 100%;
+    }
+  
+    .col-6 {
+      width: 50%;
+    }
+  
+    nav {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  
