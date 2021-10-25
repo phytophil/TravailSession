@@ -40,6 +40,7 @@ p {
 }
 .row{
     margin: auto;
+
 }
 figure {
 	overflow: hidden;
@@ -289,6 +290,19 @@ padding: 10px;
 }
 .card {
     background-color: rgba(128, 128, 128, 0.24);
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    padding: 20px;
+    margin-top:5px;
+    list-style: none;
+}
+.item {
+    padding: 10px;
 }
 .adobe img {
     justify-content: space-between;
