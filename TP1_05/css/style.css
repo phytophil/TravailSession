@@ -24,35 +24,15 @@ header {
     background-color: var(--light, #EEEEEE);
 }
 
-section {
-    min-height: 100vh;
-    background-color: #0F044C;
-}
-
-/************************** Navigation ****************************/
-
-.navbar-nav{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.nav-item{
-    padding: 0 120px 0 120px;
-}
-
-/************************** Sections ****************************/
-
 .container-fluid {
     padding: 0!important;
 }
 
-#apropos {
-    background-color: var(--medium, #141E61);
-}
+/************************** Sections ****************************/
 
-#portfolio {
-    background-color: var(--dark, #0F044C); 
+section {
+    min-height: 100vh;
+    background-color: #0F044C;
 }
 
 h1, h2, h4, h5 {
@@ -82,7 +62,18 @@ a{
 
 .bg-custom{
     background-color: var(--dark, #0F044C);
-    /* background-color: #141E61; */
+}
+
+/************************** Navigation ****************************/
+
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nav-item{
+    padding: 0 120px 0 120px;
 }
 
 /********************************* Filtre pour image ***********************************/
@@ -243,7 +234,7 @@ h4{
     }
 
     h1, h2 {
-        font-size: 1rem!important;
+        font-size: 16px;
     }
 
     h4 {
