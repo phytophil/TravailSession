@@ -106,7 +106,6 @@ h4 {
 .section-hero h1 {
     text-transform: uppercase;
     font-size: 2.3rem;
-    margin-top: 2rem;
 }
 
 .balise-graph {
@@ -122,7 +121,7 @@ h4 {
     color: var(--dark-pink);
 }
 
-/* Navigation */
+/************************************************ Navigation */
 
 .navbar {
     background: var(--gradient-black);
@@ -198,20 +197,24 @@ h4 {
     color: var(--white);
 }
 
-.btn-contact-fix {
+.btn-joindre{
     position: fixed;
-    bottom: 3vh;
-    right: 5vw;
+    bottom: 5vh;
+    right: 3vw;
+    z-index: 20;
+}
+
+.btn-contact-fix {
     background-color: var(--white);
     border-radius: 50px;
     width: 40px;
     height: 40px;
     z-index: 10;
+    margin-bottom: 2vh;
     transition: width 0.5s, height 0.5s, box-shadow 0.5s;
 }
 
 .btn-contact-fix:hover {
-    position: fixed;
     box-shadow: 0px 0px 6px 4px var(--black);
     background-color: var(--light-pink);
     border-radius: 50px;
@@ -222,9 +225,6 @@ h4 {
 }
 
 .btn-linkedin-fix {
-    position: fixed;
-    bottom: 11vh;
-    right: 5vw;
     background-color: var(--white);
     border-radius: 50px;
     width: 40px;
@@ -234,7 +234,6 @@ h4 {
 }
 
 .btn-linkedin-fix:hover {
-    position: fixed;
     box-shadow: 0px 0px 6px 4px var(--black);
     background-color: var(--light-pink);
     border-radius: 50px;
@@ -249,16 +248,14 @@ h4 {
     width: 50px;
 }
 
-/* Groupe photo Maryse Thomassin */
+/************************************************Groupe photo Maryse Thomassin */
 
 .group-photomt {
     position: relative;
-    height: 38vh;
     margin: 2vh 0 2vh 0;
 }
 
 .photo-maryse {
-    position: absolute;
     z-index: 0;
 }
 
@@ -384,7 +381,7 @@ h4 {
     }
 }
 
-/* ligne du temps */
+/*********************************************** ligne du temps */
 
 .ligne-temps {
     border-left: 4px solid var(--dark-pink);
@@ -419,7 +416,7 @@ aside h4, aside p {
     padding: 0 0 0 0;
 }
 
-/* Ensemble logo et qualites */
+/************************************************ Ensemble logo et qualites */
 
 .ensemble-qualites {
     height: 80%;
@@ -431,7 +428,7 @@ aside h4, aside p {
     padding: 0 2rem 0 2rem;
 }
 
-/* animation ensemble qualités */
+/************************************************ animation ensemble qualités */
 
 #anim-qualites {
     -moz-animation: anim-qualites 50s linear infinite;
@@ -448,7 +445,7 @@ aside h4, aside p {
     }
 }
 
-/* Section intérêts */
+/************************************************ Section intérêts */
 
 .interets {
     position: relative;
@@ -506,19 +503,13 @@ footer {
     padding: 2rem 0 2rem 0;
 }
 
-footer p{
-    font-size: 0.7rem ;
+footer p {
+    font-size: 0.7rem;
 }
 
-@media (min-height: 600px), (max-height:800px) {
-    .group-photomt{
-        height: 44vh;
-    }
-}
+/********************************************* Small devices (landscape phones, 480px and up) *********************************************/
 
-/********************************************* Small devices (landscape phones, 576px and up) *********************************************/
-
-@media (min-width: 576px) {
+@media (min-width: 480px) {
     body {
         font-size: 16px;
         line-height: 24px;
@@ -526,39 +517,38 @@ footer p{
     .text-script {
         font-size: 2.75rem;
     }
- 
-    div .qui-suis-je {
-        padding: 2rem;
-    }
+
+    /**********************************************  Connaissances Qui suis-je 480px et plus */
+
+
     .section-connaissances h2, .interets h2 {
         text-transform: none;
         font-size: 3rem;
         margin-bottom: 4rem;
     }
-
-    .section-connaissances h2{
+    .section-connaissances h2 {
         margin-bottom: 2rem;
     }
-
     .section-connaissances h3 {
         font-size: 1.8rem;
     }
-
     .section-connaissances {
         background-position: right;
         background-size: 50%;
         min-height: 50vh;
     }
-
     .big-accolade-mask {
         font-size: 8rem;
         line-height: 10rem;
     }
 
+/**********************************************  Section Qui suis-je 480px et plus */
+
     .big-accolade-closed {
         font-size: 8rem;
         line-height: 10rem;
     }
+
     div .qui-suis-je {
         padding: 2rem;
         border-radius: 2.5rem;
@@ -569,7 +559,6 @@ footer p{
     .presentation-section {
         position: relative;
     }
-
     .timeline-annee {
         height: 20vh;
     }
@@ -577,13 +566,14 @@ footer p{
         margin-top: 6vh;
         margin-bottom: 6vh;
     }
+
+    /**********************************************  Section interets 480px et plus */
     .courbe-titres {
         position: absolute;
         right: -2vw;
         top: 12vh;
         z-index: 0;
     }
-
     .interets p {
         font-size: 1.25rem;
         line-height: 2.25rem;
@@ -611,7 +601,7 @@ footer p{
 /********************************************* Medium devices (tablets, 768px and up) *********************************************/
 
 @media (min-width: 768px) {
-    /* Navigation */
+    /**********************************************  Navigation */
     .navbar-nav {
         flex-direction: row;
     }
@@ -647,31 +637,27 @@ footer p{
     .split-btn {
         padding: 0 1rem 0 1rem;
     }
-
     .btn-contact-fix {
         bottom: 5vh;
         right: 3vw;
         width: 50px;
         height: 50px;
     }
-
     .btn-linkedin-fix {
         bottom: 13vh;
         right: 3vw;
         width: 50px;
         height: 50px;
     }
-
-    .btn-contact-fix:hover, .btn-linkedin-fix:hover{
+    .btn-contact-fix:hover, .btn-linkedin-fix:hover {
         width: 60px;
         height: 60px;
     }
-
     .btn-contact-fix:hover, .btn-linkedin-fix:hover {
-        width:50px;
-        height:50px;
+        width: 50px;
+        height: 50px;
     }
-    /* Styles typographique */
+    /**********************************************  Styles typographique */
     .text-script {
         font-size: 4rem;
         line-height: 6rem;
@@ -683,43 +669,36 @@ footer p{
         font-size: 2rem;
         line-height: 3.6rem;
     }
-
     h4 {
         font-size: 1.15rem;
     }
-
     .section-hero h1 {
         font-size: 2.5rem;
     }
     .balise-graph {
         font-size: 2.5rem;
     }
-
     .big-accolade-mask {
         font-size: 9rem;
         line-height: 10rem;
     }
-
     .big-accolade-closed {
         font-size: 8rem;
         line-height: 10rem;
     }
-
-        /* Ensemble logo et qualites */
-        .ensemble-qualites {
-            height: 80%;
-            left: -5vw;
-            z-index: -10;
-        }
-        .logo-qualites, .qualites {
-            position: absolute;
-            left: -5vw;
-        }
-
-        .section-connaissances h3 {
-            font-size: 1.9rem;
-        }
-
+    /**********************************************  Ensemble logo et qualites */
+    .ensemble-qualites {
+        height: 80%;
+        left: -5vw;
+        z-index: -10;
+    }
+    .logo-qualites, .qualites {
+        position: absolute;
+        left: -5vw;
+    }
+    .section-connaissances h3 {
+        font-size: 1.9rem;
+    }
     .section-connaissances h2, .interets h2 {
         font-size: 3rem;
         margin-bottom: 8rem;
@@ -728,11 +707,9 @@ footer p{
     .section-connaissances h2 {
         margin-bottom: 2rem;
     }
-
     .section-connaissances {
         background-size: 70%;
     }
-    
 }
 
 /********************************************* Media queries Large devices (desktops, 992px and up)*********************************************/
@@ -768,9 +745,6 @@ footer p{
         padding-bottom: 6vh;
     }
 
-    .group-photomt {
-        height: 38vh;
-    }
     .section-connaissances h2, .interets h2 {
         font-size: 4rem;
         margin-bottom: 5rem;
@@ -779,16 +753,13 @@ footer p{
     .section-connaissances h2 {
         margin-bottom: 2rem;
     }
-
     .section-connaissances h3 {
         font-size: 2.5rem;
     }
-
-  .big-accolade-mask {
+    .big-accolade-mask {
         font-size: 10rem;
         line-height: 10rem;
     }
-
     .interets {
         padding: 8vh 0 0 0;
     }
@@ -804,7 +775,6 @@ footer p{
     h1 {
         font-size: 5rem;
     }
- 
     h3 {
         font-size: 2rem;
     }
@@ -819,9 +789,9 @@ footer p{
         line-height: 20rem;
         padding-bottom: 6vh;
     }
-    .group-photomt {
+    /* .group-photomt {
         height: 45vh;
-    }
+    } */
     .section-connaissances h2, .interets h2 {
         font-size: 5rem;
         margin-bottom: 4rem;
@@ -829,8 +799,7 @@ footer p{
     .section-connaissances h2 {
         margin-bottom: 2rem;
     }
-
-    .section-interets-arts-1, .section-interets-arts-2{
+    .section-interets-arts-1, .section-interets-arts-2 {
         height: 90vh;
     }
 }
@@ -845,7 +814,6 @@ footer p{
     h1 {
         font-size: 5rem;
     }
-   
     .balise-graph {
         font-size: 4rem;
     }
@@ -854,14 +822,78 @@ footer p{
         line-height: 20rem;
         padding-bottom: 6vh;
     }
-    .group-photomt {
+    /* .group-photomt {
         height: 45vh;
-    }
+    } */
     .section-connaissances h2, .interets h2 {
         font-size: 6rem;
         margin-bottom: 8rem;
     }
     .section-connaissances h2 {
         margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .section-hero {
+        height: auto;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    .presentation-section, .interets {
+        position: relative;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .section-hero {
+        height: auto;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    .section-connaissances {
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .balise-graph, h1{
+font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 0.75rem;
+    }
+
+    .big-accolade-closed {
+        font-size: 7rem;
+    }
+
+    .section-hero h1{
+        font-size: 1.85rem;
+    }
+
+    .text-script, .section-connaissances h2, .interets h2{
+        font-size: 2.5rem;
+    }
+
+    .section-connaissances h3{
+    font-size: 1rem;
+    }
+
+    .section-connaissances .col-10{
+        width: 83.33%;
+    }
+
+    .section-interets-arts-1 h2, .section-interets-arts-2 h2{
+        font-size: 1.25rem;
     }
 }
