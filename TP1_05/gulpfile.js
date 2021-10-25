@@ -14,6 +14,6 @@ gulp.task('useref', function(){
       .pipe(useref())
       //.pipe(gulpIf('*.js', uglify()))
       // Minifies only if it's a CSS file
-      .pipe(gulpIf('/TP1_05/*.css', cssnano()))
+      .pipe(gulpIf('/TP1_05/css/*.css', cssnano()))
       .pipe(gulp.dest('/TP1_05/dist'))
   });
