@@ -77,19 +77,19 @@ h2 {
     font-family: 'Birthstone Bounce', cursive;
     text-transform: none;
     font-size: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     z-index: 1;
 }
 
 .section-connaissances h2 {
     color: var(--light-pink);
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
 }
 
 h3 {
     color: var(--light-pink);
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 h4 {
@@ -128,7 +128,7 @@ h4 {
     background: var(--gradient-black);
 }
 
-.navbar a{
+.navbar a {
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
@@ -151,11 +151,10 @@ h4 {
     flex-direction: row;
 }
 
-.offcanvas-header{
+.offcanvas-header {
     align-items: flex-start;
     padding-top: 2rem;
 }
-
 
 .offcanvas-end {
     top: 0;
@@ -183,11 +182,11 @@ h4 {
     color: var(--black);
 }
 
-.btn-group, .btn-group-vertical{
-    display:block; 
+.btn-group, .btn-group-vertical {
+    display: block;
 }
 
-.dropdown-toggle{
+.dropdown-toggle {
     padding: 0;
 }
 
@@ -205,8 +204,8 @@ h4 {
     right: 5vw;
     background-color: var(--white);
     border-radius: 50px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     z-index: 10;
     transition: width 0.5s, height 0.5s, box-shadow 0.5s;
 }
@@ -216,8 +215,8 @@ h4 {
     box-shadow: 0px 0px 6px 4px var(--black);
     background-color: var(--light-pink);
     border-radius: 50px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     z-index: 10;
     transition: width 0.5s, height 0.5s, box-shadow 0.5s;
 }
@@ -228,8 +227,8 @@ h4 {
     right: 5vw;
     background-color: var(--white);
     border-radius: 50px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     z-index: 10;
     transition: width 0.5s, height 0.5s, box-shadow 0.5s;
 }
@@ -239,8 +238,8 @@ h4 {
     box-shadow: 0px 0px 6px 4px var(--black);
     background-color: var(--light-pink);
     border-radius: 50px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     z-index: 10;
     transition: width 0.5s, height 0.5s, box-shadow 0.5s;
 }
@@ -286,7 +285,7 @@ h4 {
     background-image: url(/tp1_06/images/illustration-connaissances.svg);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: contain;
+    background-size: 90%;
     min-height: 50vh;
 }
 
@@ -507,150 +506,59 @@ footer {
     padding: 2rem 0 2rem 0;
 }
 
-/* Small devices (landscape phones, 576px and up) */
+footer p{
+    font-size: 0.7rem ;
+}
+
+@media (min-height: 600px), (max-height:800px) {
+    .group-photomt{
+        height: 44vh;
+    }
+}
+
+/********************************************* Small devices (landscape phones, 576px and up) *********************************************/
 
 @media (min-width: 576px) {
     body {
-        font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         line-height: 24px;
-        background-color: var(--black);
-        color: var(--white);
     }
-
-
-    /* Navigation */
-
-
-.navbar-nav {
-    flex-direction: row;
-}
-
-.navbar a{
-    font-size: 1rem;
-}
-
-.offcanvas {
-    flex-direction: row;
-}
-
-.offcanvas-header{
-    align-items: center;
-    padding-top: 1rem;
-}
-
-.offcanvas-end {
-    top: 0;
-    right: 0;
-    width: 1000px;
-    height: 70px;
-    border-radius: 0 0 0 50px;
-    border-left: none;
-    transform: translateX(100%);
-}
-
-
-.dropend .dropdown-menu[data-bs-popper] {
-    display: inline-flex;
-}
-
-.dropdown-menu {
-    min-width: 4rem;
-    background-color: #ffffff00;
-    border: none;
-}
-
-.dropdown-menu a, nav .btn:hover {
-    color: var(--black);
-}
-
-.dropdown-toggle{
-    padding: 0.4rem;
-}
-
-.split-btn {
-    padding: 0 1rem 0 1rem;
-}
-
-.btn-contact-fix {
-    position: fixed;
-    bottom: 5vh;
-    right: 3vw;
-    background-color: var(--white);
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    z-index: 10;
-    transition: width 0.5s, height 0.5s, box-shadow 0.5s;
-}
-
-.btn-contact-fix:hover {
-    position: fixed;
-    box-shadow: 0px 0px 6px 4px var(--black);
-    background-color: var(--light-pink);
-    border-radius: 50px;
-    width: 60px;
-    height: 60px;
-    z-index: 10;
-    transition: width 0.5s, height 0.5s, box-shadow 0.5s;
-}
-
-.btn-linkedin-fix {
-    position: fixed;
-    bottom: 13vh;
-    right: 3vw;
-    background-color: var(--white);
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    z-index: 10;
-    transition: width 0.5s, height 0.5s, box-shadow 0.5s;
-}
-
-.btn-linkedin-fix:hover {
-    position: fixed;
-    box-shadow: 0px 0px 6px 4px var(--black);
-    background-color: var(--light-pink);
-    border-radius: 50px;
-    width: 60px;
-    height: 60px;
-    z-index: 10;
-    transition: width 0.5s, height 0.5s, box-shadow 0.5s;
-}
-
-.btn-linkedin-fix a {
-    color: var(--dark-pink);
-    width: 50px;
-}
-
-
+    .text-script {
+        font-size: 2.75rem;
+    }
+ 
     div .qui-suis-je {
         padding: 2rem;
     }
     .section-connaissances h2, .interets h2 {
         text-transform: none;
         font-size: 3rem;
-        margin-bottom: 8rem;
+        margin-bottom: 4rem;
+    }
+
+    .section-connaissances h2{
+        margin-bottom: 2rem;
     }
 
     .section-connaissances h3 {
-        font-size: 3rem;
+        font-size: 1.8rem;
     }
+
     .section-connaissances {
         background-position: right;
-        background-size: 70%;
+        background-size: 50%;
         min-height: 50vh;
     }
+
     .big-accolade-mask {
-        font-size: 10rem;
-        line-height: 10rem;    
+        font-size: 8rem;
+        line-height: 10rem;
     }
 
     .big-accolade-closed {
-    font-size: 8rem;
-    line-height: 10rem;
-}
-
+        font-size: 8rem;
+        line-height: 10rem;
+    }
     div .qui-suis-je {
         padding: 2rem;
         border-radius: 2.5rem;
@@ -658,21 +566,10 @@ footer {
     .qui-suis-je h2 {
         font-size: 2.8rem;
     }
-
     .presentation-section {
         position: relative;
     }
-    /* Ensemble logo et qualites */
-    .ensemble-qualites {
-        height: 80%;
-        position: absolute;
-        left: -5vw;
-        z-index: -10;
-    }
-    .logo-qualites, .qualites {
-        position: absolute;
-        left: -5vw;
-    }
+
     .timeline-annee {
         height: 20vh;
     }
@@ -686,51 +583,94 @@ footer {
         top: 12vh;
         z-index: 0;
     }
-    .interets {
-        padding: 8vh 0 0 0;
-    }
+
     .interets p {
         font-size: 1.25rem;
         line-height: 2.25rem;
         margin-bottom: 4rem;
     }
-
     .fond-degrade {
         padding-top: 2rem;
         height: 15vh;
     }
-
     .section-interets-arts-1 h2, .section-interets-arts-2 h2 {
         margin-right: 2rem;
     }
     .section-interets-arts-1 {
-        background-image: url(/tp1_06/images/toile-foret-enchantee-oeuvre-MaryseThomassin.jpg);
-        background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
         background-position-x: center;
-        height: 80vh;
+        height: 70vh;
     }
     .section-interets-arts-2 {
-        background-image: url(/tp1_06/images/toile_hibou_Maryse_thomassin.jpeg);
-        background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
-        height: 80vh;
+        height: 70vh;
         background-position-x: center;
-    }
-    h4 {
-        font-size: 1.15rem;
-        font-weight: 200;
-        color: var(--light-pink);
     }
 }
 
-
-
-/* Medium devices (tablets, 768px and up) */
+/********************************************* Medium devices (tablets, 768px and up) *********************************************/
 
 @media (min-width: 768px) {
+    /* Navigation */
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar a {
+        font-size: 1rem;
+    }
+    .offcanvas {
+        flex-direction: row;
+    }
+    .offcanvas-header {
+        align-items: center;
+        padding-top: 1rem;
+    }
+    .offcanvas-end {
+        top: 0;
+        right: 0;
+        width: 1000px;
+        height: 70px;
+        border-radius: 0 0 0 50px;
+        border-left: none;
+        transform: translateX(100%);
+    }
+    .dropend .dropdown-menu[data-bs-popper] {
+        display: inline-flex;
+    }
+    .dropdown-menu {
+        min-width: 4rem;
+        border: none;
+    }
+    .dropdown-toggle {
+        padding: 0.4rem;
+    }
+    .split-btn {
+        padding: 0 1rem 0 1rem;
+    }
+
+    .btn-contact-fix {
+        bottom: 5vh;
+        right: 3vw;
+        width: 50px;
+        height: 50px;
+    }
+
+    .btn-linkedin-fix {
+        bottom: 13vh;
+        right: 3vw;
+        width: 50px;
+        height: 50px;
+    }
+
+    .btn-contact-fix:hover, .btn-linkedin-fix:hover{
+        width: 60px;
+        height: 60px;
+    }
+
+    .btn-contact-fix:hover, .btn-linkedin-fix:hover {
+        width:50px;
+        height:50px;
+    }
     /* Styles typographique */
     .text-script {
         font-size: 4rem;
@@ -743,6 +683,11 @@ footer {
         font-size: 2rem;
         line-height: 3.6rem;
     }
+
+    h4 {
+        font-size: 1.15rem;
+    }
+
     .section-hero h1 {
         font-size: 2.5rem;
     }
@@ -750,39 +695,52 @@ footer {
         font-size: 2.5rem;
     }
 
-    .big-accolade-closed {
-        font-size: 10rem;
+    .big-accolade-mask {
+        font-size: 9rem;
         line-height: 10rem;
     }
 
+    .big-accolade-closed {
+        font-size: 8rem;
+        line-height: 10rem;
+    }
+
+        /* Ensemble logo et qualites */
+        .ensemble-qualites {
+            height: 80%;
+            left: -5vw;
+            z-index: -10;
+        }
+        .logo-qualites, .qualites {
+            position: absolute;
+            left: -5vw;
+        }
+
+        .section-connaissances h3 {
+            font-size: 1.9rem;
+        }
+
     .section-connaissances h2, .interets h2 {
-        color: var(--black);
-        font-family: 'Birthstone Bounce', cursive;
-        text-transform: none;
         font-size: 3rem;
         margin-bottom: 8rem;
         z-index: 1;
     }
     .section-connaissances h2 {
-        color: var(--light-pink);
         margin-bottom: 2rem;
     }
 
+    .section-connaissances {
+        background-size: 70%;
+    }
+    
 }
 
-/* @media (max-width: 992px) {
-    .presentation-section {
-        height: 180vh;
-    } */
-
-/* Media queries Large devices (desktops, 992px and up)*/
+/********************************************* Media queries Large devices (desktops, 992px and up)*********************************************/
 
 @media (min-width: 992px) {
-
     section {
         height: 100vh;
     }
-
     .text-script {
         font-size: 5.5rem;
         line-height: 8.25rem;
@@ -798,9 +756,6 @@ footer {
     h3 {
         font-size: 1.7rem;
     }
-    .qui-suis-je h2 {
-        color: var(--black);
-    }
     .section-hero h1 {
         font-size: 3.5rem;
     }
@@ -813,27 +768,33 @@ footer {
         padding-bottom: 6vh;
     }
 
-
-
-
     .group-photomt {
         height: 38vh;
     }
     .section-connaissances h2, .interets h2 {
-        color: var(--black);
-        font-family: 'Birthstone Bounce', cursive;
-        text-transform: none;
         font-size: 4rem;
-        margin-bottom: 8rem;
+        margin-bottom: 5rem;
         z-index: 1;
     }
     .section-connaissances h2 {
-        color: var(--light-pink);
         margin-bottom: 2rem;
+    }
+
+    .section-connaissances h3 {
+        font-size: 2.5rem;
+    }
+
+  .big-accolade-mask {
+        font-size: 10rem;
+        line-height: 10rem;
+    }
+
+    .interets {
+        padding: 8vh 0 0 0;
     }
 }
 
-/* X-Large devices (large desktops, 1200px and up) */
+/********************************************* X-Large devices (large desktops, 1200px and up) *********************************************/
 
 @media (min-width: 1200px) {
     .text-script {
@@ -843,18 +804,12 @@ footer {
     h1 {
         font-size: 5rem;
     }
-    h2 {
-        font-size: 3rem;
-        line-height: 3.6rem;
-    }
+ 
     h3 {
         font-size: 2rem;
     }
-    .qui-suis-je h2 {
-        color: var(--black);
-    }
     .section-hero h1 {
-        font-size: 4.5rem;
+        font-size: 5rem;
     }
     .balise-graph {
         font-size: 4rem;
@@ -864,26 +819,23 @@ footer {
         line-height: 20rem;
         padding-bottom: 6vh;
     }
-
-
     .group-photomt {
         height: 45vh;
     }
     .section-connaissances h2, .interets h2 {
-        color: var(--black);
-        font-family: 'Birthstone Bounce', cursive;
-        text-transform: none;
         font-size: 5rem;
-        margin-bottom: 8rem;
-        z-index: 1;
+        margin-bottom: 4rem;
     }
     .section-connaissances h2 {
-        color: var(--light-pink);
         margin-bottom: 2rem;
+    }
+
+    .section-interets-arts-1, .section-interets-arts-2{
+        height: 90vh;
     }
 }
 
-/* XX-Large devices (larger desktops, 1400px and up) */
+/********************************************* XX-Large devices (larger desktops, 1400px and up) *********************************************/
 
 @media (min-width: 1400px) {
     .text-script {
@@ -893,19 +845,7 @@ footer {
     h1 {
         font-size: 5rem;
     }
-    h2 {
-        font-size: 3rem;
-        line-height: 3.6rem;
-    }
-    h3 {
-        font-size: 2rem;
-    }
-    .qui-suis-je h2 {
-        color: var(--black);
-    }
-    .section-hero h1 {
-        font-size: 4.5rem;
-    }
+   
     .balise-graph {
         font-size: 4rem;
     }
@@ -918,15 +858,10 @@ footer {
         height: 45vh;
     }
     .section-connaissances h2, .interets h2 {
-        color: var(--black);
-        font-family: 'Birthstone Bounce', cursive;
-        text-transform: none;
         font-size: 6rem;
         margin-bottom: 8rem;
-        z-index: 1;
     }
     .section-connaissances h2 {
-        color: var(--light-pink);
         margin-bottom: 2rem;
     }
 }
