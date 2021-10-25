@@ -37,6 +37,13 @@ p {
     margin-right: -15px;
     margin-left: -15px;
 }
+figure {
+	overflow: hidden;
+}
+span{
+    color: #fff;
+    opacity: 0;
+}
 /*MENU*/
 
 .menu{
@@ -122,6 +129,23 @@ p {
 	animation: float 2s ease-in-out infinite;
     z-index: -1;
 }
+/*SECTION 6*/
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.8);
+	transform: scale(1.8);
+}
+.hover01{
+    background-color: antiquewhite;
+}
+
+
 @media (max-width: 576px) {
     .section-2 p {
         font-size: 0.9rem;
@@ -336,16 +360,8 @@ display: flexbox;
 }
 
 /*SECTION 6*/
-.item-box {
-    width: 191px;
-    height: 191px;
-    background-image: url(./Img/b_02.jpg);
-}
-.item-box :hover {
-    width: 191px;
-    height: 191px;
-    background-image: url(./Img/b_01.jpg);
-}
+
+
 /*FOOTER*/
 .bg-footer{
     background: #ffffff;
