@@ -9,11 +9,14 @@ gulp.task('hello', function(){
     console.log('Hello Zell');
 });
 
-gulp.task('cssjs', function(){
-    return gulp.src('app/*.html')
+
+gulp.task('cssjs', function() {
+    
+    return gulp.src('/app/*.html')
       .pipe(useref())
       //.pipe(gulpIf('*.js', uglify()))
       // Minifies only if it's a CSS file
       .pipe(gulpIf('*.css', cssnano()))
-      .pipe(gulp.dest('dist'))
+      .pipe(gulp.dest('dist'));
+      console.log(gulp);
   });
