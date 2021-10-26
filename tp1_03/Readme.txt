@@ -16,4 +16,6 @@ Logos :
 <a href="https://iconscout.com/icons/mailchimp" target="_blank">Mailchimp Logo Icon</a> by <a href="https://iconscout.com/contributors/jagathish" target="_blank">Jagathish Saravanan</a>
 <a href="https://iconscout.com/icons/canva" target="_blank">Canva Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank">Icon Mafia</a>
 <a href="https://iconscout.com/icons/joomla" target="_blank">Joomla Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">Iconscout</a>
+<a href="https://iconscout.com/icons/facebook" target="_blank">Facebook Logo Icon</a> by <a href="https://iconscout.com/contributors/pixel-icons">Pixel Icons</a> on <a href="https://iconscout.com">Iconscout</a>
+<a href="https://iconscout.com/icons/instagram" target="_blank">Instagram Logo Icon</a> by <a href="https://iconscout.com/contributors/stonehub">Stone Hub</a> on <a href="https://iconscout.com">Iconscout</a>
 <a href="https://iconscout.com/icons/figma" target="_blank">Figma Icon</a> by <a href="https://iconscout.com/contributors/flatstudio-lda" target="_blank">Flatstudio, LDA</a>
