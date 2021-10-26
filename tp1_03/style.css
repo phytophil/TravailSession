@@ -294,8 +294,6 @@ padding: 10px;
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    
-    /* Then we define how is distributed the remaining space */
     justify-content: space-around;
     padding: 20px;
     margin-top:5px;
