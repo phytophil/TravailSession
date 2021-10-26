@@ -328,11 +328,13 @@ li.nav-item-1 {
 .item-texte:first-child {
     grid-column: span 3;
     grid-row: span 1;
+    margin: 0 0 4rem;
 }
 
 .item-texte:nth-child(2) {
-    grid-column: span 2;
+    grid-column: span 3;
     grid-row: span 1;
+    padding-right: 120px;
 }
 
 .item-texte:nth-child(3) {
@@ -365,6 +367,34 @@ p {
     font-weight: 300;
     font-size: 1rem;
     color: #003B55;
+}
+
+.intro-1 {
+    margin: 3.5rem 0 0;
+}
+
+.item-texte ul {
+    padding: 0;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.libel-1 {
+    margin: 23px 0 6px;
+}
+
+h5 {
+    font-size: 1rem;
+    margin: 4px 0 0;
+}
+
+li.contenu-t {
+    font-size: 1rem;
+    font-weight: 500;
+    list-style-type: upper-latin;
 }
 
 /* Section du portfolio avec CSS grid */
