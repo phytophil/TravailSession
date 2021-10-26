@@ -1,0 +1,14 @@
+{
+  "name": "tp1_06",
+  "version": "1.0.0",
+  "description": "Remise du Travail Pratique #1",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
