@@ -20,7 +20,7 @@ h1, h2, h3 {
 }
 
 #accueil{
-    min-height: 80vh;
+    min-height: 30vh;
 
 }
 
@@ -109,21 +109,21 @@ h1, h2, h3 {
 }
 
 .galerie-title {
-    font-size: 10vh;
+    font-size: 6vw;
     line-height: 8rem;
     
     text-align: right;
 }
 
 .parcours-title{
-    font-size: 10vh;
-    line-height: 8rem;
+    font-size: 6vw;
+    line-height: 7vh;
     
    
 }
 
 .title{
-    font-size: 15vh;
+    font-size: 9vw;
     line-height: 6.5rem;
 }
 
@@ -231,43 +231,13 @@ h1, h2, h3 {
         margin-top: 25rem;
     }
 
-    .site-footer{
-        margin-top: 20px;
-    }
-
-  .margin-forced-top {
-    margin-top: 1rem
-  }
-
-  .galerie-title{
-    font-size: 8vh;
-    line-height: 4.5rem;
-  }
-
-  .title{
-    font-size: 8vh;
-    line-height: 4.5rem;
-  }
-
-  .parcours-title{
-    font-size: 5vh;
-    line-height: 3rem;
-  }  
-   
+    
 }
+@media screen and (max-width: 810px){
 
-
-@media (max-width: 810px){
-
-    .title{
-        font-size: 8vh;
-    line-height: 4.5rem;
+  .facemarcus{
+    width: 70%;
     }
-
-     .parcours-title{
-    font-size: 5vh;
-    line-height: 3rem;
-  }  
 
 }
 
