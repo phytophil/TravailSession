@@ -7,14 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/tp_04/styles/style.css">
     <title>Marcus Lima | Porfolio Design Web</title>
 </head>
 
 <body>
-
-    <header>
-
+    <header class=" sticky-top">
         <nav class="navbar navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
@@ -31,7 +34,7 @@
                                 <a class="nav-link" aria-current="page" href="#accueil">Accueil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">English</a>
@@ -44,25 +47,379 @@
     </header>
     <section id="accueil">
         <div class="container">
-            <div class="intro row">
-                <div class="col-6 my-5 text-center">
+            <div class="row my-5">
+                <div class="col-6 text-center">
                     <img class="facemarcus" src="/tp_04/images/marcus_face_circle.png" alt="">
                 </div>
-                <div class="col-6 my-5">
-                    <h2 class="display-2">
+                <div class="col-6">
+                    <h2 class="title">
                         Salut, je m'appelle Marcus.
                     </h2>
-                    <h4 class="display-6">Créatif du numérique</h4>
-                    <button type="button" class="btm px-4 py-2 my-5">C'est qui lui?</button>
+                    <h2 class="display-6">Créatif du numérique</h2>
+                    <hr>
+                    <p class="leadtext"> Allo! je m'apelle Marcus, je viens du Brésil et j'habite au Québec il y a plus
+                        de six ans.
+                        Je suis étudiant en intégration et design web au Cégep Garneau présentement. <br><br> J'ai eu
+                        une
+                        vaste expérience en communication numérique et plus récement dans l'industrie du jeu vidéo comme
+                        artiste d'environnement 3d.
+                      
                 </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <img class="yellow-stripe" src="/tp_04/images/wave_1.png" alt="">
             </div>
         </div>
     </section>
+    <section id="surmoi">
+        <div class="container">
+            <h3 class="parcours-title">Mon parcours</h3>
+            <div class="row my-4">
+                <div class="col-4 ">
+                    <img class="mx-auto d-block" src="/tp_04/images/university_icon.png" height="300" alt="">
+                </div>
+                <div class="col-8">
+                    <h2>Université</h2>
+                    <p class="timelinetext p-3">
+                        Diplomé en communication et publicité en 2013, à Porto Alegre (Brésil). <br>
+                        <br> À l'université j'ai eu l'opportunité
+                        de faire un stage en tant que rédacteur publicitaire dans l'agence interne de l'université et
+                        expérimenter
+                        aussi travailler en organisation et réalisation d'événements (Festival de films super-8, Set
+                        Universitaire, entre autres). <br>
+                    </p>
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-8">
+                    <h2>Expérience en Web</h2>
+                    <p class=" timelinetext p-3">
+                        Pendant des années, j'étais responsable de développer des stratégies en communication numérique
+                        et
+                        multimédia dans une chaîne de télévision spécialisée dans le secteur agroalimentaire au Brésil.
+                        Mon rôle
+                        était de créer un lien entre le public et les journalistes en faisant des actions d’interactions
+                        dans les médias
+                        sociaux, créer et éditer des contenus audiovisuels, adapter les contenus de la télé aux
+                        différentes
+                        plateformes numériques et proposer des idées et solutions aux projets. <br> <br> Dans ce poste
+                        j’ai été invité à
+                        développer l’identité numérique de l’entreprise, l’interactivité sur diverses plateformes (télé,
+                        web, mobile)
+                        pour augmenter l’engagement social de la marque et optimiser la performance de la compagnie sur
+                        le web. </p>
+                </div>
+                <div class="col-4">
+                    <img class="mx-auto d-block" src="/tp_04/images/social_icon.png" height="300" alt="">
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-4">
+                    <img class="mx-auto d-block" src="/tp_04/images/mktg_icon.png" height="300" alt="">
+                </div>
+                <div class="col-8">
+                    <h2>Marketing politique</h2>
+                    <p class="timelinetext p-3">
+                        J'ai également eu l'opportunité de travailler dans le marketing web d'une campagne electorale au
+                        Brésil. <br>
+                        <br> J'étais responsable de mesurer sur les médias sociaux le sentiment des electeurs et faire
+                        le rapport
+                        au candidat et son équipe de Marketing pour ajuster le discours du candidat lors des débats et
+                        tout au long de la campagne.
+                    </p>
+
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-8 ">
+                    <h2>Industrie du jeu vidéo</h2>
+                    <p class="timelinetext p-3">
+                        Quand j'ai démenagé au Québec j'ai décider de construire un plan B dans ma carrière. Je n'avais
+                        pas un niveau de français que je jugeais necéssaire
+                        pour travailler en web ou communication. Alors, je suis allé au Collège Bart pour étudier
+                        modélisation 3D. <br> <br> J'ai travaillé dans un studio de réalité virtuelle et augmenté et
+                        ensuite chez Beenox comme artiste d'evironnement 3D.
+                        <br> <br> J'ai participé de plusieurs jeux et franchises connus, comme Crash Team Racing, Call
+                        of Duty et Tony Hawks.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img class="mx-auto d-block" src="/tp_04/images/game_icon.png" height="300" alt="">
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-4 ">
+                    <img class="mx-auto d-block" src="/tp_04/images/html_icon.png" height="300" alt="">
+                </div>
+                <div class="col-8">
+                    <h2>Design et Intégration Web</h2>
+                    <p class="timelinetext p-3">
+                        La pandémie m'a fait répenser ma carrière et retourner dans mon plan A, revenir à mes amours: le
+                        web,
+                        le design, les gens, la communication.
+                        Maintenant plus dans la partie de Design UI/UX et intégration web. <br><br>
+                        Je suis présentement une formation d'actualisation de compétences au Cégep Garneau et je cherche
+                        un stage pour commencer en décemebre </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <h3 class="parcours-title">Mes expériences</h3>
+        <div class="row">
+            <article class=" col-lg-6">
+                <div class="timelinetext">
+                    <div class="exp">
+                        <h2 class="display-4">Artiste d’environnement 3D - Beenox Inc. | Québec, QC</h2>
+                        <h4 class="display-3">2019 - 2020</h4>
+                        <ul>
+                            <li>Modélisation de props 3D pour jeu vidéo</li>
+                            <li>Création de texture, LoDs et optimisation de props</li>
+                            <li>Intégrer et habiller les niveaux dans un engin de jeu</li>
+                            <li>Planification des tâches hebdomadaires </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timelinetext">
+                    <div class="exp">
+                        <h2 class="display-4">Artiste 3D - Studio Altkey | Québec, QC</h2>
+                        <h4 class="display-3">2016 - 2018</h4>
+                        <ul>
+                            <li>Modéliser et texturer des éléments 3d pour la réalité virtuelle et augmentée selon
+                                les contraintes techniques</li>
+                            <li>Intégration et habillement des niveaux</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timelinetext">
+                    <div class="exp">
+                        <h2 class="display-4">Conseiller en communication numérique - Canal Rural | Brésil</h2>
+                        <h4 class="display-3">2013 - 2014</h4>
+                        <ul>
+                            <li>Développer l’interactivité sur diverses plateformes (télé, web, mobile)</li>
+                            <li>Élaborer des stratégies numériques pour l’activation de la marque sur le web</li>
+                            <li>Rédiger des rapports mensuels et des bilans sur les actions de marketing numérique</li>
+                            <li>Contacter des fournisseurs de développement web pour la création de nouveaux
+                                outils interactifs</li>
+                            <li>Proposer, améliorer et éditer des vidéos pour le site web</li>
+                            <li>Être à l’affût des nouvelles technologies numériques</li>
+                            <li>Gestion de communauté</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="col-lg-6">
+                <div class="timelinetext">
+                    <div class="exp">
+                        <h2 class="display-4">Analyste de données et stratégie numérique - Élections | Brésil</h2>
+                        <h4 class="display-3">2012 - 2013</h4>
+                        <ul>
+                            <li>Responsable de la collecte, de l’organisation, de l’analyse, du partage et du suivi de
+                                l’information pour soutenir les actions de marketing web et l’engagement social</li>
+                            <li>Transformation de données brutes en informations significatives et utiles afin d’ajuster
+                                la direction de la campagne électorale sur Internet</li>
+                            <li>Rédaction de rapports</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timelinetext">
+                    <div class="exp">
+                        <h2 class="display-4">Assistant multimédia - Canal Rural | Brésil</h2>
+                        <h4 class="display-3">2010 - 2012</h4>
+                        <ul>
+                            <li>Éditer des vidéos et des images pour le contenu web</li>
+                            <li>Intégration de contenu sur les sites</li>
+                            <li>Développer des stratégies publicitaires pour le secteur agroalimentaire (application
+                                mobile)</li>
+                            <li>Adapter le contenu de la télé pour le web (vulgarisation de contenu)</li>
+                            <li>Élaborer des actions promotionnelles en partenariat avec des marques du secteur
+                                agro pour développer des nouveaux projets d’engagement</li>
+                            <li>Création de contenu visuel</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timelinetext">
+                    <div class="exp">
+                        <h2 class="display-4">Organisation d’événements culturels - Ministère de la Culture | Brésil
+                        </h2>
+                        <h4 class="display-3">2008 - 2010</h4>
+                        <ul>
+                            <li>Aider à l’organisation de festivals de cinéma, d’expositions et de la vidéo-installation
+                            </li>
+                            <li>Administrer la banque de données des artistes et fournisseurs</li>
+                            <li>Traduire les contrats des artistes, archiver et cataloguer les films et les documents de
+                                chaque événement</li>
+                            <li>Rédiger les synopis des films à l’affiche et étiqueter le materiel filmographique</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row my-5">
+            <div class="col-lg-6">
+                <h3 class="parcours-title">Mes formations</h1>
+                    <div class="timelinetext">
+                        <div class="exp">
+                            <h4 class="display-3">Cac en Design et Intégration Web</h4>
+                            <p>Cégep Garneau, Quebec - QC </p>
+                            <h4 class="display-3">AEC en Animation et Nouveaux Médias</h4>
+                            <p>Collège Bart, Quebec - QC </p>
+                            <h4 class="display-3">Modélisation 3D</h4>
+                            <p>Faculdade Méliès, São Paulo - Brésil </p>
+                            <h4 class="display-3">BAC en Communication et Publicité</h4>
+                            <p>Pontifícia Universidade Católica do Rio Grande do Sul, Porto Alegre - Brésil </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="competences col-lg-6">
+                <h3 class="parcours-title">Mes compétences</h3>
+                <div class="timelinetext">
+                    <div class="exp">
+                        <p class="my-2">HTML 5</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">35%</div>
+                        </div>
+                        <p class="my-2">CSS 3</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">35%</div>
+                        </div>
+                        <p class="my-2">Adobe Photoshop</p>
+                        <div class="progress my-2">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="my-2">Adobe Premiere</p>
+                        <div class="progress my-2">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                        <p class="my-2">After Effects</p>
+                        <div class="progress my-2">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                        <p class="my-2">Adobe XD</p>
+                        <div class="progress my-2">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                        <p class="my-2">Figma</p>
+                        <div class="progress my-2">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                        <p class="my-2">3DS Max</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                        <p class="my-2">Autodesk Maya</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row my-5">
+            <div class="col-lg-6">
+                <h3 class="parcours-title">Ambitions</h3>
+                <div class="timelinetext">
+                    <div class="exp">
+                        <ul>
+                            <li>Développer mes compétences techniques dans HTML 5, CSS 3</li>
+                            <li>Étudier JavaScript</li>
+                            <li>Travailler dans une compagnie et faire des projets intéressant au niveau du développement web et design</li>
+                            <li>Développer mon leadership</li>
+                            <li>Développer un projet personnel de NTFT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="parcours-title">Hobbies</h3>
+                <div class="timelinetext">
+                    <div class="exp">
+                        <ul>
+                            <li>Jardinage</li>
+                            <li>Illustrations</li>
+                            <li>Peinture</li>
+                            <li>Randonée</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3 class="galerie-title">Portfolio</h3>
+            </div>
+            <div class="grid-item image-3">
+                <img class="exemple_work" src="/tp_04/images/marcus-lima-ctrnf-art-dragonmines-02.jpg"
+                    alt="Dragon Mines, Crash Team Racing">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/marcus-lima-ctrnf-art-prehistoricplayground-02.jpg"
+                    alt="Crash Team Racing, historic playground">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/marcus-lima-ctrnf-art-rampageruins-01.jpg"
+                    alt="Rampage Ruins, Crash Team Racing">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/marcus-lima-final.jpg"
+                    alt="Salon visualisation architecturale">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/marcus-lima-post-prod-daylight-marcuslima.jpg"
+                    alt="Chambre de jour, visualisation architecturale">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/Sweetsland_1.jpg"
+                    alt="Jeu mobile Cloudette, réalité augumentée">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/marcus-lima-sunny-1.jpg"
+                    alt="Jeu mobile Cloudette, réalité augumentée">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/monster.png" alt="Sculpture monstre dans Zbrush">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/Beach_2.jpg"
+                    alt="Jeu mobile Cloudette, réalité augumentée">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/marcus-lima-ctrnf-art-ninasnightmare-04.jpg"
+                    alt="Nina's nightmare, Crash Team Racing">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/marcus-lima-posproducao-blue.jpg"
+                    alt="Blue. Modélisation, texture et rendu">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/marcus-lima-marcus-lima-building2-backalley.jpg"
+                    alt="Projet Hangart, une galerie d'art en réalité">
+            </div>
+            <div class="grid-item">
+                <img class="exemple_work" src="/tp_04/images/marcus-lima-casa-de-campo-marcus-lima.jpg"
+                    alt="Maison cottage, visualisation architecturale">
+            </div>
+        </div>
+    </section>
+    <!-- background wave -->
+    <div class="container-fluid">
+        <div class="row">
+            <img class="yellow-stripe" src="/tp_04/images/wave_1.png" alt="">
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
