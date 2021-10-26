@@ -578,8 +578,9 @@ li.contenu-t {
     }  
     
     .titre-tp1_09 {
-        /* position: absolute; */
-        /* top: 40px; */
+        position: absolute;
+        top: 40px;
+        left: 0;
         padding: 26px 24px 0 1rem;
         z-index: 3;
     }
@@ -687,6 +688,119 @@ li a:hover {
 	background-color: transparent;
 }
 
+
+/* Media queries mobile pour l'image-hero de la section accueil */
+
+.image-accueil {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-gap: 0px 0px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(1, auto);
+    grid-auto-flow: row;
+}
+
+.quadrille:first-child {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.quadrille:first-child img {
+    width: 100%;
+    height: auto;
+    justify-items: stretch;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Media queries Mobile pour les colonnes-textes des sections 1 et 2 */
+
+
+.grid-textes {
+    display: grid;
+    margin: 0 1vw;
+    padding: 4px 4px;
+    grid-gap: 20px 0;
+    grid-template-columns: repeat(1, 100vw);
+    grid-template-rows: repeat(7, auto);
+    grid-auto-flow: row;
+    background-color: transparent;
+}
+
+
+.item-texte:first-child {
+    grid-column: span 1;
+    grid-row: span 1;
+    margin: 0 0 4rem;
+}
+
+.item-texte:nth-child(2) {
+    grid-column: span 1;
+    grid-row: span 1;
+    padding-right: 0;
+}
+
+.item-texte:nth-child(3) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.item-texte:nth-child(4) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.item-texte:nth-child(5) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.item-texte:nth-child(6) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.item-texte:nth-child(7) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
+
+/* Media queries pour la section du portfolio avec CSS grid */
+
+.grid-titres {
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 4px 4px;
+    margin: 0;
+}
+
+
+.grid-contenant {
+    display: grid;
+    margin: 1rem 0 0;
+    padding-bottom: 120px;
+    grid-gap: 4px 4px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(11, auto);
+    grid-auto-flow: row;
+    background-color: #FFF;
+}   
+
+.item-grille:first-child, .item-grille:nth-child(2), .item-grille:nth-child(3), 
+.item-grille:nth-child(4), .item-grille:nth-child(5), .item-grille:nth-child(6),
+.item-grille:nth-child(7), .item-grille:nth-child(8), .item-grille:nth-child(9),
+.item-grille:nth-child(10), .item-grille:nth-child(11) {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-size: cover;
+    background-position: center;
+}
 
 
 
