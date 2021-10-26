@@ -268,6 +268,7 @@ h4 {
 
 .presentation-section {
     position: relative;
+    height: auto;
 }
 
 /******************************* Section connaissances ********************************/
@@ -279,7 +280,7 @@ h4 {
 }
 
 .section-connaissances {
-    background-image: url(/tp1_06/images/illustration-connaissances.svg);
+    background-image: url(../images/illustration-connaissances.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 90%;
@@ -470,7 +471,7 @@ aside h4, aside p {
 }
 
 .section-interets-arts-1 {
-    background-image: url(/tp1_06/images/toile-foret-enchantee-oeuvre-MaryseThomassin.jpg);
+    background-image: url(../images/toile-foret-enchantee-oeuvre-MaryseThomassin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -478,7 +479,7 @@ aside h4, aside p {
 }
 
 .section-interets-arts-2 {
-    background-image: url(/tp1_06/images/toile_hibou_Maryse_thomassin.jpeg);
+    background-image: url(../images/toile_hibou_Maryse_thomassin.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 55vh;
@@ -717,6 +718,10 @@ footer p {
 @media (min-width: 992px) {
     section {
         height: 100vh;
+    }
+
+    .section-hero{
+        height: auto;
     }
     .text-script {
         font-size: 5.5rem;
