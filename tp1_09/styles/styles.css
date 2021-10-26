@@ -45,7 +45,7 @@ header {
     position: absolute;
     top: 0;
     left: 365px;
-    padding: 0 24px 0 12px;
+    padding: 26px 24px 0 34px;
     z-index: 120;
     background-color: rgba(255, 255, 255, 0.7);
 }
@@ -55,13 +55,18 @@ h1 {
     font-size: 3rem;
     font-weight: 700;
     color: #013E30;
+    line-height: 1;
 }
 
 h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #003B55;
+}
+
+h3 {
+    text-transform: uppercase;
 }
 
 
@@ -310,7 +315,7 @@ li.nav-item-1 {
 
 .grid-textes {
     display: grid;
-    margin: 0 1vw 0 375px;
+    margin: 0 1vw 0 395px;
     padding: 4px 4px;
     grid-gap: 20px 30px;
     grid-template-columns: repeat(6, 16%);
