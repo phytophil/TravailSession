@@ -28,24 +28,32 @@ Body {
 
 header {
     position: relative;
-    /* background-image: url(../img_09/hero-image.svg); */
     background-size: cover;
     background-position: center;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    display: flex;
+    /* display: flex; */
     min-height: 100vh;
-    max-width: 100vw;
     background-color: #A6D8D6;
+    min-width: 100vh;
+    padding-bottom: 1rem;
+}
+
+.titre-tp1_09 {
+    position: absolute;
+    top: 0;
+    left: 365px;
+    padding: 0 24px 0 12px;
+    z-index: 120;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    /* padding: 24px 0 12px 36px; */
     color: #013E30;
 }
 
@@ -53,7 +61,6 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    /* padding: 24px 0 12px 36px; */
     color: #003B55;
 }
 
@@ -69,66 +76,152 @@ nav {
     padding-right: 2rem;
 }
 
-#nav-top {
+#navibar_Acc8 {
     position: relative;
     width: 301px;
+    height: 41px;
     margin: 2rem;
 }
 
 
-#nav-top a {
+#navibar_Acc8 a {
     position: absolute;
     top: 0;
     left: 0;
     color: #A6D8D6;
     text-decoration: none;
     position: relative;
-    bottom: 8px;
 }
 
 
 /* Règles CSS pour l'icône animée du menu hamburger */
 
-.barre1, .barre2, .barre3 {
+.barre1_Acc8, .barre2_Acc8, .barre3_Acc8 {
     width: 35px;
     height: 3px !important;
     background-color: #A6D8D6;
     margin: 8px 0;
     transition: 0.4s;
   }
+
+  #items_services_Acc8_1 {
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s   ease-out;
+  }
+
+  #sujets_Acc8_1 {
+	position: relative;
+	z-index: 999;
+	width: auto;
+    /* padding: 0; */
+	/* margin: 0; */
+	max-height: 0;
+    overflow: hidden;
+	transition: max-height 0.3s ease-out;
+}
+
   
-  .changement_tp1_09 .barre1 {
+  .changement_Acc8 .barre1_Acc8 {
     -webkit-transform:         rotate(-45deg) translate(-9px, 6px);
     -moz-transform:         rotate(-45deg) translate(-9px, 6px);
     -o-transform:         rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
   }
   
-  .changement_tp1_09 .barre2 { opacity: 0;
+  .changement_Acc8 .barre2_Acc8 { opacity: 0;
   }
   
-  .changement_tp1_09 .barre3 {
+  .changement_Acc8 .barre3_Acc8 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     -moz-transform: rotate(45deg) translate(-8px, -8px);
     -o-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
   
-  #menu_icone_tp1_09 {
+  #menu_icone_Acc8_1 {
       display: inline-block;
       cursor: pointer;
-      margin: 12px 12px 0px;
+      margin: 0px 12px 0px;
       background-color: transparent;
       width: 35px;
+      float: right;
       border: none !important;
       outline: none !important; 
   }
+
+#sous_menu_Acc8_1.ferme_Acc8::after {
+	content:'\002B';
+    cursor: pointer;
+	color: #A6D8D6;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px !important;
+	font-weight: 700 !important;
+	float: right;
+	margin-left: 5px;
+	padding-right: 12px;
+}
+
+#sous_menu_Acc8_1.ouvert_Acc8::after {
+	content:'\2212';
+    cursor: pointer;
+	color: #A6D8D6;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px !important;
+	font-weight: 700 !important;
+	float: right;
+	margin-left: 5px;
+	padding-right: 12px;
+}
+
+
+#items_services_Acc8_2 {
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  #sous_menu_Acc8_2.ferme_Acc8::after {
+	content:'\002B';
+    cursor: pointer;
+	color: #A6D8D6;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px !important;
+	font-weight: 700 !important;
+	float: right;
+	margin-left: 5px;
+	padding-right: 12px;
+}
+
+#sous_menu_Acc8_2.ouvert_Acc8::after {
+	content:'\2212';
+    cursor: pointer;
+	color: #A6D8D6;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px !important;
+	font-weight: 700 !important;
+	float: right;
+	margin-left: 5px;
+	padding-right: 12px;
+}  
+
+#items_services_Acc8_2 .nav-item-2 a {
+    text-decoration: none !important;
+    color: #A6D8D6 !important;
+}
+
 
 nav ul {
     list-style-type: none;
 }
 
-nav ul#acc-1, ul#acc-2 {
+nav #items_services_Acc8_1, #items_services_Acc8_2 {
     padding-left: 0;
 }
 
@@ -144,15 +237,65 @@ li a {
     color: #A6D8D6;
 }
 
+div a {
+    text-decoration: none;
+    color: #A6D8D6;
+}
+
+div a:hover {
+    color: #A6D8D6;
+}
+
 li a:hover {
     color:#A6D8D6;
 }
 
 li.nav-item-1 {
     font-size: 1rem;
+    font-weight: 500;
     padding: 12px 0;
 }
 
+
+#items_services_Acc8_2 .nav-item-2{
+    padding: 12px 0;
+    border-bottom: 1px solid #A6D8D6;
+}
+
+
+.nav-item-2 a {
+    padding: 12px 0;
+    border-bottom: 1px solid #A6D8D6;
+}
+
+
+
+/* Image hero du fond en CSS grid */
+
+.image-accueil {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-gap: 0px 0px;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 20vh);
+    grid-auto-flow: row;
+}
+
+.quadrille:first-child {
+    grid-column: span 5;
+    grid-row: span 5;
+    background-size: cover;
+    background-position: center;
+}
+
+.quadrille:first-child img {
+    width: 100%;
+    height: auto;
+    justify-items: stretch;
+    background-size: cover;
+    background-position: center;
+}
 
 /* Section-1: Parcours et Expérience de travail */
 
@@ -180,8 +323,6 @@ li.nav-item-1 {
 .item-texte:first-child {
     grid-column: span 3;
     grid-row: span 1;
-    /* background-size: cover; */
-    /* background-position: center; */
 }
 
 .item-texte:nth-child(2) {
