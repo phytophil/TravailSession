@@ -37,7 +37,7 @@ header {
     /* display: flex; */
     min-height: 100vh;
     background-color: #A6D8D6;
-    min-width: 100vh;
+    min-width: 100vw;
     padding-bottom: 1rem;
 }
 
@@ -95,7 +95,7 @@ nav {
     left: 0;
     color: #A6D8D6;
     text-decoration: none;
-    position: relative;
+    /* position: relative; */
 }
 
 
@@ -561,3 +561,133 @@ li.contenu-t {
 }
 
 
+/* Media queries pour la version mobile du site */
+
+@media (max-width: 576px) {
+
+
+    header {
+        position: relative;
+        /* background-size: cover; */
+        /* background-position: center; */
+        min-height: 100vh;
+        background-color: #A6D8D6;
+        color: #003B55;
+        width: 100%;
+        padding-bottom: 1rem;
+    }  
+    
+    .titre-tp1_09 {
+        /* position: absolute; */
+        /* top: 40px; */
+        padding: 26px 24px 0 1rem;
+        z-index: 3;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #013E30;
+        line-height: 1;
+    }
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.75rem;
+        font-weight: 500;
+        color: #003B55;
+    }
+    
+    
+
+    
+nav {
+    position: relative;
+    background-color: transparent;
+    color: #003B55;
+    width: 100%;
+    padding-right: 1rem;
+}
+
+#navibar_Acc8 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    background-color: #003B55;
+    color: #A6D8D6;
+    z-index: 999;
+}
+
+
+#navibar_Acc8 a {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    color: #A6D8D6;
+    text-decoration: none;
+    position: relative;
+}
+
+#menu_icone_Acc8_1 {
+    margin: 0.5rem 1rem 0px;
+}
+
+
+
+#sujets_Acc8_1 {
+	position: fixed;
+    top: 3rem
+	width: 100%;
+    color: #003B55;
+    background-color: #FFF;
+	margin-top: 60px;
+	max-height: 0;
+    overflow: hidden;
+	transition: max-height 0.3s ease-out;
+}
+
+
+nav ul li {
+    font-size: 1.222rem;
+    width: 85vw;
+    border-bottom: 1px solid #003B55;
+    padding: 12px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #003B55;
+}
+
+div a {
+    text-decoration: none;
+    color: #003B55;
+}
+
+div a:hover {
+    color: #003B55;
+}
+
+li a:hover {
+    color: #003B55;
+}
+
+
+
+#sous_menu_Acc8_1.ferme_Acc8::after {
+	color: #003B55;
+	background-color: transparent;
+}
+
+#sous_menu_Acc8_1.ouvert_Acc8::after {
+	color: #003B55;
+	background-color: transparent;
+}
+
+
+
+
+}
