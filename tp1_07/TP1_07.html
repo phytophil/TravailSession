@@ -18,38 +18,50 @@
 
 <body>
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
     <div class="container">
-      <a class="navbar-brand" href="./index.html">
-        <img src="./Images/logo.png" alt="logo" class="logo"> </a>
-        <h2>Anaisa Cornejo</h2>
-      <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href=#accueil>Accueil</a>
-          <a class="nav-link" href=#presentation>Présentation</a>
-          <a class="nav-link" href=#realisations>Réalisations</a>
-          <a class="nav-link" href=#contact>Contact</a>
-        </div>
+      <h2> <a class="navbar-brand" href="#"> <img src="./Images/logo.png" alt="logo" class="logo">  Anaisa Cornejo </a> </h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+        <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href=#presentation>Présentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=#realisations>Réalisations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=#contact>Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="TP1_07anglais.html">English</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
 
-<section id="accueil" class="backaccueil">
-  <div class="container">
-        <div class="row g-0">
 
-          <div class="col-md-7">
-            <h1 class="h1presentation"> Conception <br> de projets <br> de médiation <br> artistique </h1>
-          </div>
-          <div class="col-md-5">
-            <div class="puzzle img-fluid">
-              <div class="puzzleblue img-fluid">         
-              </div>
-            </div> 
-          </div>
+  <section id="accueil" class="backaccueil">
+    <div class="container">
+      <div class="row g-0">
+
+        <div class="col-md-7">
+          <h1 class="titleprincipal"> Conception de projets de médiation artistique </h1>
         </div>
-      </div>     
-</section>
+
+        <div class="col-md-5">
+          <div class="puzzle img-fluid">
+            <div class="puzzleblue img-fluid">         
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>     
+  </section>
 
 <!-- -----------------------------------------------------presentation-------------------------------------------------------------- -->
 
@@ -286,7 +298,7 @@
 <!-- -----------------------------------------------footer ----------------------------------------------- -->
 
 
-  <footer id="contact" class="footer1">
+  <footer id="contactfooter" class="footer1">
     <div class="container">
       <div class="row">
         <div class="col-md-5">

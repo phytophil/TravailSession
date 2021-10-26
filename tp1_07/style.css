@@ -1,5 +1,6 @@
 .logo {
     width: 50px;
+    margin-right: 10px;
 }
 
 .navbar-nav {
@@ -73,11 +74,10 @@ hr.hrfooter {
     margin-top: 2rem;
 }
 
-h1.h1presentation {
+h1.titleprincipal {
     font-size: 5rem;
     font-weight: 400;
     color: white;
-    display: flex;
     vertical-align: center;
 }
 
@@ -150,4 +150,18 @@ h1.h1presentation {
 .card {
     background-color: transparent !important;
     border-color: none !important;
+}
+
+/* ---------------------------------------------- version mobile ----------------------------------------------------------- */
+
+
+@media (max-width: 570px) {
+
+    h1.titleprincipal {
+        font-size: 3rem;
+        font-weight: 400;
+        color: white;
+        vertical-align: center;
+    }
+
 }
