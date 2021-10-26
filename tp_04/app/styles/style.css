@@ -19,6 +19,16 @@ h1, h2, h3 {
     width: 100%;
 }
 
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nav-item{
+    padding: 0 5vw 0 5vw;
+}
+
 #accueil{
     min-height: 30vh;
 
