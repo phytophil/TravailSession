@@ -190,7 +190,7 @@ nav {
     transition: max-height 0.3s ease-out;
   }
 
-  #sous_menu_Acc8_2.ferme_Acc8::after {
+  #sous_menu_Acc8_2.ferme_Acc8_2::after {
 	content:'\002B';
     cursor: pointer;
 	color: #A6D8D6;
@@ -203,7 +203,7 @@ nav {
 	padding-right: 12px;
 }
 
-#sous_menu_Acc8_2.ouvert_Acc8::after {
+#sous_menu_Acc8_2.ouvert_Acc8_2::after {
 	content:'\2212';
     cursor: pointer;
 	color: #A6D8D6;
@@ -220,6 +220,12 @@ nav {
     text-decoration: none !important;
     color: #A6D8D6 !important;
 }
+
+#items_services_Acc8_2 .nav-item-2{
+    padding: 12px 0;
+    border-bottom: 1px solid #A6D8D6;
+}
+
 
 
 nav ul {
@@ -262,18 +268,6 @@ li.nav-item-1 {
 }
 
 
-#items_services_Acc8_2 .nav-item-2{
-    padding: 12px 0;
-    border-bottom: 1px solid #A6D8D6;
-}
-
-
-.nav-item-2 a {
-    padding: 12px 0;
-    border-bottom: 1px solid #A6D8D6;
-}
-
-
 
 /* Image hero du fond en CSS grid */
 
@@ -297,7 +291,6 @@ li.nav-item-1 {
 .quadrille:first-child img {
     width: 100%;
     height: auto;
-    justify-items: stretch;
     background-size: cover;
     background-position: center;
 }
@@ -404,7 +397,7 @@ li.contenu-t {
     position: relative;
     background-size: cover;
     background-position: center;
-    min-width: 100vh;
+    min-width: 100vw;
     padding-bottom: 1rem;
 }
 
@@ -573,7 +566,7 @@ li.contenu-t {
         min-height: 100vh;
         background-color: #A6D8D6;
         color: #003B55;
-        width: 100%;
+        min-width: 100vw;
         padding-bottom: 1rem;
     }  
     
@@ -581,6 +574,7 @@ li.contenu-t {
         position: absolute;
         top: 40px;
         left: 0;
+        width: 100vw;
         padding: 26px 24px 0 1rem;
         z-index: 3;
     }
@@ -605,7 +599,7 @@ nav {
     background-color: transparent;
     color: #003B55;
     width: 100%;
-    padding-right: 1rem;
+    padding-right: 0;
 }
 
 #navibar_Acc8 {
@@ -637,16 +631,19 @@ nav {
 
 #sujets_Acc8_1 {
 	position: fixed;
-    top: 3rem
-	width: 100%;
+    top: 60px;
+	width: 100vw;
     color: #003B55;
     background-color: #FFF;
-	margin-top: 60px;
 	max-height: 0;
     overflow: hidden;
 	transition: max-height 0.3s ease-out;
 }
 
+
+nav ul {
+    width: 100vw;
+}
 
 nav ul li {
     font-size: 1.222rem;
@@ -673,7 +670,6 @@ li a:hover {
     color: #003B55;
 }
 
-
 #sous_menu_Acc8_1.ferme_Acc8::after {
 	color: #003B55;
 	background-color: transparent;
@@ -684,6 +680,25 @@ li a:hover {
 	background-color: transparent;
 }
 
+#sous_menu_Acc8_2.ferme_Acc8_2::after {
+	color: #003B55;
+	background-color: transparent;
+}
+
+#sous_menu_Acc8_2.ouvert_Acc8_2::after {
+	color: #003B55;
+	background-color: transparent;
+}
+
+#items_services_Acc8_2 .nav-item-2 {
+    padding: 12px 0;
+    border-bottom: 1px solid #003B55;
+}
+
+#items_services_Acc8_2 .nav-item-2 a {
+    text-decoration: none !important;
+    color: #003B55 !important;
+}
 
 /* Media queries mobile pour l'image-hero de la section accueil */
 
@@ -692,7 +707,7 @@ li a:hover {
     margin: 0;
     padding: 0;
     grid-gap: 0px 0px;
-    grid-template-columns: repeat(1, 100%);
+    grid-template-columns: repeat(1, 100vw);
     grid-template-rows: repeat(1, auto);
     grid-auto-flow: row;
 }
@@ -707,7 +722,6 @@ li a:hover {
 .quadrille:first-child img {
     width: 100vw;
     height: auto;
-    justify-items: stretch;
     background-size: cover;
     background-position: center;
 }
@@ -784,6 +798,7 @@ li a:hover {
     grid-template-columns: repeat(1);
     grid-template-rows: repeat(2, auto);
     grid-gap: 4px 4px;
+    padding: 0 0 0 8px;
     margin: 0;
 }
 
@@ -792,7 +807,8 @@ li a:hover {
     display: grid;
     margin: 1rem 0 0;
     padding-bottom: 120px;
-    grid-gap: 4px 4px;
+    grid-gap: 0 0;
+    padding: 0 0;
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(11, auto);
     grid-auto-flow: row;

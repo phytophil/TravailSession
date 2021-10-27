@@ -26,6 +26,20 @@ function deploieAcc8_1() {
     souMenuAcc8_1.style.maxHeight = null;
     } else {
     souMenuAcc8_1.style.maxHeight = souMenuAcc8_1.scrollHeight + "px";
-    contenuAcc8_1.style.maxHeight = "502px"; 
+    contenuAcc8_1.style.maxHeight = "572px"; 
+    }
+}
+
+document.getElementById("sous_menu_Acc8_2").addEventListener("click", fullDeploieAcc8_2);
+
+function fullDeploieAcc8_2() {
+    var laListeAcc8_2 = this.parentElement; 
+    var lastSouMenuAcc8_2 = this.nextElementSibling;
+    this.classList.toggle("ouvert_Acc8_2");
+    if (lastSouMenuAcc8_2.style.maxHeight){
+    lastSouMenuAcc8_2.style.maxHeight = null;
+    } else {
+    lastSouMenuAcc8_2.style.maxHeight = lastSouMenuAcc8_2.scrollHeight + "px";
+    laListeAcc8_2.style.maxHeight = "600px"; 
     }
 }
