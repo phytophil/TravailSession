@@ -11,7 +11,7 @@ function js() {
 }
 
 function css() {
-  return src('app/css/*.css')
+  return src('app/*.css')
     .pipe(cssnano())
     .pipe(rename({ extname: '.min.css' }))
     .pipe(dest('dist/css/'));
