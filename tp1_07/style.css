@@ -7,6 +7,21 @@
 margin-left: 60%;
 }
 
+.nav-link {
+    border: 2px solid #FAA911;
+    border-radius: 9%;
+    margin-right: 9px;
+    width: 130px;
+    padding: auto;
+    text-align: center;
+    }
+
+.nav-link:hover {
+    border: none;
+    background-color: rgb(67, 52, 134);
+    color: white !important;
+}
+
 .bg-info {
     background-color:#b8eff3 !important;
     font-family: 'encode sans sc';
