@@ -10,6 +10,8 @@
     margin: 0;
     padding: 0;
     background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   header {
@@ -18,20 +20,25 @@
     margin-left: 4rem;
   }
   
+
+  .navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
+    }
+
   .navbar {
     width: 100%;
-    height: 80px;
+    height: 100px;
     color: darkgray;
     display: flex;
     justify-content: space-around;
     min-height: 8vh;
-    background-color: hotpink;
+    background-color: rgb(75, 51, 63);
   }
   .nav-link {
     color: grey;
   }
 
-.navbar-nav ul li{
+.nav-link ul li{
     display:inline-block;
     line-height: 80px;
     margin:0 5px;
@@ -40,7 +47,7 @@
 
 }
 
-.navbar-nav ul li a{
+.nav-link ul li a{
     color:white;
     font-size: 17px;
     text-transform: uppercase;
@@ -60,24 +67,26 @@
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(./img/pexels-karolina-grabowska-4198713.jpg);
-    background-size: cover;
+    background-color: black;
     position: relative;
     overflow: hidden;
     padding-top: 50px;
+    font-size:30px;
   }
   
   .overlay {
     position: absolute;
     width: 100%;
-    height: 600px;
-    background-image: ;
+    height: 700px;
+     
+    background-size: cover;
+    
     opacity: 0.4;
   }
   
   .container-moi {
     width: 100%;
-    height: 100vh;
+    height: 700px;
   }
   
   .container-moi img {
@@ -87,22 +96,24 @@
   
   h1 {
     text-align: center;
-    color: white;
+    color:rgb(75, 51, 63);
     font-size: 100px;
     font-size: "Roboto Mono", monospace;
-    padding-top: 200px;
+    padding-top: 100px;
+    padding-left: 100px;
     z-index: 1;
   }
   
   h2 {
-    text-align: right;
-    color: dimgray;
+    text-align: left;
+    color:rgb(75, 51, 63);
     font-size: 36px;
     font-size: "Roboto Mono", monospace;
+    padding-left: 100px;
   }
   
   p {
-    text-align: right;
+    text-align: left;
     color: honeydew;
     padding-top: 40px;
     padding-left: 100px;
@@ -125,19 +136,17 @@
     color: grey;
   }
   
-  .grid-container {
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-  
-    padding-bottom: 30px;
-    height: 100vh;
-    display: grid;
-    grid-gap: 25px 10px;
-    grid-template-columns: repeat(4, calc(30% - 40px));
-    grid-template-rows: repeat(5, 30vh);
-    grid-auto-rows: 20vh;
+  /*****************************parallax************************/
+  #parallax-image{
+
+  background-image: url(./img/wireframe.jpg);
+  background-repeat: no-repeat;
+  height:400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-size: 25px;
+
   }
   
   .grid-container img {
@@ -157,7 +166,7 @@ footer {
      height: 20vh;
      display: flex;
      align-items: flex-end;
-    background-color:darkslategray;
+    background-color: rgb(75, 51, 63);
    }
    
    footer p {
@@ -219,11 +228,12 @@ footer {
   
   div > h1 {
     display: none;
+    font-size:80px;
   }
   
   div:hover > h1 {
     display: block;
-    color: white;
+    color:  rgb(75, 51, 63);
   }
   
   @media (max-width: 768px) {
