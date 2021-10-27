@@ -13,5 +13,23 @@
   },
   "dependencies": {
     "j": "^1.0.0"
+    "browser-sync": "^2.27.6",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cache": "^1.1.3",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "run-sequence": "^2.2.1"
   }
+  
+  "dependencies": {
+    "gulp-rename": "^2.0.0"
+  }
+
 }
