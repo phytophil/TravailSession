@@ -1,0 +1,17 @@
+{
+  "name": "tp1_09",
+  "version": "1.0.0",
+  "description": "Liste des technologies utilisées:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "j": "^1.0.0"
+  }
+}
