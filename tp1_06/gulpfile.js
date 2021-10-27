@@ -1,10 +1,27 @@
-var gulp = require('gulp');
+const gulp = require('gulp');
+const { src, dest, parallel } = require('gulp');
+const uglify = require('gulp-uglify');
+const rename = require('gulp-rename');
+const cssnano = require('gulp-cssnano');
 
+function js() {
+return src('app/js/*.js')
+.pipe(uglify())
+.pipe(rename({ extname: '.min.js' }))
+.pipe(dest('dist/js/'));
+}
 
-gulp.task('task-name', function() {
-    // Stuff here
-  });
+function css() {
+return src('app/css/*.css')
+.pipe(cssnano())
+.pipe(rename({ extname: '.min.css' }))
+.pipe(dest('dist/css/'));
+}
 
-  gulp.task('hello', function() {
-    console.log('Hello Zell');
-  });
+function fonts() {
+return src('app/fonts/**/*')
+.pipe(dest('dist/fonts/'));
+}
+
+// exports.default = parallel(js, css, fonts);
+exports.css = css;
