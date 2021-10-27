@@ -1,0 +1,23 @@
+{
+  "name": "TravailSession",
+  "version": "1.0.0",
+  "description": "Travail session A21 CAC-111-FX voir fichier [TP1](TP1.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PLDubeFormation/TravailSession.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PLDubeFormation/TravailSession/issues"
+  },
+  "homepage": "https://github.com/PLDubeFormation/TravailSession#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
