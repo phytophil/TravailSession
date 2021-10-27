@@ -1,4 +1,9 @@
-# [Plan de cours](https://github.com/PLDubeFormation/TravailSession/blob/master/Pc%20-%20Mise%20en%20production%20d'un%20projet%20web%20A21%20(CAC-111-FX).pdf)
+# [Technologies utilisés dans le cadre de la réalisation du site web]
 ## TravailSession1
- Travail session A21 CAC-111-FX voir fichier [TP1](TP1.md)
+ - Visual code
+ - Bootstrap v5.1.3
+ - Github
+ - GULP (pas encore de bons résultats)
+ - Toutes les images sont la propriété de Anaisa Cornejo
+ 
 
