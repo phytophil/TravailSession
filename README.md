@@ -2,7 +2,7 @@
 ## TravailSession1
  Travail session A21 CAC-111-FX voir fichier [TP1](TP1.md)
  
-## Cours 1 ##
+## Cours 1 / 28 septembre 2021 ## 
 Introduction à l’environnement de production web
 
 - Introduction aux différents outils utilisés
@@ -14,7 +14,7 @@ Introduction à l’environnement de production web
 
 [Document](https://github.com/PLDubeFormation/TravailSession/blob/master/Pr%C3%A9paration%20de%20l%E2%80%99environnement%20de%20travail.pdf)
 
-## Cours 2 ##
+## Cours 2 / 5 octobre 2021 ## 
 Débuter avec GIT
 
 - Le backlog (features/stories/tasks)
@@ -26,7 +26,7 @@ Débuter avec GIT
 
 [Document](https://github.com/PLDubeFormation/TravailSession/blob/master/GIT.pdf)
 
-## Cours 3 ##
+## Cours 3 / 12 octobre 2021 ## 
 La préparation de votre site pour la mise en production
 
 - Les outils pour tester nos projets
@@ -39,7 +39,7 @@ La préparation de votre site pour la mise en production
 
 [Document](https://github.com/PLDubeFormation/TravailSession/blob/master/Component%20Driven.pdf)
 
-## Cours 4 ##
+## Cours 4 / 19 octobre 2021 ## 
 Le déploiement web
 
 - Créer un environnement d’acceptation et de production
@@ -60,7 +60,49 @@ Le déploiement web
 
 [Travail formatif](https://github.com/PLDubeFormation/TravailSession/blob/master/GULP.pdf)
 
+## Cours 5 / 26 octobre 2021 | Remise TP1 (11h59 pm) ## 
 
+- Retour sur la gestion des branches dans GIT
+- Retour sur le travail formatif Gulp
+- Retour sur les notions d'optimisations css et javascript
+- Continuer le travail session
 
+## Cours 6 / 2 novembre 2021 ## 
 
+- Retour sur le TP1
+- Déploiement à l'ancienne FTP / Backup CPanel
+- SSH
+- Les hébergeurs web linux vs windows
+- Exploration CPanel
+- Le cloud (Google, Amazon et Microsoft)
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- [PageSpeed Insight](https://developers.google.com/speed/pagespeed/insights)
+- Présentation du travail pratique 2 et du travail pratique 3
 
+## Cours 7 / 9 novembre 2021 ## 
+
+- Guide Google Analytics
+- Méta tags pour les engins de recherches et robot.txt
+- Création de composantes react Guide pratique
+- [Sécuriser son site web](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
+- Types d'attaques
+  * SQL Injections. ...
+  * Cross Site Scripting (XSS) ...
+  * Broken Authentication & Session Management. ...
+  * Insecure Direct Object References. ...
+  * Security Misconfiguration. ...
+  * Cross-Site Request Forgery (CSRF) 
+- Continuer le TP2
+
+## Cours 8 / 16 novembre 2021 | Remise du TP2 (11h59) 25% ## 
+
+- Processus de mise en production d'un site web
+- Révision matières pour examen
+
+## Cours 9 / 23 novembre 2021 | Examen 20% ##
+
+- Continuer le TP3
+
+## Cours 9 / 23 novembre 2021 | Remise du TP3 (11h59) 25% ##
+
+- Finaliser et remettre le TP3
