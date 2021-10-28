@@ -1,0 +1,184 @@
+/* ------------------toutes les images sont la propriété de l'autrice----------- */
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navbar-nav {
+margin-left: 60%;
+}
+
+.nav-link {
+    border: 2px solid #FAA911;
+    border-radius: 9%;
+    margin-right: 9px;
+    width: 130px;
+    padding: auto;
+    text-align: center;
+    }
+
+.nav-link:hover {
+    border: none;
+    background-color: rgb(67, 52, 134);
+    color: white !important;
+}
+
+.bg-info {
+    background-color:#b8eff3 !important;
+    font-family: 'encode sans sc';
+    color: black;
+}
+
+h1 {
+font-family: 'encode sans sc';
+font-size: 3rem;
+margin: 2rem 0 2rem 0;
+}
+
+h2 {
+    font-family: 'Staatliches';
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.h2_Secteur {
+    color: rgb(48,49,117);
+    font-size: 3rem;
+}
+
+hr.hrfooter {
+    background-color: #FAA911;
+    height: 2px;
+}
+
+.footer1 {
+    min-height: 180px;
+    background: linear-gradient(rgba(48,49,117,0.9), rgba(48,49,117,0.9)), url(./Images/imagefooter.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 1rem 0 2rem 0;
+    color: white;
+    margin-top: 2rem;
+}
+
+.fright {
+    text-align: right;
+}
+
+.logofooter {
+    width: 80px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-family: 'encode sans sc';
+    border-color: none !important;
+    background-color: rgb(48,49,117);
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+/* -----------------------------------presentation1------------------------------ */
+
+.backaccueil {
+    background: linear-gradient(rgba(250,169,17,0.8), rgba(250,169,17,0.85)), url(./Images/background.JPG);
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 0 5rem 0;
+    color: black;
+    margin-top: 2rem;
+}
+
+h1.titleprincipal {
+    font-size: 5rem;
+    font-weight: 400;
+    color: white;
+    vertical-align: center;
+}
+
+.puzzle {
+    width: 100%;
+    min-height: 420px;
+    background-image: url(./Images/puzzle.png);
+    background-position: center;
+    background-size: cover;
+    }
+
+.puzzleblue{
+    width: 100%;
+    min-height: 420px;
+    background-image: url(./Images/puzzleblue.png);
+    background-position: center;
+    background-size: cover;
+    visibility: hidden;
+}
+
+.puzzle:hover .puzzleblue {
+    visibility: visible;
+    width: 100%;
+    min-height: 420px;
+}
+
+
+
+/* ----------------------------------- realisation ------------------------------- */
+
+#realisations {
+    background-color: #b8eff3;
+    padding-top: 2.2rem;
+    margin-top: 4rem;
+}
+
+.photomusee {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.photolivre {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.photoecole {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.col-md-4 {
+    padding: 2rem !important;
+}
+
+/* ----------------------------presentation------------------ */
+
+.photoanaisa {
+    width: 100%;
+    min-height: 200px;
+}
+
+
+.card {
+    background-color: transparent !important;
+    border-color: none !important;
+}
+
+/* ---------------------------------------------- version mobile ----------------------------------------------------------- */
+
+
+@media (max-width: 570px) {
+
+    h1.titleprincipal {
+        font-size: 3rem;
+        font-weight: 400;
+        color: white;
+        vertical-align: center;
+    }
+
+}

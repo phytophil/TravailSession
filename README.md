@@ -1,3 +1,9 @@
-# TravailSession1
- Travail session A21 CAC-111-FX voir fichier [TP1](TP1.md)
+# [Technologies utilisés dans le cadre de la réalisation du site web]
+## TravailSession1
+ - Visual code
+ - Bootstrap v5.1.3
+ - Github
+ - GULP (pas encore de bons résultats)
+ - Toutes les images sont la propriété de Anaisa Cornejo
+ 
 
