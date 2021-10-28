@@ -139,7 +139,7 @@ h4{
 /************************** Section Parallax ****************************/
 
 .parallax {
-    background-image: url("/TP1_05//app/img/plume1500.jpg");
+    background-image: url("../img/plume1500.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@ h4{
 /**************************** Flore ******************************************/
 
 #contact {
-    background-image: url("/TP1_05/app/img/floreM.jpg");
+    background-image: url("../img/floreM.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
