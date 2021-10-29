@@ -267,6 +267,12 @@ li.nav-item-1 {
     padding: 12px 0;
 }
 
+div.nav-item-2 {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 12px 0;
+}
+
 
 
 /* Image hero du fond en CSS grid */
