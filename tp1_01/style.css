@@ -9,11 +9,175 @@
   body {
     margin: 0;
     padding: 0;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+ 
+    }
   
+body
+{
+  margin: 0;
+  padding: 0;
+  
+  /* make it look decent enough */
+  background: #020202;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+
+.container-nav{
+  width: 100vh;
+  height: 300px;
+
+}
+
+
+.navbar-brand{
+ padding-left: 800px;
+ padding-top: 400px;
+
+
+}
+
+
+
+
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #a7a6a6;
+  
+  transition: color 0.3s ease;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -15px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: rgb(75, 51, 63);
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #a7a6a6;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 400px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 100px;
+  
+  background: rgb(75, 51, 63);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
   header {
     position: fixed;
     padding: 4rem 2rem 0 2rem;
@@ -21,45 +185,13 @@
   }
   
 
-  .navbar.navbar-1 .navbar-toggler-icon {
-    background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
-    }
-
-  .navbar {
-    width: 100%;
-    height: 100px;
-    color: darkgray;
-    display: flex;
-    justify-content: space-around;
-    min-height: 8vh;
-    background-color: rgb(75, 51, 63);
-  }
-  .nav-link {
-    color: grey;
-  }
-
-.nav-link ul li{
-    display:inline-block;
-    line-height: 80px;
-    margin:0 5px;
-    
-
-
-}
-
-.nav-link ul li a{
-    color:white;
-    font-size: 17px;
-    text-transform: uppercase;
-
-}
-
+  
 
   
   
   .container {
     padding-left: 13%;
-    max-width: 85%;
+    max-width: 90%;
   }
   
   .container-hero {
@@ -77,21 +209,27 @@
   .overlay {
     position: absolute;
     width: 100%;
-    height: 700px;
-     
+    height: 400px;
+    padding-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
     background-size: cover;
-    
     opacity: 0.4;
   }
   
   .container-moi {
     width: 100%;
     height: 700px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .container-moi img {
     width: 500px;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   h1 {
@@ -128,12 +266,13 @@
     text-decoration: none;
   }
   
-  a:visited {
-    text-decoration: none;
-  }
+  .container-carousel{
   
-  a:hover {
-    color: grey;
+ width:100%;
+ height:400px;
+ padding-top: 100px;
+ padding-bottom: 100px;
+
   }
   
   /*****************************parallax************************/
@@ -161,14 +300,7 @@
     flex-wrap: wrap;
   }
   /*****************************footer************************/
-footer {
-    width:100%;
-     height: 20vh;
-     display: flex;
-     align-items: flex-end;
-    background-color: rgb(75, 51, 63);
-   }
-   
+
    footer p {
      color: gray;
      font-size: clamp(0.5rem, 1.5vh, 1rem);
@@ -199,11 +331,15 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 250px;
-    background-color: rgb(48, 47, 47);
-    margin: auto;
-    color: #f8f8f8;
-    padding: 150px 0;
+    height:250px;
+    color:grey;
+    text-align: center;
+    font-size:18px;
+    padding-top: 100px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    background-color: rgb(75, 51, 63);
   }
   
   .row {
@@ -219,22 +355,11 @@ footer {
     list-style: none;
   }
   
-  .footer-col-4 {
-    width: 25%;
-    list-style: none;
-    align-content: center;
-    padding-left: 350px;
-  }
   
-  div > h1 {
-    display: none;
-    font-size:80px;
-  }
   
-  div:hover > h1 {
-    display: block;
-    color:  rgb(75, 51, 63);
-  }
+ 
+  
+
   
   @media (max-width: 768px) {
     header {
@@ -256,6 +381,19 @@ footer {
     nav {
       flex-direction: row;
       justify-content: space-around;
+    }
+
+  
+
+    .container-moi img{
+      width:250px;
+      max-height: 250px;
+      align-content: center;
+
+    }
+
+    .overlay{
+      font-size: 15px;
     }
   }
   
