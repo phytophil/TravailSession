@@ -17,6 +17,4 @@ function css() {
     .pipe(dest('dist/css/'));
 }
 
-
-
 exports.default = parallel(js, css);
