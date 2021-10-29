@@ -72,9 +72,9 @@ Le déploiement web
 - Retour sur le TP1
 - Déploiement à l'ancienne FTP / Backup CPanel
 - SSH
-- Les hébergeurs web linux vs windows
+- [Les hébergeurs web linux vs windows](https://github.com/PLDubeFormation/TravailSession/blob/master/Les%20diff%C3%A9rents%20types%20d%E2%80%99h%C3%A9bergement.pdf)
 - Exploration CPanel
-- Le cloud (Google, Amazon et Microsoft)
+- [Le cloud (Google, Amazon et Microsoft)](https://www.datamation.com/cloud/aws-vs-azure-vs-google-cloud/)
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [PageSpeed Insight](https://developers.google.com/speed/pagespeed/insights)
 - Présentation du travail pratique 2 et du travail pratique 3
