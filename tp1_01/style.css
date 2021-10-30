@@ -394,6 +394,7 @@ body
 
     .overlay{
       font-size: 15px;
+      width: 100vh;
     }
   }
   
