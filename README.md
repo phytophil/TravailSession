@@ -112,14 +112,19 @@ Le déploiement web
 
 - Processus de mise en production d'un site web
 - Révision matières pour examen
+- Encadrement technique en classe
+
+#### Continuer le [TP2](TP2.md) ####
 
 ## Cours 9 / 23 novembre 2021 | Examen 20% | Remise du TP2 (11h59) 25% ## 
 
-- Processus de mise en production d'un site web
-- Atelier pratique
-- Continuer le [travail pratique 3](https://github.com/PLDubeFormation/TravailSession/blob/master/Travail%20final.pdf) 
+- Examen 20% (1h30)
+- Processus de mise en production d'un site web (rappel)
+- Encadrement technique en classe Q-A
+
+#### Continuer le [Travail final](https://github.com/PLDubeFormation/TravailSession/blob/master/Travail%20final.pdf) ####
 
 ## Cours 9 / 23 novembre 2021 | Remise du TP3 (11h59) 25% ##
 
-- Atelier pratique
+- Encadrement technique en classe
 - Finaliser et remettre le [travail pratique 3](https://github.com/PLDubeFormation/TravailSession/blob/master/Travail%20final.pdf) 
