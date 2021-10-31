@@ -93,7 +93,7 @@ Le déploiement web
 - [Gestion du robot d'exploration](https://developers.google.com/search/docs/advanced/crawling/ask-google-to-recrawl)
 
 ### Google Analytics ###
-- Démo technique
+- [Démo technique](https://create-react-app.dev/docs/getting-started)
 
 ### Optimisation de votre site web ###
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
