@@ -76,7 +76,7 @@ Le déploiement web
 - [Le cloud (Google, Amazon et Microsoft)](https://www.datamation.com/cloud/aws-vs-azure-vs-google-cloud/)
 - Exploration CPanel
 
-- ### Introduction React ###
+### Introduction React ###
 - Création de composantes react Guide pratique
 - Démo technique
 
