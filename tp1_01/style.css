@@ -183,22 +183,23 @@ body
   
   .overlay {
     position: absolute;
-    width: 100%;
-    height: 400px;
+    width: 100vh;
+    height: 100vh;
     padding-top: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    background-size: cover;
+       background-size: cover;
     opacity: 0.4;
+   
   }
   
   .container-moi,.container-parcours,.container-carousel {
     width: 100%;
-    height: 700px;
+    height: 300px;
     padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    padding:0;
+    padding-left:50px;
+    align-items: center;
+    align-content: center;
   }
   
   .container-moi img {
@@ -253,7 +254,7 @@ body
   
   /*****************************parallax************************/
   #parallax{
-
+  padding-bottom: 100px;
   background-image: url(./img/wireframe.jpg);
   background-repeat: no-repeat;
   height:400px;
@@ -265,9 +266,9 @@ body
   }
   
   
-  #section3 {
+  #section1,#section2,#section3,#section4{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-wrap: wrap;
   }
