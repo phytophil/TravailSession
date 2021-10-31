@@ -73,12 +73,15 @@ Le déploiement web
 - Déploiement à l'ancienne FTP / Backup CPanel
 - SSH
 - [Les hébergeurs web linux vs windows](https://github.com/PLDubeFormation/TravailSession/blob/master/Les%20diff%C3%A9rents%20types%20d%E2%80%99h%C3%A9bergement.pdf)
-- Exploration CPanel
 - [Le cloud (Google, Amazon et Microsoft)](https://www.datamation.com/cloud/aws-vs-azure-vs-google-cloud/)
-- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
-- [PageSpeed Insight](https://developers.google.com/speed/pagespeed/insights)
-- Présentation du [travail pratique 2](TP2.md) 
-- Présentation du [travail pratique 3](https://github.com/PLDubeFormation/TravailSession/blob/master/Travail%20final.pdf) 
+- Exploration CPanel
+
+- ### Introduction React ###
+- Création de composantes react Guide pratique
+- Démo technique
+
+#### Présentation du [travail pratique 2](TP2.md) ####
+#### Présentation du [travail pratique 3](https://github.com/PLDubeFormation/TravailSession/blob/master/Travail%20final.pdf) ####
 
 
 ## Cours 7 / 9 novembre 2021 ## 
@@ -92,9 +95,9 @@ Le déploiement web
 ### Google Analytics ###
 - Démo technique
 
-### Introduction React ###
-- Création de composantes react Guide pratique
-- Démo technique
+### Optimisation de votre site web ###
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- [PageSpeed Insight](https://developers.google.com/speed/pagespeed/insights)
 
 ### Sécuriser son site web (introduction) ###
 - [Sécuriser son site web](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
