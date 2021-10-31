@@ -171,7 +171,7 @@ body
  
   .container-hero {
     width: 100%;
-    height: 600px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
@@ -183,26 +183,54 @@ body
   
   .overlay {
     position: absolute;
-    width: 100vh;
+    width: 100%;
     height: 100vh;
     padding-top: 200px;
-       background-size: cover;
+    background-size: cover;
     opacity: 0.4;
+    transform: translate(-50%,-50%);
+    text-align: center;
    
   }
   
-  .container-moi,.container-parcours,.container-carousel {
+  .container-moi,.container-carousel {
     width: 100%;
-    height: 300px;
-    padding-top: 150px;
+    height: 200px;
+    padding-top: 60px;
     padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
-    padding-left:50px;
+    
     align-items: center;
     align-content: center;
   }
-  
+
+  .carousel-item{
+    width:800px;
+    height:100vh;
+  }
+  .container-carousel h2{
+    padding-top: 60px;
+  }
+ 
+
+  .container-parcours {
+    width: 80px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+ ;
+    text-align: center;
+
+  }
+
+  .container-parcours p  h2{
+    text-align: center;
+  }
+
+
   .container-moi img {
     
     display: flex;
@@ -262,16 +290,32 @@ body
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  font-size: 25px;
-
+ 
   }
   
   
   #section1,#section2,#section3,#section4{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
+
+  }
+
+
+  #section1{
+text-transform: uppercase;
+display:block;
+transform: translate(-50%, -50%);
+  }
+
+  /*****************************animation************************/
+
+  #anim-flottement {
+ 
+    -moz-animation: anim-flottement 10s linear infinite;
+    -webkit-animation: anim-flottement 10s linear infinite;
+    animation: anim-flottement 5s linear infinite;
   }
   /*****************************footer************************/
 
@@ -280,7 +324,7 @@ body
     z-index: 2;
     height: 50vh;
     display: flex;
-    align-items: flex-end;
+    align-items:flex-start;
     z-index: -1;
   }
   
@@ -290,7 +334,7 @@ body
     margin-bottom: 0.5rem;
   }
   
-  .logo-fou-potager-footer {
+  .limg-fluid{
     width: 70%;
   }
   
@@ -326,13 +370,8 @@ body
 
   
   @media (max-width: 768px) {
-    header {
-      position: fixed;
-      border-radius: 0 0 100% 100%;
-      background-position: top;
-      margin-left: 0;
-      padding: 1rem;
-    }
+   
+    
   
     .col-4 {
       width: 100%;
@@ -360,5 +399,16 @@ body
       font-size: 15px;
       width: 100px;
     }
+
+    @keyframes anim-flottement {
+      25% {
+        transform: translatey(-2vh);
+      }
+    
+      50% {
+        transform: translatey(-3vh);
+      }
+    }
+    
   }
   
