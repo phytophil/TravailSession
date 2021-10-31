@@ -77,7 +77,9 @@ Le déploiement web
 - [Le cloud (Google, Amazon et Microsoft)](https://www.datamation.com/cloud/aws-vs-azure-vs-google-cloud/)
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [PageSpeed Insight](https://developers.google.com/speed/pagespeed/insights)
-- Présentation du travail pratique 2 et du travail pratique 3
+- Présentation du [travail pratique 2](TP2.md) 
+- Présentation du [travail pratique 3](https://github.com/PLDubeFormation/TravailSession/blob/master/Travail%20final.pdf) 
+
 
 ## Cours 7 / 9 novembre 2021 ## 
 
@@ -92,17 +94,20 @@ Le déploiement web
   * Insecure Direct Object References. ...
   * Security Misconfiguration. ...
   * Cross-Site Request Forgery (CSRF) 
-- Continuer le TP2
+- Continuer le [TP2](TP2.md) 
 
-## Cours 8 / 16 novembre 2021 | Remise du TP2 (11h59) 25% ## 
+## Cours 8 / 16 novembre 2021 ## 
 
 - Processus de mise en production d'un site web
 - Révision matières pour examen
 
-## Cours 9 / 23 novembre 2021 | Examen 20% ##
+## Cours 9 / 23 novembre 2021 | Examen 20% | Remise du TP2 (11h59) 25% ## 
 
-- Continuer le TP3
+- Processus de mise en production d'un site web
+- Atelier pratique
+- Continuer le [travail pratique 3](https://github.com/PLDubeFormation/TravailSession/blob/master/Travail%20final.pdf) 
 
 ## Cours 9 / 23 novembre 2021 | Remise du TP3 (11h59) 25% ##
 
-- Finaliser et remettre le TP3
+- Atelier pratique
+- Finaliser et remettre le [travail pratique 3](https://github.com/PLDubeFormation/TravailSession/blob/master/Travail%20final.pdf) 
