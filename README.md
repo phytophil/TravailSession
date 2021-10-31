@@ -83,9 +83,20 @@ Le déploiement web
 
 ## Cours 7 / 9 novembre 2021 ## 
 
-- Guide Google Analytics
-- Méta tags pour les engins de recherches et robot.txt
+### Contrôler l'exploration et l'indexation ###
+- [À propos des sitemaps](https://developers.google.com/search/docs/advanced/sitemaps/overview)
+- [Balises Méta pour les engins de recherches](https://developers.google.com/search/docs/advanced/crawling/special-tags)
+- [Fichier robots.txt](https://developers.google.com/search/docs/advanced/robots/intro#:~:text=txt-,A%20robots.,or%20password%2Dprotect%20the%20page.)
+- [Gestion du robot d'exploration](https://developers.google.com/search/docs/advanced/crawling/ask-google-to-recrawl)
+
+### Google Analytics ###
+- Démo technique
+
+### Introduction React ###
 - Création de composantes react Guide pratique
+- Démo technique
+
+### Sécuriser son site web (introduction) ###
 - [Sécuriser son site web](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
 - Types d'attaques
   * SQL Injections. ...
@@ -94,7 +105,8 @@ Le déploiement web
   * Insecure Direct Object References. ...
   * Security Misconfiguration. ...
   * Cross-Site Request Forgery (CSRF) 
-- Continuer le [TP2](TP2.md) 
+
+#### Continuer le [TP2](TP2.md) ####
 
 ## Cours 8 / 16 novembre 2021 ## 
 
