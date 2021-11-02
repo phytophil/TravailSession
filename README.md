@@ -127,7 +127,7 @@ Le déploiement web
 
 #### Continuer le [Travail final](https://github.com/PLDubeFormation/TravailSession/blob/master/Travail%20final.pdf) ####
 
-## Cours 9 / 23 novembre 2021 | Remise du TP3 (11h59) 25% ##
+## Cours 10 / 30 novembre 2021 | Remise du TP3 (11h59) 25% ##
 
 - Encadrement technique en classe
 - Finaliser et remettre le [travail pratique 3](https://github.com/PLDubeFormation/TravailSession/blob/master/Travail%20final.pdf) 
