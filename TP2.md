@@ -1,4 +1,4 @@
-# Énoncé du travail pratique #2 pour le 16 novembre 2021 21h00 EST
+# Énoncé du travail pratique #2 pour le 23 novembre 2021 21h00 EST
 
 ## Un site web React avec des composantes web d'extension des frameworks suivants :
 - ant : https://ant.design/docs/react/introduce
