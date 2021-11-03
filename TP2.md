@@ -1,10 +1,33 @@
-# Énoncé du travail pratique #2 pour le 23 novembre 2021 21h00 EST
+# Énoncé du travail pratique #2 pour le 23 novembre 2021 23h59 EST
 
-## Un site web React avec des composantes web d'extension des frameworks suivants :
+## Un storybook React avec des composantes web d'extensions des frameworks suivants :
 - ant : https://ant.design/docs/react/introduce
 - material ui : https://mui.com/
 - semantic ui : https://semantic-ui.com/
 - blueprint ui : https://blueprintjs.com/docs/
+
+  > Voir démo vidéo pour comment procéder.
+  
+  > Vous devez livrer votre application complète dans le répertoire tp_XX et faire une pull request vers features/tp2
+  
+  > Votre Application ne doit pas inclure les node_modules.
+  
+  > Votre application doit contenir l'application compilé dans le répertoire build (ajuster le .gitignore au besoin)
+  
+  > Votre applicatoin doit contenir l'application storybook compilé dans le répertoire storybook-static (ajuster le .gitignore au besoin)
+  
+  > Lien vers les vidéos : https://webarchitek.ca/formations/React-Storybook.zip
+  
+  > Vous serez noté sur les configurations disponibles apportées sur vos composants
+  
+  > Vous serez noté sur le nombre de composants livrés
+
+  > Vous serez noté sur le nombre de framework différents expérimentés
+  
+  > Vous serez noté sur la qualité des stories de votre storybook
+  > Exemple : Dans une storie, vous indiquez de quel framework provient votre composante et son utilité.
+
+  > Points bonus : Vous ajoutez des tests unitaires !
 
 ## ou
 
@@ -39,6 +62,6 @@
 
 ## Ce travail compte pour 25% de votre note finale.
 -   Doit être disponible dans votre release branch de git prêt à être copié à la racine d'un site web.
--   Votre livraison doit se faire via une pullrequest sur la release branch associé à votre numéro d'élève **releases/tp2_XX** où 
+-   Votre livraison doit se faire via une pullrequest sur la feature branch associé à votre numéro d'élève **features/tp2_XX** où 
 (**XX** sera un chiffre entre 01 et 11).
 - Ce chiffre vous a été attribué au début du cours).
