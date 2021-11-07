@@ -1,23 +1,38 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classes from './Datepicker.module.css';
+import { DatePicker, Space } from 'antd';
 
-const Datepicker = ({initialValue = 0}) => {
-    const {count, incrementCount} = useLogic(initialValue);
-  
+
+const { RangePicker } = DatePicker;
+
+function onChange(value, dateString) {
+console.log('Selected Time: ', value);
+console.log('Formatted Selected Time: ', dateString);
+}
+
+function onOk(value) {
+  console.log('onOk: ', value);
+}
+
+const Datepicker = ({picker}) => {
     return (
-      <div className={classes.test}>
-        
-        
-      </div>
-    );
-  };
+        <Space direction="vertical" size={12}>
+            <DatePicker showTime onChange={onChange} onOk={onOk} picker={picker} />
+            <RangePicker
+            showTime={{ format: 'HH:mm' }}
+            format="YYYY-MM-DD HH:mm"
+            onChange={onChange}
+            onOk={onOk}
+            />
+      </Space>,
+      );
+};
 
 Datepicker.propTypes = {
     /**
-     * Define initial value for the Datepicker
+     * Define initial value for the Datepicker picker (week,month,quarter,year)
      */
-    initialValue: PropTypes.number.isRequired,
+    picker: PropTypes.string.isRequired,
   };
   
   export default Datepicker;
