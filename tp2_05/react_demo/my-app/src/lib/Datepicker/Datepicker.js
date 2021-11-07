@@ -1,22 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { DatePicker, Space } from 'antd';
+import classes from './Datepicker.module.css';
 
 
 const { RangePicker } = DatePicker;
 
 function onChange(value, dateString) {
-console.log('Selected Time: ', value);
-console.log('Formatted Selected Time: ', dateString);
+    console.log('Selected Time: ', value);
+    console.log('Formatted Selected Time: ', dateString);
 }
 
 function onOk(value) {
-  console.log('onOk: ', value);
+    console.log('onOk: ', value);
 }
 
 const Datepicker = ({picker}) => {
     return (
-        <Space direction="vertical" size={12}>
+     <Space direction="vertical" size={12}>
             <DatePicker showTime onChange={onChange} onOk={onOk} picker={picker} />
             <RangePicker
             showTime={{ format: 'HH:mm' }}
@@ -25,7 +26,7 @@ const Datepicker = ({picker}) => {
             onOk={onOk}
             />
       </Space>,
-      );
+    );
 };
 
 Datepicker.propTypes = {
