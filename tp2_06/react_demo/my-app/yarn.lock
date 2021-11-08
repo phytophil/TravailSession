@@ -6627,6 +6627,23 @@ copy-to-clipboard@^3.2.0, copy-to-clipboard@^3.3.1:
   dependencies:
     toggle-selection "^1.0.6"
 
+copy-webpack-plugin@^6.4.1:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/copy-webpack-plugin/-/copy-webpack-plugin-6.4.1.tgz#138cd9b436dbca0a6d071720d5414848992ec47e"
+  integrity sha512-MXyPCjdPVx5iiWyl40Va3JGh27bKzOTNY3NjUTrosD2q7dR/cLD0013uqJ3BpFbUjyONINjb6qI7nDIJujrMbA==
+  dependencies:
+    cacache "^15.0.5"
+    fast-glob "^3.2.4"
+    find-cache-dir "^3.3.1"
+    glob-parent "^5.1.1"
+    globby "^11.0.1"
+    loader-utils "^2.0.0"
+    normalize-path "^3.0.0"
+    p-limit "^3.0.2"
+    schema-utils "^3.0.0"
+    serialize-javascript "^5.0.1"
+    webpack-sources "^1.4.3"
+
 core-js-compat@^3.16.0, core-js-compat@^3.16.2, core-js-compat@^3.18.0, core-js-compat@^3.19.0, core-js-compat@^3.8.1:
   version "3.19.1"
   resolved "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.19.1.tgz"
@@ -8574,7 +8591,7 @@ fast-glob@^3.1.1:
     micromatch "^4.0.2"
     picomatch "^2.2.1"
 
-fast-glob@^3.2.5:
+fast-glob@^3.2.4, fast-glob@^3.2.5:
   version "3.2.7"
   resolved "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.7.tgz"
   integrity sha512-rYGMRwip6lUMvYD3BTScMwT1HtAs2d71SMv66Vrxs0IekGZEjhM0pcMfjQPnknBt2zeCwQMEupiN02ZP4DiT1Q==
@@ -9173,7 +9190,7 @@ glob-parent@^5.0.0, glob-parent@^5.1.0, glob-parent@~5.1.0:
   dependencies:
     is-glob "^4.0.1"
 
-glob-parent@^5.1.2, glob-parent@~5.1.2:
+glob-parent@^5.1.1, glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz"
   integrity sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==
@@ -9524,6 +9541,13 @@ hash.js@^1.0.0, hash.js@^1.0.3:
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
+
+hasharray@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/hasharray/-/hasharray-1.1.1.tgz#0bfadd91c0ee76919c05eeef5a3dc1034b4ea4f1"
+  integrity sha512-L+WTUz5XcfQyh3652tOEDLL5ZG6MAS+iYqM2K0N9H/z7RpW0rjlFkXLRdqbwqrGCr9korJzyfDD7i7mtwo42wg==
+  dependencies:
+    jclass "^1.0.1"
 
 hast-to-hyperscript@^9.0.0:
   version "9.0.1"
@@ -10761,6 +10785,11 @@ iterate-value@^1.0.2:
   dependencies:
     es-get-iterator "^1.0.2"
     iterate-iterator "^1.0.1"
+
+jclass@^1.0.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/jclass/-/jclass-1.2.1.tgz#eaafeec0dd6a5bf8b3ea43c04e010c637638768b"
+  integrity sha1-6q/uwN1qW/iz6kPATgEMY3Y4dos=
 
 jest-changed-files@^26.6.2:
   version "26.6.2"
@@ -15027,7 +15056,7 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
-react-fast-compare@^3.0.1, react-fast-compare@^3.2.0:
+react-fast-compare@^3.0.1, react-fast-compare@^3.1.1, react-fast-compare@^3.2.0:
   version "3.2.0"
   resolved "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.0.tgz"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
@@ -15042,6 +15071,16 @@ react-helmet-async@^1.0.7:
     prop-types "^15.7.2"
     react-fast-compare "^3.2.0"
     shallowequal "^1.1.0"
+
+react-helmet@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-6.1.0.tgz#a750d5165cb13cf213e44747502652e794468726"
+  integrity sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw==
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.7.2"
+    react-fast-compare "^3.1.1"
+    react-side-effect "^2.1.0"
 
 react-inspector@^5.1.0:
   version "5.1.1"
@@ -15159,6 +15198,11 @@ react-scripts@4.0.3:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-side-effect@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.1.tgz#66c5701c3e7560ab4822a4ee2742dee215d72eb3"
+  integrity sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ==
 
 react-sizeme@^3.0.1:
   version "3.0.2"
@@ -16598,6 +16642,17 @@ store2@^2.12.0:
   resolved "https://registry.npmjs.org/store2/-/store2-2.12.0.tgz"
   integrity sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==
 
+storybook-addon-customize-antd-theme@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/storybook-addon-customize-antd-theme/-/storybook-addon-customize-antd-theme-1.1.0.tgz#12a2fa483615beb3c4ff013cff114d516ad8d785"
+  integrity sha512-xM0+wPjw22yBktTpo1Zu80KyH8Tbx9RNdza43Zld+YCLViDvLcRPz1zf1c00Ki5aqAfNHQlv2cjjAM8b3TjZjQ==
+  dependencies:
+    antd "^4.16.13"
+    copy-webpack-plugin "^6.4.1"
+    lodash "^4.17.21"
+    react-helmet "^6.1.0"
+    trie-search "^1.3.5"
+
 storybook-addon-outline@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npmjs.org/storybook-addon-outline/-/storybook-addon-outline-1.4.1.tgz"
@@ -17370,6 +17425,13 @@ tr46@~0.0.3:
   version "0.0.3"
   resolved "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
   integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
+
+trie-search@^1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/trie-search/-/trie-search-1.3.5.tgz#933faafe2bc663386832ff91c01c21b5473b51d9"
+  integrity sha512-I19DhTM6Gf3ZwZ8cj3o3MmKBqocXU/uI2grVMOX6tkFkCQZge0gIq09OXGXWYgDK/ThfrjP5cRI1v6jHfKei8Q==
+  dependencies:
+    hasharray "^1.1.1"
 
 trim-newlines@^3.0.0:
   version "3.0.1"
