@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { DatePicker, Space } from 'antd';
-import classes from './Datepicker.module.css';
+
 
 
 const { RangePicker } = DatePicker;
@@ -16,6 +16,7 @@ function onOk(value) {
 }
 
 const Datepicker = ({picker}) => {
+    
     return (
      <Space direction="vertical" size={12}>
             <DatePicker showTime onChange={onChange} onOk={onOk} picker={picker} />
