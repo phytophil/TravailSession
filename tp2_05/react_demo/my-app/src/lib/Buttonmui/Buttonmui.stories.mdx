@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Buttonmui from './Buttonmui';
+
+<Meta title="Example/Buttonmui" component={Buttonmui} />
+
+# Example Component Demo
+
+## Buttonmui props
+<Props of={Buttonmui} />
+
+## Description
+
+`Buttonmui` component provides user basic interface to increment Buttonmui by one.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Buttonmui">
+    {(args) => <Buttonmui {...args} />}
+  </Story>
+</Canvas>
