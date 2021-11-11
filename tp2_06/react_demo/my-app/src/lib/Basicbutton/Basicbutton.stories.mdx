@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Basicbutton from './Basicbutton';
+
+<Meta title="Example/Basicbutton" component={Basicbutton} />
+
+# Example Component Demo
+
+## Basicbutton props
+<Props of={Basicbutton} />
+
+## Description
+
+`Basicbutton` component provides user basic interface to increment counter by one.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Basicbutton">
+    {(args) => <Basicbutton {...args} />}
+  </Story>
+</Canvas>
