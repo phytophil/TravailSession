@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Input from './Input';
+
+<Meta title="Example/Input" component={Input} />
+
+# Example Component Demo
+
+## Input props
+<Props of={Input} />
+
+## Description
+
+`Input` component provides user basic interface for a Searchbar with a search loading indocator.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Input">
+    {(args) => <Input {...args} />}
+  </Story>
+</Canvas>
