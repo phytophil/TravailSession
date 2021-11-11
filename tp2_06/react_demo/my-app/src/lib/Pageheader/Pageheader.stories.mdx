@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Pageheader from './Pageheader';
+
+<Meta title="Example/Pageheader" component={Pageheader} />
+
+# Example Component Demo
+
+## Pageheader props
+<Props of={Pageheader} />
+
+## Description
+
+`Pageheader` component provides user basic interface for a page header.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Pageheader">
+    {(args) => <Pageheader {...args} />}
+  </Story>
+</Canvas>
