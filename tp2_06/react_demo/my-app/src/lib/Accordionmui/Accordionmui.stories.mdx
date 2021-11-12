@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Accordionmui from './Accordionmui';
+
+<Meta title="Example/Accordionmui" component={Accordionmui} />
+
+# Example Component Demo
+
+## Accordionmui props
+<Props of={Accordionmui} />
+
+## Description
+
+The "Accordionmui" component coming from Material UI provides a user interface with an accordion wich open and closed.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Accordionmui">
+    {(args) => <Accordionmui {...args} />}
+  </Story>
+</Canvas>

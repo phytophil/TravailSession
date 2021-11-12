@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Basicrating from './Basicrating';
+
+<Meta title="Example/Basicrating" component={Basicrating} />
+
+# Example Component Demo
+
+## Basicrating props
+<Props of={Basicrating} />
+
+## Description
+
+The "Basicrating" component coming from Material UI provides a user interface with basic buttons.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Basicrating">
+    {(args) => <Basicrating {...args} />}
+  </Story>
+</Canvas>
