@@ -1,7 +1,7 @@
 import {Menu, MenuItem} from '@blueprintjs/core';
 import {ContextMenu2} from '@blueprintjs/popover2';
 
-export default function ContextMenuExample() {
+const ContextMenuExample = document.getElementbyId("") {
   return (
     <ContextMenu2
       content={
