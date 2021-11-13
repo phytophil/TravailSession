@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import ListTr from './ListTr';
+
+<Meta title="Example/ListTr" component={ListTr} />
+
+# Example Component Demo
+
+## ListTr props
+<Props of={ListTr} />
+
+## Description
+
+`ListTr` component provides user basic interface to increment ListTr by one.
+
+## Demo
+
+<Canvas>
+  <Story name="Example ListTr">
+    {(args) => <ListTr {...args} />}
+  </Story>
+</Canvas>
