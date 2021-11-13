@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import BadgeVisibility from './BadgeVisibility';
+
+<Meta title="Example/BadgeVisibility" component={BadgeVisibility} />
+
+# Example Component Demo
+
+## BadgeVisibility props
+<Props of={BadgeVisibility} />
+
+## Description
+
+`BadgeVisibility` component provides user basic interface to increment BadgeVisibility by one.
+
+## Demo
+
+<Canvas>
+  <Story name="Example BadgeVisibility">
+    {(args) => <BadgeVisibility {...args} />}
+  </Story>
+</Canvas>

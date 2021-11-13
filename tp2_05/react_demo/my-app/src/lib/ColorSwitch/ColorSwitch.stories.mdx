@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import ColorSwitch from './ColorSwitch';
+
+<Meta title="Example/ColorSwitch" component={ColorSwitch} />
+
+# Example Component Demo
+
+## ColorSwitch props
+<Props of={ColorSwitch} />
+
+## Description
+
+`ColorSwitch` component provides user basic interface to increment ColorSwitch by one.
+
+## Demo
+
+<Canvas>
+  <Story name="Example ColorSwitch">
+    {(args) => <ColorSwitch {...args} />}
+  </Story>
+</Canvas>
