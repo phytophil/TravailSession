@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import HoverRating from './HoverRating';
+
+<Meta title="Example/HoverRating" component={HoverRating} />
+
+# Example Component Demo
+
+## HoverRating props
+<Props of={HoverRating} />
+
+## Description
+
+`HoverRating` component provides user basic interface to select a date.
+
+## Demo
+
+<Canvas>
+  <Story name="Example HoverRating">
+    {(args) => <HoverRating {...args} />}
+  </Story>
+</Canvas>
