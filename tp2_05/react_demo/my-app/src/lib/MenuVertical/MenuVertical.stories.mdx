@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import MenuVertical from './MenuVertical';
+
+<Meta title="Example/MenuVertical" component={MenuVertical} />
+
+# Example Component Demo
+
+## MenuVertical props
+<Props of={MenuVertical} />
+
+## Description
+
+`MenuVertical` component provides user basic interface to select a date.
+
+## Demo
+
+<Canvas>
+  <Story name="AntD MenuVertical">
+    {(args) => <MenuVertical {...args} />}
+  </Story>
+</Canvas>

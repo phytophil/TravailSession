@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import SliderA from './SliderA';
+
+<Meta title="Example/SliderA" component={SliderA} />
+
+# Example Component Demo
+
+## SliderA props
+<Props of={SliderA} />
+
+## Description
+
+`SliderA` component provides user basic interface to increment SliderA by one.
+
+## Demo
+
+<Canvas>
+  <Story name="AntD SliderA">
+    {(args) => <SliderA {...args} />}
+  </Story>
+</Canvas>

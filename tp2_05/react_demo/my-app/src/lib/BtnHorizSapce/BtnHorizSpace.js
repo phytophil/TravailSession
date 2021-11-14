@@ -23,7 +23,7 @@ const SpaceH = ({spaceh}) => (
 
 SpaceH.propTypes = {
   /**
-   * Pageheader add title
+   * Button Horizontal Space
    */
   spaceh: PropTypes.string.isRequired,
 };

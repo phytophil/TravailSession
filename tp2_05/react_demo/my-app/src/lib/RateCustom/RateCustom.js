@@ -21,7 +21,7 @@ const RateC = ({ratec}) => (
 
 RateC.propTypes = {
   /**
-   * Pageheader add title
+   * Rate Custom Icons
    */
   ratec: PropTypes.string.isRequired,
 };
