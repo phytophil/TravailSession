@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import BtnHorizSpace from './BtnHorizSpace';
+
+<Meta title="Example/BtnHorizSpace" component={BtnHorizSpace} />
+
+# Example Component Demo
+
+## BtnHorizSpace props
+<Props of={BtnHorizSpace} />
+
+## Description
+
+`BtnHorizSpace` component provides user basic interface to increment BtnHorizSpace by one.
+
+## Demo
+
+<Canvas>
+  <Story name="AntD BtnHorizSpace">
+    {(args) => <BtnHorizSpace {...args} />}
+  </Story>
+</Canvas>

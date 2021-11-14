@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import RateCustom from './RateCustom';
+
+<Meta title="Example/RateCustom" component={RateCustom} />
+
+# Example Component Demo
+
+## RateCustom props
+<Props of={RateCustom} />
+
+## Description
+
+`RateCustom` component provides user basic interface to increment RateCustom by one.
+
+## Demo
+
+<Canvas>
+  <Story name="Example RateCustom">
+    {(args) => <RateCustom {...args} />}
+  </Story>
+</Canvas>
