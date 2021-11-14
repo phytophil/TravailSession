@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import navgauche from './navgauche';
+
+<Meta title="Example/navgauche" component={navgauche} />
+
+# Example Component Demo
+
+## navgauche props
+<Props of={navgauche} />
+
+## Description
+
+`navgauche` component coming from AntD provides user basic interface for a page header with a title and a back button.
+
+## Demo
+
+<Canvas>
+  <Story name="Example navgauche">
+    {(args) => <navgauche {...args} />}
+  </Story>
+</Canvas>
