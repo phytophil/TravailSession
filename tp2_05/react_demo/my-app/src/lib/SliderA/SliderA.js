@@ -29,7 +29,7 @@ const SliderA = ({slidera}) => (
 
 SliderA.propTypes = {
   /**
-   * Rate Custom Icons
+   * Slider 4 slides
    */
   slidera: PropTypes.string.isRequired,
 };

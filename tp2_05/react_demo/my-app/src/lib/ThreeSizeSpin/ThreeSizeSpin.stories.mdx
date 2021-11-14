@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import ThreeSizeSpin from './ThreeSizeSpin';
+
+<Meta title="Example/ThreeSizeSpin" component={ThreeSizeSpin} />
+
+# Example Component Demo
+
+## ThreeSizeSpin props
+<Props of={ThreeSizeSpin} />
+
+## Description
+
+`ThreeSizeSpin` component provides user basic interface to increment ThreeSizeSpin by one.
+
+## Demo
+
+<Canvas>
+  <Story name="AntD ThreeSizeSpin">
+    {(args) => <ThreeSizeSpin {...args} />}
+  </Story>
+</Canvas>

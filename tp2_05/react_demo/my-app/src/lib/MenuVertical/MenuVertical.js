@@ -44,7 +44,7 @@ const MenuVertical = ({menuvertical}) => (
 
 MenuVertical.propTypes = {
   /**
-   * Rate Custom Icons
+   * Menu Vertical
    */
   menuvertical: PropTypes.string.isRequired,
 };
