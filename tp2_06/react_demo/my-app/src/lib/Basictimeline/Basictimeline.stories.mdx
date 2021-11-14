@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Basictimeline from './Basictimeline';
+
+<Meta title="Example/Basictimeline" component={Basictimeline} />
+
+# Example Component Demo
+
+## Basictimeline props
+<Props of={Basictimeline} />
+
+## Description
+
+`Basictimeline` component coming from AntD provides user basic interface for a page header with a title and a back button.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Basictimeline">
+    {(args) => <Basictimeline {...args} />}
+  </Story>
+</Canvas>
