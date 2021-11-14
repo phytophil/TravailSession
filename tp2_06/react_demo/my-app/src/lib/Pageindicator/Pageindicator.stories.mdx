@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Pageindicator from './Pageindicator';
+
+<Meta title="Example/Pageindicator" component={Pageindicator} />
+
+# Example Component Demo
+
+## Pageindicator props
+<Props of={Pageindicator} />
+
+## Description
+
+`Pageindicator` component coming from AntD provides user basic interface for a page header with a title and a back button.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Pageindicator">
+    {(args) => <Pageindicator {...args} />}
+  </Story>
+</Canvas>
