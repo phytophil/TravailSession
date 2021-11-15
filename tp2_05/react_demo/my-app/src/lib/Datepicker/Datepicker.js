@@ -2,6 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {DatePicker, Space} from 'antd';
 
+const contentStyle = {
+  color: '#fff',
+  border: '2px solid rgb(32, 2, 141)',
+};
+
 const {RangePicker} = DatePicker;
 
 function onChange(value, dateString) {
@@ -15,8 +20,15 @@ function onOk(value) {
 
 const Datepicker = ({picker}) => (
   <Space direction="vertical" size={12}>
-    <DatePicker showTime onChange={onChange} onOk={onOk} picker={picker} />
+    <DatePicker
+      showTime
+      onChange={onChange}
+      onOk={onOk}
+      picker={picker}
+      style={contentStyle}
+    />
     <RangePicker
+      style={contentStyle}
       showTime={{format: 'HH:mm'}}
       format="YYYY-MM-DD HH:mm"
       onChange={onChange}
