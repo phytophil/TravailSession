@@ -7,6 +7,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Checkbox from '@mui/material/Checkbox';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
+import classes from './ListTr.module.css';
 
 function not(a, b) {
   return a.filter(value => b.indexOf(value) === -1);
@@ -60,34 +61,36 @@ export default function TransferList() {
   };
 
   const customList = items => (
-    <Paper sx={{width: 200, height: 230, overflow: 'auto'}}>
-      <List dense component="div" role="list">
-        {items.map(value => {
-          const labelId = `transfer-list-item-${value}-label`;
+    <div className={classes.listtr}>
+      <Paper sx={{width: 200, height: 230, overflow: 'auto'}}>
+        <List dense component="div" role="list">
+          {items.map(value => {
+            const labelId = `transfer-list-item-${value}-label`;
 
-          return (
-            <ListItem
-              key={value}
-              role="listitem"
-              button
-              onClick={handleToggle(value)}>
-              <ListItemIcon>
-                <Checkbox
-                  checked={checked.indexOf(value) !== -1}
-                  tabIndex={-1}
-                  disableRipple
-                  inputProps={{
-                    'aria-labelledby': labelId,
-                  }}
-                />
-              </ListItemIcon>
-              <ListItemText id={labelId} primary={`List item ${value + 1}`} />
-            </ListItem>
-          );
-        })}
-        <ListItem />
-      </List>
-    </Paper>
+            return (
+              <ListItem
+                key={value}
+                role="listitem"
+                button
+                onClick={handleToggle(value)}>
+                <ListItemIcon>
+                  <Checkbox
+                    checked={checked.indexOf(value) !== -1}
+                    tabIndex={-1}
+                    disableRipple
+                    inputProps={{
+                      'aria-labelledby': labelId,
+                    }}
+                  />
+                </ListItemIcon>
+                <ListItemText id={labelId} primary={`List item ${value + 1}`} />
+              </ListItem>
+            );
+          })}
+          <ListItem />
+        </List>
+      </Paper>
+    </div>
   );
 
   return (
@@ -101,7 +104,8 @@ export default function TransferList() {
             size="small"
             onClick={handleAllRight}
             disabled={left.length === 0}
-            aria-label="move all right">
+            aria-label="move all right"
+            className={classes.listtr}>
             ≫
           </Button>
           <Button
@@ -110,7 +114,8 @@ export default function TransferList() {
             size="small"
             onClick={handleCheckedRight}
             disabled={leftChecked.length === 0}
-            aria-label="move selected right">
+            aria-label="move selected right"
+            className={classes.listtr}>
             &gt;
           </Button>
           <Button
@@ -119,7 +124,8 @@ export default function TransferList() {
             size="small"
             onClick={handleCheckedLeft}
             disabled={rightChecked.length === 0}
-            aria-label="move selected left">
+            aria-label="move selected left"
+            className={classes.listtr}>
             &lt;
           </Button>
           <Button
@@ -128,7 +134,8 @@ export default function TransferList() {
             size="small"
             onClick={handleAllLeft}
             disabled={right.length === 0}
-            aria-label="move all left">
+            aria-label="move all left"
+            className={classes.listtr}>
             ≪
           </Button>
         </Grid>

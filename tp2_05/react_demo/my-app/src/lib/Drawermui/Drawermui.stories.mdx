@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Drawermui from './Drawermui';
+
+<Meta title="Example/Drawermui" component={Drawermui} />
+
+# Example Component Demo
+
+## Drawermui props
+<Props of={Drawermui} />
+
+## Description
+
+`Drawermui` component provides user basic interface to increment Drawermui by one.
+
+## Demo
+
+<Canvas>
+  <Story name="Material UI Drawermui">
+    {(args) => <Drawermui {...args} />}
+  </Story>
+</Canvas>

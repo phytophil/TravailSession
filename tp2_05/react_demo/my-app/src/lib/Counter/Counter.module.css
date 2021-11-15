@@ -1,5 +1,5 @@
 .counter {
-  border: 1px solid lightgray;
+  border: 1px solid rgb(32, 2, 141);
   font-family: sans-serif;
   margin: 36px 24px;
   padding: 24px;
@@ -14,7 +14,7 @@
 }
 
 .button {
-  background: lightseagreen;
+  background: rgb(32, 2, 141);
   border: none;
   border-radius: 5px;
   color: white;
