@@ -13,7 +13,7 @@ function handleClick(e) {
   console.log('click', e);
 }
 
-const navgauche = ({Navgauche}) => (
+const Navverticale = ({navverticale}) => (
   <Menu onClick={handleClick} style={{width: 256}} mode="vertical">
     <SubMenu key="sub1" icon={<MailOutlined />} title="Navigation One">
       <Menu.ItemGroup title="Item 1">
@@ -42,11 +42,11 @@ const navgauche = ({Navgauche}) => (
   </Menu>
 );
 
-navgauche.propTypes = {
+Navverticale.propTypes = {
   /**
-   * Define initial value for the navgauche
+   * Define initial position for the Navverticale, menu on left with sub-menu
    */
-  Navgauche: PropTypes.string.isRequired,
+  navverticale: PropTypes.string.isRequired,
 };
 
-export default navgauche;
+export default Navverticale;

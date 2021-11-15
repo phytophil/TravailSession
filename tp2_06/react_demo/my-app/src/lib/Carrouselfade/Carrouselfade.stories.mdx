@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Carrouselfade from './Carrouselfade';
+
+<Meta title="Example/Carrouselfade" component={Carrouselfade} />
+
+# Example Component Demo
+
+## Carrouselfade props
+<Props of={Carrouselfade} />
+
+## Description
+
+`Carrouselfade` component coming from AntD provides user basic interface for a vertical navigation.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Carrouselfade">
+    {(args) => <Carrouselfade {...args} />}
+  </Story>
+</Canvas>

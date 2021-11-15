@@ -6,14 +6,14 @@ const Pageheader = ({pagehead}) => (
   <PageHeader
     className="site-page-header"
     onBack={() => null}
-    title="Title"
-    subTitle="This is a subtitle"
+    title="Titre"
+    subTitle="Ceci est un sous-titre"
   />
 );
 
 Pageheader.propTypes = {
   /**
-   * Define initial value for the Pageheader
+   * Define initial style for the Pageheader
    */
   pagehead: PropTypes.string.isRequired,
 };

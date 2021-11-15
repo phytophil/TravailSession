@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Navverticale from './Navverticale';
+
+<Meta title="Example/Navverticale" component={Navverticale} />
+
+# Example Component Demo
+
+## Navverticale props
+<Props of={Navverticale} />
+
+## Description
+
+`Navverticale` component coming from AntD provides user basic interface for a vertical navigation.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Navverticale">
+    {(args) => <Navverticale {...args} />}
+  </Story>
+</Canvas>
