@@ -22,10 +22,10 @@ export default function ControlledAccordions() {
           aria-controls="panel1bh-content"
           id="panel1bh-header">
           <Typography sx={{width: '33%', flexShrink: 0}}>
-            General settings
+            Information 1
           </Typography>
           <Typography sx={{color: 'text.secondary'}}>
-            I am an accordion
+            Je suis un accordéon
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -42,9 +42,11 @@ export default function ControlledAccordions() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
           id="panel2bh-header">
-          <Typography sx={{width: '33%', flexShrink: 0}}>Users</Typography>
+          <Typography sx={{width: '33%', flexShrink: 0}}>
+            Information 2
+          </Typography>
           <Typography sx={{color: 'text.secondary'}}>
-            You are currently not an owner
+            Ici mettre détails
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -63,11 +65,9 @@ export default function ControlledAccordions() {
           aria-controls="panel3bh-content"
           id="panel3bh-header">
           <Typography sx={{width: '33%', flexShrink: 0}}>
-            Advanced settings
+            Information 3
           </Typography>
-          <Typography sx={{color: 'text.secondary'}}>
-            Filtering has been entirely disabled for whole web server
-          </Typography>
+          <Typography sx={{color: 'text.secondary'}}>Autres détails</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -84,8 +84,9 @@ export default function ControlledAccordions() {
           aria-controls="panel4bh-content"
           id="panel4bh-header">
           <Typography sx={{width: '33%', flexShrink: 0}}>
-            Personal data
+            Information 4
           </Typography>
+          <Typography sx={{color: 'text.secondary'}}>Autres détails</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

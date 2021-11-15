@@ -5,9 +5,9 @@ import Button from '@mui/material/Button';
 export default function BasicButtons() {
   return (
     <Stack spacing={2} direction="row">
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
+      <Button variant="text">Btn texte</Button>
+      <Button variant="contained">Btn plein</Button>
+      <Button variant="outlined">Btn contour</Button>
     </Stack>
   );
 }

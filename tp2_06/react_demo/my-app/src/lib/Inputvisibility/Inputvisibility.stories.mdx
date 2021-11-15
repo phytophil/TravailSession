@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Inputvisibility from './Inputvisibility';
+
+<Meta title="Example/Inputvisibility" component={Inputvisibility} />
+
+# Example Component Demo
+
+## Inputvisibility props
+<Props of={Inputvisibility} />
+
+## Description
+
+`Inputvisibility` component coming from AntD provides user basic interface for a page header with a title and a back button.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Inputvisibility">
+    {(args) => <Inputvisibility {...args} />}
+  </Story>
+</Canvas>

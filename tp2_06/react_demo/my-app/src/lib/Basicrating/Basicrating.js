@@ -11,7 +11,7 @@ export default function BasicRating() {
       sx={{
         '& > legend': {mt: 2},
       }}>
-      <Typography component="legend">Controlled</Typography>
+      <Typography component="legend">Contrôle</Typography>
       <Rating
         name="simple-controlled"
         value={value}
@@ -19,11 +19,11 @@ export default function BasicRating() {
           setValue(newValue);
         }}
       />
-      <Typography component="legend">Read only</Typography>
+      <Typography component="legend">Lire seulement</Typography>
       <Rating name="read-only" value={value} readOnly />
-      <Typography component="legend">Disabled</Typography>
+      <Typography component="legend">Désactivé</Typography>
       <Rating name="disabled" value={value} disabled />
-      <Typography component="legend">No rating given</Typography>
+      <Typography component="legend">Aucune note disponible</Typography>
       <Rating name="no-value" value={null} />
     </Box>
   );
