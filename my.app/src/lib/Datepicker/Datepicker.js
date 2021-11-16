@@ -14,7 +14,7 @@ function onOk(value) {
   console.log('onOk: ', value);
 }
 
-const DatePicker = ({picker}) => {
+const Datepicker = ({picker}) => {
     return (
         <Space direction="vertical" size={12}>
             <DatePicker showTime onChange={onChange} onOk={onOk} picker={picker} />
