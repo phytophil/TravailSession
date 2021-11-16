@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": false,
   "dependencies": {
-    "@ant-design/icons": "latest",
+    "@ant-design/icons": "4.7.0",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
     "@material/card": "^13.0.0",
     "@material/ripple": "^13.0.0",
+    "@mui/material": "^5.1.1",
     "antd": "^4.16.13",
     "cra-template-npm-library": "1.1.1",
     "material-components-web": "^13.0.0",

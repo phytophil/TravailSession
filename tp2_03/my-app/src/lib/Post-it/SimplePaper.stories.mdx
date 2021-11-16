@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import SimplePaper from './SimplePaper';
+
+<Meta title="Example/SimplePaper" component={SimplePaper} />
+
+# Example Component Demo
+
+## SimplePaper props
+<Props of={SimplePaper} />
+
+## Description
+
+`SimplePaper` component provides user basic interface to select a date.
+
+## Demo
+
+<Canvas>
+  <Story name="Example SimplePaper">
+    {(args) => <SimplePaper {...args} />}
+  </Story>
+</Canvas>
