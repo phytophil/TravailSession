@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Popover from './Popover';
+
+<Meta title="Example/Popover" component={Popover} />
+
+# Example Component Demo
+
+## Popover props
+<Props of={Popover} />
+
+## Description
+
+`Popover` component floating card popped by clicking or hovering.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Popover">
+    {(args) => <Popover {...args} />}
+  </Story>
+</Canvas>

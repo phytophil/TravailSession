@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Timeline from './Timeline';
+
+<Meta title="Example/Timeline" component={Timeline} />
+
+# Example Component Demo
+
+## Timeline props
+<Props of={Timeline} />
+
+## Description
+
+`Timeline` component Vertical display. When a series of information needs to be ordered by time (ascending or descending).
+
+## Demo
+
+<Canvas>
+  <Story name="Example Timeline">
+    {(args) => <Timeline {...args} />}
+  </Story>
+</Canvas>
