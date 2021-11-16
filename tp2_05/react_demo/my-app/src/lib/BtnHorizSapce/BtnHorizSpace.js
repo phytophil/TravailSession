@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {Button, Space, Upload, Popconfirm} from 'antd';
 import UploadOutlined from '@ant-design/icons';
 
-const SpaceH = ({spaceh}) => (
+const SpaceH = () => (
   <Space>
     Space
     <Button type="primary">Button</Button>
@@ -20,12 +19,5 @@ const SpaceH = ({spaceh}) => (
     </Popconfirm>
   </Space>
 );
-
-SpaceH.propTypes = {
-  /**
-   * Button Horizontal Space
-   */
-  spaceh: PropTypes.string.isRequired,
-};
 
 export default SpaceH;

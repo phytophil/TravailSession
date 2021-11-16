@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {Rate} from 'antd';
 import {FrownOutlined, MehOutlined, SmileOutlined} from '@ant-design/icons';
 
@@ -11,19 +10,12 @@ const customIcons = {
   5: <SmileOutlined />,
 };
 
-const RateC = ({ratec}) => (
+const RateC = () => (
   <>
     <Rate defaultValue={2} character={({index}) => index + 1} />
     <br />
     <Rate defaultValue={3} character={({index}) => customIcons[index + 1]} />
   </>
 );
-
-RateC.propTypes = {
-  /**
-   * Rate Custom Icons
-   */
-  ratec: PropTypes.string.isRequired,
-};
 
 export default RateC;

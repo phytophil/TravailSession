@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {Menu} from 'antd';
 import {
   MailOutlined,
@@ -13,7 +12,7 @@ function handleClick(e) {
   console.log('click', e);
 }
 
-const MenuVertical = ({menuvertical}) => (
+const MenuVertical = () => (
   <Menu onClick={handleClick} style={{width: 256}} mode="vertical">
     <SubMenu key="sub1" icon={<MailOutlined />} title="Navigation One">
       <Menu.ItemGroup title="Item 1">
@@ -41,12 +40,5 @@ const MenuVertical = ({menuvertical}) => (
     </SubMenu>
   </Menu>
 );
-
-MenuVertical.propTypes = {
-  /**
-   * Menu Vertical
-   */
-  menuvertical: PropTypes.string.isRequired,
-};
 
 export default MenuVertical;

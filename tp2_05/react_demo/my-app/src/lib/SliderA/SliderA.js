@@ -1,5 +1,4 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';import PropTypes from 'prop-types';
 import {Carousel} from 'antd';
 
 const contentStyle = {
@@ -10,7 +9,7 @@ const contentStyle = {
   background: '#364d79',
 };
 
-const SliderA = ({slidera}) => (
+const SliderA = () => (
   <Carousel autoplay>
     <div>
       <h3 style={contentStyle}>1</h3>
@@ -26,12 +25,5 @@ const SliderA = ({slidera}) => (
     </div>
   </Carousel>
 );
-
-SliderA.propTypes = {
-  /**
-   * Slider 4 slides
-   */
-  slidera: PropTypes.string.isRequired,
-};
 
 export default SliderA;
