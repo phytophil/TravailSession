@@ -4,12 +4,12 @@ import classes from './App.module.css';
 
 const App = () => (
   <div>
-  <div className={classes.container}>
-    <Counter initialValue={0} />
-  </div>
-  <div className={classes.container}>
-    <Datepicker />
-  </div>
+    <div className={classes.container}>
+      <Counter initialValue={0} />
+    </div>
+    <div className={classes.container}>
+      <Datepicker />
+    </div>
   </div>
 );
 
