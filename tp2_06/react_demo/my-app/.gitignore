@@ -28,6 +28,3 @@ template.json
 
 # lib
 /lib/*
-
-# documentation
-storybook-static
