@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {Input, Space} from 'antd';
 import {EyeInvisibleOutlined, EyeTwoTone} from '@ant-design/icons';
 
-const Inputvisibility = ({inputeye}) => (
+const Inputvisibility = () => (
   <Space direction="vertical">
     <Input.Password placeholder="input password" />
     <Input.Password
@@ -14,12 +13,5 @@ const Inputvisibility = ({inputeye}) => (
     />
   </Space>
 );
-
-Inputvisibility.propTypes = {
-  /**
-   * Define initial style for the Inputvisibility
-   */
-  inputeye: PropTypes.string.isRequired,
-};
 
 export default Inputvisibility;

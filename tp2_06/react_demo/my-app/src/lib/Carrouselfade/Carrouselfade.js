@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {Carousel} from 'antd';
 
 const contentStyle = {
@@ -10,7 +9,7 @@ const contentStyle = {
   background: '#364d79',
 };
 
-const Carrouselfade = ({carrousel}) => (
+const Carrouselfade = () => (
   <Carousel effect="fade">
     <div>
       <h3 style={contentStyle}>Image 1</h3>
@@ -26,12 +25,5 @@ const Carrouselfade = ({carrousel}) => (
     </div>
   </Carousel>
 );
-
-Carrouselfade.propTypes = {
-  /**
-   * Define the propreties of Carrouselfade
-   */
-  carrousel: PropTypes.string.isRequired,
-};
 
 export default Carrouselfade;

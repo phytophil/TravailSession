@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {Menu} from 'antd';
 import {
   MailOutlined,
@@ -13,7 +12,7 @@ function handleClick(e) {
   console.log('click', e);
 }
 
-const Navverticale = ({navverticale}) => (
+const Navverticale = () => (
   <Menu onClick={handleClick} style={{width: 256}} mode="vertical">
     <SubMenu key="sub1" icon={<MailOutlined />} title="Navigation One">
       <Menu.ItemGroup title="Item 1">
@@ -41,12 +40,5 @@ const Navverticale = ({navverticale}) => (
     </SubMenu>
   </Menu>
 );
-
-Navverticale.propTypes = {
-  /**
-   * Define initial position for the Navverticale, menu on left with sub-menu
-   */
-  navverticale: PropTypes.string.isRequired,
-};
 
 export default Navverticale;
