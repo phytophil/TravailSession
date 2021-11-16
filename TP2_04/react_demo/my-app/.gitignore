@@ -9,7 +9,6 @@
 /coverage
 
 # production
-/build
 
 # misc
 .DS_Store
@@ -30,4 +29,3 @@ template.json
 /lib/*
 
 # documentation
-storybook-static
