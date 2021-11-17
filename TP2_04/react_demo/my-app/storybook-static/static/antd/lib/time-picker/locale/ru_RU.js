@@ -1,1 +1,0 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var locale={placeholder:"Выберите время",rangePlaceholder:["Время начала","Время окончания"]},_default=locale;exports.default=_default;

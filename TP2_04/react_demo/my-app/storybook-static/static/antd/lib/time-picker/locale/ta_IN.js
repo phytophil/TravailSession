@@ -1,1 +1,0 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var locale={placeholder:"நேரத்தைத் தேர்ந்தெடுக்கவும்"},_default=locale;exports.default=_default;
