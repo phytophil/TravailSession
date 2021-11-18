@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import ButtonBases from './ButtonBases';
+
+<Meta title="Example/ButtonBases" component={ButtonBases} />
+
+# Example Component Demo
+
+## ButtonBases props
+<Props of={ButtonBases} />
+
+## Description
+
+`ButtonBases` component provides user basic interface to select a date.
+
+## Demo
+
+<Canvas>
+  <Story name="Example ButtonBases">
+    {(args) => <ButtonBases {...args} />}
+  </Story>
+</Canvas>

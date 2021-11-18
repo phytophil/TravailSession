@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import ButtonRoot from './ButtonRoot';
+
+<Meta title="Example/ButtonRoot" component={ButtonRoot} />
+
+# Example Component Demo
+
+## ButtonRoot props
+<Props of={ButtonRoot} />
+
+## Description
+
+`ButtonRoot` component provides user basic interface to select a date.
+
+## Demo
+
+<Canvas>
+  <Story name="Example ButtonRoot">
+    {(args) => <ButtonRoot {...args} />}
+  </Story>
+</Canvas>

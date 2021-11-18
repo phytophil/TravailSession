@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
@@ -14,10 +14,11 @@ function SimplePaper() {
           height: 128,
         },
       }}>
-      <Paper elevation={0} />
+      <Paper elevation={3} MuiPaper-rounded />
       <Paper />
-      <Paper elevation={3} />
+      <Paper elevation={8} />
     </Box>
   );
 }
+
 export default SimplePaper;
