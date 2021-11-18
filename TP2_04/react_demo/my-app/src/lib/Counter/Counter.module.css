@@ -1,9 +1,6 @@
 .counter {
   border: 1px solid lightgray;
-<<<<<<< Updated upstream
   border-radius: 10px;
-=======
->>>>>>> Stashed changes
   font-family: sans-serif;
   margin: 36px 24px;
   padding: 24px;
@@ -20,11 +17,7 @@
 .button {
   background: lightseagreen;
   border: none;
-<<<<<<< Updated upstream
   border-radius: 20px;
-=======
-  border-radius: 5px;
->>>>>>> Stashed changes
   color: white;
   cursor: pointer;
   display: block;
@@ -39,11 +32,8 @@
   position: relative;
   top: 1px;
 }
-<<<<<<< Updated upstream
 
 .button:hover{
   background: rgb(21, 122, 117);
 
 }
-=======
->>>>>>> Stashed changes

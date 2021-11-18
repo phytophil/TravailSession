@@ -1,13 +1,10 @@
 export const parameters = {
-<<<<<<< Updated upstream
   customizeAntdTheme: {
     modifyVars: {
       'primary-color': '#ff1771',
       'border-radius-base': '20px',
     },
   },  
-=======
->>>>>>> Stashed changes
   actions: {argTypesRegex: '^on[A-Z].*'},
   controls: {
     matchers: {
