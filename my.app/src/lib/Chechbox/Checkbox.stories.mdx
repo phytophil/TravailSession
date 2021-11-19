@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Checkbox from './Checkbox';
+
+<Meta title="Example/Checkbox" component={Checkbox} />
+
+# Example Component Demo
+
+## Checkbox props
+<Props of={Checkbox} />
+
+## Description
+
+`Checkbox` component provides user basic interface to select a date
+
+## Demo
+
+<Canvas>
+  <Story name="Example Checkbox">
+    {(args) => <Checkbox {...args} />}
+  </Story>
+</Canvas>
