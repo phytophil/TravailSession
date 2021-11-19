@@ -1,5 +1,5 @@
 import React from 'react';
-import { DatePicker } from 'antd';
+import {DatePicker} from 'antd';
 
 
 const Componente2 = () => {
@@ -7,3 +7,5 @@ const Componente2 = () => {
         <DatePicker />
       );
 }
+
+export default Componente2;
