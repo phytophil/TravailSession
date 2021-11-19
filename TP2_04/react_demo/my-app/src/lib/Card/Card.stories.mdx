@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Card from './Card';
+
+<Meta title="Example/Card" component={Card} />
+
+# Example Component Demo
+
+## Card props
+<Props of={Card} />
+
+## Description
+
+`Card` Cards contain content and actions about a single subject.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Card">
+    {(args) => <Card {...args} />}
+  </Story>
+</Canvas>

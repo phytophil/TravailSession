@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {DatePicker, Space} from 'antd';
-import classes from './Datepicker.module.css';
 
 const {RangePicker} = DatePicker;
 
