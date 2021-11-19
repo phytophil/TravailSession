@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Menu, Button } from 'antd';
+import {Menu, Button} from 'antd';
 import {
   AppstoreOutlined,
   MenuUnfoldOutlined,
@@ -11,8 +11,7 @@ import {
   MailOutlined,
 } from '@ant-design/icons';
 
-
-const { SubMenu } = Menu;
+const {SubMenu} = Menu;
 
 class App extends React.Component {
   state = {
@@ -27,17 +26,21 @@ class App extends React.Component {
 
   render() {
     return (
-      <div style={{ width: 256 }}>
-        <Button type="primary" onClick={this.toggleCollapsed} style={{ marginBottom: 16 }}>
-          {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined)}
+      <div style={{width: 256}}>
+        <Button
+          type="primary"
+          onClick={this.toggleCollapsed}
+          style={{marginBottom: 16}}>
+          {React.createElement(
+            this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined
+          )}
         </Button>
         <Menu
           defaultSelectedKeys={['1']}
           defaultOpenKeys={['sub1']}
           mode="inline"
           theme="dark"
-          inlineCollapsed={this.state.collapsed}
-        >
+          inlineCollapsed={this.state.collapsed}>
           <Menu.Item key="1" icon={<PieChartOutlined />}>
             Option 1
           </Menu.Item>
@@ -53,7 +56,10 @@ class App extends React.Component {
             <Menu.Item key="7">Option 7</Menu.Item>
             <Menu.Item key="8">Option 8</Menu.Item>
           </SubMenu>
-          <SubMenu key="sub2" icon={<AppstoreOutlined />} title="Navigation Two">
+          <SubMenu
+            key="sub2"
+            icon={<AppstoreOutlined />}
+            title="Navigation Two">
             <Menu.Item key="9">Option 9</Menu.Item>
             <Menu.Item key="10">Option 10</Menu.Item>
             <SubMenu key="sub3" title="Submenu">
@@ -67,14 +73,7 @@ class App extends React.Component {
   }
 }
 
-
-
-const Inlinemenu = ({initialValue = 0}) => {
-  
-  return (
-    <App />, mountNode
-  );
-};
+const Inlinemenu = ({initialValue = 0}) => ((<App />), mountNode);
 
 Inlinemenu.propTypes = {
   /**
