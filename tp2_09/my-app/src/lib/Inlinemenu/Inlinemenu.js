@@ -19,12 +19,14 @@ class App extends React.Component {
   };
 
   toggleCollapsed = () => {
+    const {state} = this
     this.setState({
-      collapsed: !this.state.collapsed,
+      collapsed: state.collapsed,
     });
   };
 
   render() {
+    const {state} = this
     return (
       <div style={{width: 256}}>
         <Button
@@ -32,7 +34,7 @@ class App extends React.Component {
           onClick={this.toggleCollapsed}
           style={{marginBottom: 16}}>
           {React.createElement(
-            this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined
+            state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined
           )}
         </Button>
         <Menu
@@ -40,7 +42,7 @@ class App extends React.Component {
           defaultOpenKeys={['sub1']}
           mode="inline"
           theme="dark"
-          inlineCollapsed={this.state.collapsed}>
+          inlineCollapsed={state.collapsed}>
           <Menu.Item key="1" icon={<PieChartOutlined />}>
             Option 1
           </Menu.Item>
