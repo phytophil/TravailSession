@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Bouton from './Bouton';
+
+<Meta title="Example/Bouton" component={Bouton} />
+
+# Example Component Demo
+
+## Bouton props
+<Props of={Bouton} />
+
+## Description
+
+`Bouton` component provides user basic interface for buttons.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Bouton">
+    {(args) => <Bouton {...args} />}
+  </Story>
+</Canvas>
