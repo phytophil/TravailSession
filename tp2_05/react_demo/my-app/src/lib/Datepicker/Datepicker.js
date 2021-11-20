@@ -33,7 +33,6 @@ const Datepicker = ({picker}) => (
       format="YYYY-MM-DD HH:mm"
       onChange={onChange}
       onOk={onOk}
-      style={contentStyle}
     />
   </Space>
 );
