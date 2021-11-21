@@ -571,13 +571,15 @@ footer p {
 
 
 .card img{
-    /* border:1px solid var(--dark-pink); */
+    border:2px solid var(--dark-pink);
     border-radius:1rem;
 }
 
 .card img:hover{
-    border: solid 2px var(--dark-pink);
-    }
+    border: solid 2px var(--light-pink);
+    transition: 0.5s border;
+    opacity: 90%;
+}
 
 .carousel-control-prev {
     left: -10vw;
