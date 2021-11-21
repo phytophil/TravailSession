@@ -1,5 +1,5 @@
 .Counter_counter__1h8YC {
-  border: 1px solid lightgray;
+  border: 1px solid rgb(32, 2, 141);
   font-family: sans-serif;
   margin: 36px 24px;
   padding: 24px;
@@ -14,7 +14,7 @@
 }
 
 .Counter_button__gd1Vb {
-  background: lightseagreen;
+  background: rgb(32, 2, 141);
   border: none;
   border-radius: 5px;
   color: white;
@@ -32,5 +32,8 @@
   top: 1px;
 }
 
+.ListTr_listtr__1p9ih{
+    border: 2px solid rgb(32, 2, 141);
+}
 
-/*# sourceMappingURL=main.a80d70a3.chunk.css.map*/
+/*# sourceMappingURL=main.a1bcb39b.chunk.css.map*/
