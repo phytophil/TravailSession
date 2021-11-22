@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "install": "^0.13.0"
+  }
+}
