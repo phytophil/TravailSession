@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Accordion from './Accordion';
+
+<Meta title="Example/Accordion" component={Accordion} />
+
+# Example Component Demo
+
+## Accordion props
+<Props of={Accordion} />
+
+## Description
+
+`Accordion` component provides user basic interface to select a date
+
+## Demo
+
+<Canvas>
+  <Story name="Example Accordion">
+    {(args) => <Accordion {...args} />}
+  </Story>
+</Canvas>
