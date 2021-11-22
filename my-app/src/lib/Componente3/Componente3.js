@@ -1,6 +1,6 @@
 import React from 'react';
 import {List, Typography, Divider} from 'antd';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.css'; 
 
 const data=[
     "2021",

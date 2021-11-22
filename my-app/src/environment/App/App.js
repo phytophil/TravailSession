@@ -2,6 +2,7 @@ import React from 'react';
 import {Counter, Componente1, Componente2, Componente3} from 'lib';
 import classes from './App.module.css';
 
+
 const App = () => (
   <div>
     <div className={classes.container}>
@@ -10,10 +11,10 @@ const App = () => (
     <div className={classes.container}>
       <Componente1 />
     </div>
-    <div>
+    <div className={classes.container}>
       <Componente2 />
     </div>
-    <div>
+    <div className={classes.container}>
       <Componente3 />
     </div>
   </div>
