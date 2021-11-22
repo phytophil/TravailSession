@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Etiquette from './Etiquette';
+
+<Meta title="Example/Etiquette" component={Etiquette} />
+
+# Example Component Demo
+
+## Etiquette props
+<Props of={Etiquette} />
+
+## Description
+
+`Etiquette` component provides user basic interface to tag lists of strings.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Etiquette">
+    {(args) => <Etiquette {...args} />}
+  </Story>
+</Canvas>
