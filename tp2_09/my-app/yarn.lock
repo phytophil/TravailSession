@@ -2339,11 +2339,32 @@
     resize-observer-polyfill "^1.5.1"
     tslib "~1.13.0"
 
+"@blueprintjs/docs-theme@^3.10.18":
+  version "3.10.18"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/docs-theme/-/docs-theme-3.10.18.tgz#8fdf58c18cc36b4b5281bf06973eae249050f95f"
+  integrity sha512-UvH+mG1ujpSeIvask9TtLPIRBEomomjC/pNr2SmftgcJsBkYMO3ryudaI48C066dEH8eDqyZFJabwqwCGCFJsQ==
+  dependencies:
+    "@blueprintjs/core" "^3.51.3"
+    "@blueprintjs/select" "^3.18.10"
+    "@documentalist/client" "~3.0.0"
+    classnames "^2.2"
+    fuzzaldrin-plus "^0.6.0"
+    tslib "~1.13.0"
+
 "@blueprintjs/icons@^3.31.0":
   version "3.31.0"
   resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.31.0.tgz#9b3075a45e93dacaf4363390e9985263d2999c6e"
   integrity sha512-6pXhHC8zEvoDKN5KNsIHNuCRKsemmRbXNv1jweB95VaFzR1M+Mik+Qi+13Wd+VtZrzes2ZcWttIeyuK91NoLCw==
   dependencies:
+    classnames "^2.2"
+    tslib "~1.13.0"
+
+"@blueprintjs/select@^3.18.10":
+  version "3.18.10"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/select/-/select-3.18.10.tgz#6f71a070da17e478701a0417f138e4b18e051b1f"
+  integrity sha512-0G3ZHTGi+FJeXdE7nn5UPxZyEWgRR/jE+LckHiq9Aqmh62JweLUDwMmofBP9o72k+zvMVtTyn78QLAxfHJN5Xw==
+  dependencies:
+    "@blueprintjs/core" "^3.51.3"
     classnames "^2.2"
     tslib "~1.13.0"
 
@@ -2374,6 +2395,11 @@
   version "0.5.5"
   resolved "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.5.tgz"
   integrity sha512-6nFkfkmSeV/rqSaS4oWHgmpnYw194f6hmWF5is6b0J1naJZoiD0NTc9AiUwPHvWsowkjuHErCZT1wa0jg+BLIA==
+
+"@documentalist/client@~3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@documentalist/client/-/client-3.0.0.tgz#48e51c824946fd4b4e0356fed176bbe80fc7b5b5"
+  integrity sha512-iweBlSjkvqM67Bg7FCX9PC0s32IjRhOplzGlF++B7bd9PlWjmQxKFWi/NlFMLds7du+H8F4J0ExSuT6DblidEg==
 
 "@emotion/cache@^10.0.27":
   version "10.0.29"
@@ -9257,6 +9283,11 @@ fuse.js@^3.6.1:
   version "3.6.1"
   resolved "https://registry.npmjs.org/fuse.js/-/fuse.js-3.6.1.tgz"
   integrity sha512-hT9yh/tiinkmirKrlv4KWOjztdoZo1mx9Qh4KvWqC7isoXwdUY3PNWUxceF4/qO9R6riA2C29jdTOeQOIROjgw==
+
+fuzzaldrin-plus@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/fuzzaldrin-plus/-/fuzzaldrin-plus-0.6.0.tgz#832f6489fbe876769459599c914a670ec22947ee"
+  integrity sha1-gy9kifvodnaUWVmckUpnDsIpR+4=
 
 gauge@~2.7.3:
   version "2.7.4"
