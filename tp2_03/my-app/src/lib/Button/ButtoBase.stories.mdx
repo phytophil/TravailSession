@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import ButtonBase from './ButtonBase';
+
+<Meta title="Example/ButtonBase" component={ButtonBase} />
+
+# Example Component Demo
+
+## ButtonBase props
+<Props of={ButtonBase} />
+
+## Description
+
+`ButtonBase` Complex button, The Text Buttons, Contained Buttons, Floating Action Buttons and Icon Buttons are built on top of the same component: the ButtonBase. You can take advantage of this lower-level component to build custom interactions. (framework MUI).
+
+## Demo
+
+<Canvas>
+  <Story name="Example ButtonBase">
+    {(args) => <ButtonBase {...args} />}
+  </Story>
+</Canvas>
