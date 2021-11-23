@@ -6,17 +6,17 @@ import Typography from '@mui/material/Typography';
 
 const images = [
   {
-    url: '/build/static/images/automne.jpg',
+    url: './images/automne.jpg',
     title: 'Automne',
     width: '40%',
   },
   {
-    url: './build/static/images/hiver.jpg',
+    url: './images/hiver.jpg',
     title: 'Hiver',
     width: '30%',
   },
   {
-    url: 'build/static/images/printemps.jpg',
+    url: './images/printemps.jpg',
     title: 'Pintemps',
     width: '30%',
   },
