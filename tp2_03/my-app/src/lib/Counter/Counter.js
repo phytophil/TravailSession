@@ -10,7 +10,7 @@ const Counter = ({initialValue = 0}) => {
     <div className={classes.counter}>
       <h2 className={classes.header}>Counter</h2>
       <button className={classes.button} type="button" onClick={incrementCount}>
-        Increment by one
+        Compter
       </button>
       <div>
         Total value: <strong>{count}</strong>

@@ -25,7 +25,9 @@
   padding: 12px 24px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-
+.button:hover {
+  background: rgb(178, 32, 166);
+}
 .button:active {
   left: 1px;
   position: relative;

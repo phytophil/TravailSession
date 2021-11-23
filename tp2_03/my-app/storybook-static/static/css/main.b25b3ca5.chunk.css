@@ -25,7 +25,9 @@
   padding: 12px 24px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-
+.Counter_button__WInAX:hover {
+  background: rgb(178, 32, 166);
+}
 .Counter_button__WInAX:active {
   left: 1px;
   position: relative;
@@ -33,4 +35,4 @@
 }
 
 
-/*# sourceMappingURL=main.3f61ad78.chunk.css.map*/
+/*# sourceMappingURL=main.b25b3ca5.chunk.css.map*/
