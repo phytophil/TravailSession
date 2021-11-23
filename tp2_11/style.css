@@ -1,0 +1,307 @@
+/* STYLES CARACTÈRES */
+h1{ 
+    font-family: apertura-condensed,sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 80px;
+}
+h2{ 
+    font-family: apertura-condensed,sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+h3{ 
+    font-family: apertura-condensed,sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+h4{ 
+    font-family: apertura-condensed,sans-serif !important;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+h5{ 
+    font-family: apertura-condensed,sans-serif !important;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+h6{ 
+    font-family: apertura-condensed,sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+p{  
+    font-family: apertura-condensed,sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+}
+/* PARAMÈTRE DE BASE */
+*{
+    color: #098FC9 !important;
+}
+section{
+    margin-bottom: 25vh;
+}
+#accueil:before {
+    height: 15vh;
+    content: "";
+    display:block;
+}
+body, .navbar{
+    margin:0% 5% 0% 5%;
+}
+.navbar{
+    padding: 0px 12px 0px 12px;
+    background-color: white;
+}
+/* NAVIGATION */
+.logo{
+    font-family: matrix-ii, serif !important;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+}
+/* bouton burger */
+.navbar-toggler{
+    background-image:url(./image/menu_burger.svg);
+    background-repeat: no-repeat ;
+    background-position: center ;
+    height: 39px;
+    width: 11px;
+    border: none;
+}
+.navbar-toggler:active{
+    background-image:url(./image/menu_burger_close.svg);
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    display: none;
+}
+/* link nav */
+.nav-link{
+    font-family: apertura-condensed,sans-serif !important;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+}
+.nav-link:hover:before {
+    content: "";
+    position: absolute;
+    top: 27px;
+    background: #098FC9;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    left:100%;
+}
+/* SECTION 1 - ACCUEIL */
+.cta{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.cta:hover:after{
+    content: "";
+    position: absolute;
+    top: 27px;
+    background: #098FC9;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    left:100%;
+}
+/* carousel */
+.carousel-control-next-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    background-image: url(./image/arrow_right.svg);
+    background-size: auto;
+}
+.carousel-control-prev-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    background-image: url(./image/arrow_right.svg);
+    background-size: auto;
+    transform: rotate(180deg);
+}
+/* animation-rotate-text */
+.text-rotate {  
+    animation: rotate 10s linear 0s infinite;
+}
+@keyframes rotate {
+    0% {        
+        transform: rotate(0deg);
+    }
+    100% {      
+        transform: rotate(360deg);
+    }
+}
+/* SECTION 2 - PROPRIÉTÉ EN VEDETTE */
+.cta-petit{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+}
+.cta-petit:hover:after{
+    content: "";
+    position: absolute;
+    top: 27px;
+    background: #098FC9;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+.bouton-modal>button {
+    background-color: white !important;
+    border-color: white !important;
+    text-align-last: start;
+    border-style: none !important;
+}
+.fa-th{
+    font-size: 20px;
+}
+.fa-cube{
+    font-size: 20px;
+}
+.fa-bath{
+    font-size: 20px;
+}
+.fa-bed{
+    font-size: 20px;
+}
+.fa-hammer{
+    font-size: 20px;
+}
+
+/* SECTION 3 - CONTACT */
+.social-link>a{
+    color: #098FC9 !important;
+    text-decoration: none;
+    font-size: 20px;
+}
+.fa-facebook-f:hover{
+    color: #098fc9a2 !important;
+}
+.fa-instagram:hover{
+    color: #098fc9a2 !important;
+}
+.fa-youtube:hover{
+    color: #098fc9a2 !important;
+}
+::placeholder, #inputState{
+    font-size: 18px;
+    font-weight: 300; 
+    color: #098FC9 !important;
+} 
+.form-texte{
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #098FC9;
+    background-color: none;
+}
+.form-infos{
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #098FC9;
+    background-color: none;
+}
+.form-select {
+    background-color: none;
+    border: 2px solid #098FC9;
+    padding:12px 10px 10px 12px
+}
+textarea{
+    resize: none;
+}
+/* FOOTER */
+footer{
+    background-size: cover;
+    color: #098FC9!important;
+}
+.logo-footer{
+    font-family: matrix-ii, serif !important;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    color: #098FC9!important;
+}
+.contact-footer>a{
+    color: #098FC9!important;
+    font-family: apertura-condensed,sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-decoration:none ;
+}
+/* //////////////////// */
+/* //////////////////// */
+/* //////////////////// */
+/* //////////////////// */
+/*----- RESPONSIVE -----*/
+/* //////////////////// */
+/* //////////////////// */
+/* //////////////////// */
+/* //////////////////// */
+/* MOBILE MOBILE MOBILE */
+@media only screen and (max-width: 576px) {
+    /* STYLES CARACTÈRES */
+h1{ 
+    font-size: 50px;
+    line-height: 50px;
+}
+h2{ 
+
+    font-size: 40px;
+}
+h3{ 
+
+    font-size: 25px;
+}
+h4{ 
+
+    font-size: 30px;
+}
+h5{ 
+    font-size: 25px;
+}
+h6{ 
+    font-size: 25px;
+}
+p{  
+    font-size: 20px;
+}
+.contact-footer>a{
+    font-size: 20px;
+}
+.nav-link{
+    font-size: 30px;
+    margin: 30px 0px 30px 0px;
+}
+/* PARAMÈTRE DE BASE */
+#accueil:before {
+    height: 18vh;
+}
+section{
+    margin-bottom: 20vh;
+}
+}
