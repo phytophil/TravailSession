@@ -8,12 +8,12 @@ const Counter = ({initialValue = 0}) => {
 
   return (
     <div className={classes.counter}>
-      <h2 className={classes.header}>Counter</h2>
+      <h2 className={classes.header}> Table N #1 </h2>
       <button className={classes.button} type="button" onClick={incrementCount}>
-        Increment by one
+        Ajoutez des personnes ici
       </button>
       <div>
-        Total value: <strong>{count}</strong>
+      Nombre de personnes invités: <strong>{count}</strong>
       </div>
     </div>
   );

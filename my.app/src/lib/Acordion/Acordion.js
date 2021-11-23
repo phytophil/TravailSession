@@ -5,23 +5,34 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import classes from './Acordion.module.css';
-import imagen from './img/background.JPG';
+import imagen from './img/menuDejeuner.jpg';
 
 export default function SimpleAccordion() {
   return (
+    
     <div  className={classes.accordion}>
-      <img src={imagen} alt="imagen background"/>
+    
+    <h2 className={classes.header}> Notre Menu de printemps ☼ </h2>
+
+        <img src={imagen} alt="imagen background"/>
+
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Menu</Typography>
+          <Typography>Menu du déjeuner</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Crepes avec fromage
+          Crêpes à la confiture de fraise
+          </Typography>
+          <Typography>
+          Crêpes avec fromage
+          </Typography>
+          <Typography>
+          Omelettes aux légumes
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -31,12 +42,17 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography>Menu du dinner</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          Soupe de légumes
+          </Typography>
+          <Typography>
+          Nouilles sauce rouge
+          </Typography>
+          <Typography>
+          Paella
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -46,7 +62,7 @@ export default function SimpleAccordion() {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography>Disabled Accordion</Typography>
+          <Typography>Menu pour noël</Typography>
         </AccordionSummary>
       </Accordion>
     </div>

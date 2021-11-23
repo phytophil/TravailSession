@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import TableSante from './TableSante';
+
+<Meta title="Example/TableSante" component={TableSante} />
+
+# Example Component Demo
+
+## TableSante props
+<Props of={TableSante} />
+
+## Description
+
+`TableSante` component provides user basic interface to select a date
+
+## Demo
+
+<Canvas>
+  <Story name="Example TableSante">
+    {(args) => <TableSante {...args} />}
+  </Story>
+</Canvas>

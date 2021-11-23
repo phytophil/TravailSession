@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Formulaire from './Formulaire';
+
+<Meta title="Example/Formulaire" component={Formulaire} />
+
+# Example Component Demo
+
+## Formulaire props
+<Props of={Formulaire} />
+
+## Description
+
+`Formulaire` component provides user basic interface to select a date
+
+## Demo
+
+<Canvas>
+  <Story name="Example Formulaire">
+    {(args) => <Formulaire {...args} />}
+  </Story>
+</Canvas>

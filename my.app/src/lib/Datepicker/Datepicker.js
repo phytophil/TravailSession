@@ -17,6 +17,7 @@ function onOk(value) {
 const Datepicker = ({picker}) => {
     return (
         <Space direction="vertical" size={12}>
+        <h2 className={classes.header}> Date de réservation</h2>
             <DatePicker showTime onChange={onChange} onOk={onOk} picker={picker} />
             <RangePicker
             showTime={{format: 'HH:mm'}}
