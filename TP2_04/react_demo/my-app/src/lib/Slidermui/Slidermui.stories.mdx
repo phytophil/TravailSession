@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Slidermui from './Slidermui';
+
+<Meta title="Example/Slidermui" component={Slidermui} />
+
+# Example Component Demo
+
+## Slidermui props
+<Props of={Slidermui} />
+
+## Description
+
+`Slidermui` component allows users to select a value along a subjective range. From Material UI
+
+## Demo
+
+<Canvas>
+  <Story name="Example Slidermui">
+    {(args) => <Slidermui {...args} />}
+  </Story>
+</Canvas>
