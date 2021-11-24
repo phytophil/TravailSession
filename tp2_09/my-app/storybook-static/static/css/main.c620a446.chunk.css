@@ -1,0 +1,52 @@
+.Bouton_test__3Hox_ {
+    color: black;
+}
+.Counter_counter__1Um6- {
+  border: 1px solid lightgray;
+  font-family: sans-serif;
+  margin: 36px 24px;
+  padding: 24px;
+  text-align: center;
+  width: 240px;
+}
+
+.Counter_header__3tVmU {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 12px;
+}
+
+.Counter_button__1oqis {
+  background: lightseagreen;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto 24px;
+  padding: 12px 24px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.Counter_button__1oqis:active {
+  left: 1px;
+  position: relative;
+  top: 1px;
+}
+
+.Grade_test__1VPxC {
+    color: black;
+}
+.Pageheader_test__3RdD- {
+    color: black;
+}
+
+.Pageheader_site-page-header__23gsp {
+    border: 1px solid rgb(235, 237, 240);
+    font-size: 24px !important;
+  }
+
+
+
+/*# sourceMappingURL=main.c620a446.chunk.css.map*/
