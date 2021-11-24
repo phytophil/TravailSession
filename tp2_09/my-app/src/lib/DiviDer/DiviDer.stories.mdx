@@ -1,0 +1,23 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import DiviDer from './DiviDer';
+
+<Meta title="Example/DiviDer" component={DiviDer} />
+
+# Example Component Demo
+
+## DiviDer props
+<Props of={DiviDer} />
+
+## Description
+
+`DiviDer` component provides user basic interface to place a divider between sections of text.
+
+Une composante du cadriciel ant-D qui ajoute un espace d'une ligne entre les blocs de texte.
+
+## Demo
+
+<Canvas>
+  <Story name="Example DiviDer">
+    {(args) => <DiviDer {...args} />}
+  </Story>
+</Canvas>

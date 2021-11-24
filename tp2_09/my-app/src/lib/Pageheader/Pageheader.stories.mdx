@@ -1,0 +1,23 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Pageheader from './Pageheader';
+
+<Meta title="Example/Pageheader" component={Pageheader} />
+
+# Example Component Demo
+
+## Pageheader props
+<Props of={Pageheader} />
+
+## Description
+
+`Pageheader` component provides user basic interface to place a title and breadcrumbs.
+La composante `Pageheader` provient du cadriciel Ant-d. Elle permet d'ajouter un titre
+en plus d'un fil d'Ariane permettant aux utilisateurs de revenir dans les pages visitées.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Pageheader">
+    {(args) => <Pageheader {...args} />}
+  </Story>
+</Canvas>

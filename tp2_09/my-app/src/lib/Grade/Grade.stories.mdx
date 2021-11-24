@@ -1,0 +1,25 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import Grade from './Grade';
+
+<Meta title="Example/Grade" component={Grade} />
+
+# Example Component Demo
+
+## Grade props
+<Props of={Grade} />
+
+## Description
+
+`Grade` component provides user basic interface to give ratings based on five stars.
+
+`Grade` est une composante de la librairie Materialize-UI pour ajouter une évaluation
+sur cinq étoiles. Les versions "modifiable", "lecture seulement", "désactivée" et "sans évaluation"
+sont disponibles.
+
+## Demo
+
+<Canvas>
+  <Story name="Example Grade">
+    {(args) => <Grade {...args} />}
+  </Story>
+</Canvas>

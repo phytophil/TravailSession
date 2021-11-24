@@ -1,0 +1,25 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import BreadCrumb from './BreadCrumb';
+
+<Meta title="Example/BreadCrumb" component={BreadCrumb} />
+
+# Example Component Demo
+
+## BreadCrumb props
+<Props of={BreadCrumb} />
+
+## Description
+
+`BreadCrumb` component provides user basic interface to show the path taken by user
+allowing to return easily to previous pages.
+
+Une composante du cadriciel Ant-D qui permet d'ajouter le fil des pages visitées 
+pour revenir en arrière si désiré.
+
+## Demo
+
+<Canvas>
+  <Story name="Example BreadCrumb">
+    {(args) => <BreadCrumb {...args} />}
+  </Story>
+</Canvas>
